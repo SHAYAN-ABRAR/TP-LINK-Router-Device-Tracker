@@ -64,7 +64,7 @@ def parse_response(resp_text):
 def retrieve_wireless_devices(session, token):
     # Add 500ms delay before scraping
     time.sleep(0.5)
-    # Original JSON fetch for reference; retain if your model supports it.
+    # Fetch the JSON endpoint for wireless clients
     status_url = f"{ROUTER_URL}/{token}/data/map_access_wireless_client_grid.json"
     headers = {
         "Referer": f"{ROUTER_URL}/{token}/userRpm/BasicNetworkMapRpm.htm",
@@ -81,11 +81,11 @@ def retrieve_wireless_devices(session, token):
     print("--- END RAW RESPONSE ---\n")
     return response.text
 
-def retrieve_wireless_clients_html(session, token):
-    
+def retrieve_wireless_clients_html(session, token, page=1, vap_idx=0):
+    # Add 500ms delay before scraping
     time.sleep(0.5)
-    # Fetch the standard HTML endpoint for wireless stations.
-    status_url = f"{ROUTER_URL}/{token}/userRpm/WlanStationRpm.htm"
+    # Fetch the HTML endpoint for wireless stations with query parameters
+    status_url = f"{ROUTER_URL}/{token}/userRpm/WlanStationRpm.htm?Page={page}&vapIdx={vap_idx}"
     headers = {
         "Referer": f"{ROUTER_URL}/{token}/userRpm/Index.htm",
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0",
@@ -94,57 +94,83 @@ def retrieve_wireless_clients_html(session, token):
         "Accept-Encoding": "gzip, deflate",
     }
     response = session.get(status_url, headers=headers)
-    print("\n--- RAW RESPONSE FROM ROUTER (HTML) ---")
+    print(f"\n--- RAW RESPONSE FROM ROUTER (HTML, Page={page}, vapIdx={vap_idx}) ---")
     print(response.text)
     print("--- END RAW RESPONSE ---\n")
     return response.text
 
 def print_connected_devices(session, token):
-    # First, try the original JSON approach.
+    # Try the JSON approach first
     json_text = retrieve_wireless_devices(session, token)
     if json_text:
         try:
             data = json.loads(json_text)
             devices = []
-            if 'data' in data and isinstance(data['data'], list):
+            # Check for the expected structure: {"success": true, "timeout": false, "data": [...]}
+            if (isinstance(data, dict) and data.get('success') and not data.get('timeout') and
+                'data' in data and isinstance(data['data'], list)):
                 devices = data['data']
             elif 'grid' in data and isinstance(data['grid'], list):
-                devices = data['grid']
+                devices = data['grid']  # Fallback for alternative structure
+            else:
+                print("JSON response does not match expected format.")
+                print("Raw JSON:", json_text)
+            
             if devices:
                 print(f"Total connected devices (from JSON): {len(devices)}")
                 for idx, device in enumerate(devices, 1):
-                    mac = device.get('mac', device.get('MAC', 'N/A'))
-                    hostname = device.get('hostname', device.get('hostName', 'N/A'))
-                    print(f"{idx}. MAC: {mac} | Host Name: {hostname}")
-                return  # Exit if JSON succeeds.
+                    mac = device.get('mac_addr', device.get('mac', device.get('MAC', 'N/A')))
+                    ip = device.get('ip_addr', device.get('ip', 'N/A'))
+                    name = device.get('name', device.get('hostname', device.get('hostName', 'N/A')))
+                    print(f"{idx}. MAC: {mac} | IP: {ip} | Name: {name}")
+                return  # Exit if JSON succeeds
             else:
                 print("No device list found in JSON response.")
         except Exception as e:
             print("Error parsing JSON:", e)
+            print("Raw JSON response was:")
+            print(json_text)
 
-    # Fallback to HTML scraping if JSON fails.
-    html_text = retrieve_wireless_clients_html(session, token)
-    if not html_text:
-        print("No data received from HTML endpoint.")
-        return
+    # Fallback to HTML scraping if JSON fails
+    # Iterate over pages and vapIdx values (e.g., 0 for 2.4GHz, 1 for 5GHz)
+    devices = []
+    for vap_idx in [0, 1]:  # Adjust range based on router's supported bands/SSIDs
+        page = 1
+        while True:
+            html_text = retrieve_wireless_clients_html(session, token, page=page, vap_idx=vap_idx)
+            if not html_text:
+                print(f"No data received from HTML endpoint (vapIdx={vap_idx}, Page={page}).")
+                break
 
-    try:
-        # Extract the embedded stationList array from the HTML.
-        match = re.search(r'var stationList = new Array\(\s*(.*?)\s*\);', html_text, re.DOTALL)
-        if not match:
-            print("Could not find stationList in HTML response.")
-            return
+            try:
+                # Extract the embedded stationList array from the HTML
+                match = re.search(r'var stationList = new Array\(\s*(.*?)\s*\);', html_text, re.DOTALL)
+                if not match:
+                    print(f"Could not find stationList in HTML response (vapIdx={vap_idx}, Page={page}).")
+                    break
 
-        array_str = match.group(1).strip()
-        # Split the array elements; each device is a set of values like "MAC", "Associated", "Authorized", etc.
-        elements = re.findall(r'"([^"]*)"|(\d+)', array_str)
-        elements = [e[0] if e[0] else e[1] for e in elements]
+                array_str = match.group(1).strip()
+                # Split the array elements; each device is a set of values like "MAC", "Associated", etc.
+                elements = re.findall(r'"([^"]*)"|(\d+)', array_str)
+                elements = [e[0] if e[0] else e[1] for e in elements]
 
-        # Devices are grouped in fixed-length tuples (typically 10-12 fields per device, depending on model).
-        # Common fields: MAC, Associated, Authorized, Encrypted, Cipher, RSSI, Band Width, Mode, Rx Pkt, Tx Pkt, etc.
-        field_count = 10  # Example; verify from raw response.
-        devices = [elements[i:i+field_count] for i in range(0, len(elements), field_count) if len(elements[i:i+field_count]) == field_count]
+                # Devices are grouped in fixed-length tuples (typically 10-12 fields per device)
+                field_count = 10  # Adjust based on your model's output
+                page_devices = [elements[i:i+field_count] for i in range(0, len(elements), field_count) if len(elements[i:i+field_count]) == field_count]
+                
+                if not page_devices:
+                    print(f"No more devices found on vapIdx={vap_idx}, Page={page}.")
+                    break
 
+                devices.extend(page_devices)
+                page += 1
+            except Exception as e:
+                print(f"Error parsing HTML device list (vapIdx={vap_idx}, Page={page}):", e)
+                print("Raw HTML response was:")
+                #print(html_text)
+                break
+
+    if devices:
         print(f"Total connected wireless devices (from HTML): {len(devices)}")
         for idx, device in enumerate(devices, 1):
             print(f"{idx}. Details:")
@@ -158,11 +184,8 @@ def print_connected_devices(session, token):
             print(f"   Mode: {device[7]}")
             print(f"   Rx Packets: {device[8]}")
             print(f"   Tx Packets: {device[9]}")
-            # Add more fields if your model provides them.
-    except Exception as e:
-        print("Error parsing HTML device list:", e)
-        print("Raw HTML response was:")
-        print(html_text)
+    else:
+        print("No devices found in HTML response.")
 
 if __name__ == "__main__":
     session, final_url, resp_text = login()
