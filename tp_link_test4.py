@@ -24,7 +24,7 @@ def get_auth_cookie(username, password, use_md5=True):
 def login():
     session = requests.Session()
     auth_cookie = get_auth_cookie(USERNAME, PASSWORD, use_md5=True)
-    session.cookies.set("Authorization", auth_cookie, path="/")
+    session.cookies.set("Authorization", auth_cookie, path="/", domain="192.168.100.108")
     login_url = ROUTER_URL + LOGIN_PATH
     params = {"Save": "Save"}
     resp = session.get(login_url, params=params, allow_redirects=True)
@@ -32,7 +32,8 @@ def login():
         print("Login successful.")
         return session, resp.url, resp.text
     else:
-        print("Login failed.")
+        print(f"Login failed with status code: {resp.status_code}")
+        print("Response:", resp.text)
         return None, None, None
 
 def extract_token_from_response(resp_text):
@@ -52,7 +53,7 @@ def parse_response(resp_text):
     if match:
         url = match.group(1)
     else:
-        print("No URL found")
+        print("No URL found in response")
         return None
     path_parts = urlparse(url).path.strip("/").split("/")
     if len(path_parts) >= 2:
@@ -75,11 +76,23 @@ def retrieve_wireless_devices(session, token):
         "Origin": ROUTER_URL,
         "X-Requested-With": "XMLHttpRequest"
     }
-    response = session.get(status_url, headers=headers)
-    print("\n--- RAW RESPONSE FROM ROUTER (JSON) ---")
-    print(response.text)
-    print("--- END RAW RESPONSE ---\n")
-    return response.text
+    # Retry the request up to 2 times if it fails
+    for attempt in range(3):
+        try:
+            response = session.get(status_url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                print("\n--- RAW RESPONSE FROM ROUTER (JSON) ---")
+                print(response.text)
+                print("--- END RAW RESPONSE ---\n")
+                return response.text
+            else:
+                print(f"JSON request failed with status code: {response.status_code}")
+                print("Response:", response.text)
+        except requests.exceptions.RequestException as e:
+            print(f"JSON request error on attempt {attempt + 1}: {e}")
+        time.sleep(1)  # Wait before retrying
+    print("Failed to retrieve JSON data after retries.")
+    return None
 
 def retrieve_wireless_clients_html(session, token, page=1, vap_idx=0):
     # Add 500ms delay before scraping
@@ -93,11 +106,15 @@ def retrieve_wireless_clients_html(session, token, page=1, vap_idx=0):
         "Accept-Language": "en-US,en;q=0.5",
         "Accept-Encoding": "gzip, deflate",
     }
-    response = session.get(status_url, headers=headers)
-    print(f"\n--- RAW RESPONSE FROM ROUTER (HTML, Page={page}, vapIdx={vap_idx}) ---")
-    print(response.text)
-    print("--- END RAW RESPONSE ---\n")
-    return response.text
+    try:
+        response = session.get(status_url, headers=headers, timeout=10)
+        print(f"\n--- RAW RESPONSE FROM ROUTER (HTML, Page={page}, vapIdx={vap_idx}) ---")
+        print(response.text)
+        print("--- END RAW RESPONSE ---\n")
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"HTML request error (vapIdx={vap_idx}, Page={page}): {e}")
+        return None
 
 def print_connected_devices(session, token):
     # Try the JSON approach first
@@ -110,8 +127,6 @@ def print_connected_devices(session, token):
             if (isinstance(data, dict) and data.get('success') and not data.get('timeout') and
                 'data' in data and isinstance(data['data'], list)):
                 devices = data['data']
-            elif 'grid' in data and isinstance(data['grid'], list):
-                devices = data['grid']  # Fallback for alternative structure
             else:
                 print("JSON response does not match expected format.")
                 print("Raw JSON:", json_text)
@@ -122,7 +137,10 @@ def print_connected_devices(session, token):
                     mac = device.get('mac_addr', device.get('mac', device.get('MAC', 'N/A')))
                     ip = device.get('ip_addr', device.get('ip', 'N/A'))
                     name = device.get('name', device.get('hostname', device.get('hostName', 'N/A')))
-                    print(f"{idx}. MAC: {mac} | IP: {ip} | Name: {name}")
+                    print(f"{idx}. Details:")
+                    print(f"   MAC: {mac}")
+                    print(f"   IP: {ip}")
+                    print(f"   Name: {name}")
                 return  # Exit if JSON succeeds
             else:
                 print("No device list found in JSON response.")
@@ -132,60 +150,82 @@ def print_connected_devices(session, token):
             print(json_text)
 
     # Fallback to HTML scraping if JSON fails
-    # Iterate over pages and vapIdx values (e.g., 0 for 2.4GHz, 1 for 5GHz)
     devices = []
-    for vap_idx in [0, 1]:  # Adjust range based on router's supported bands/SSIDs
-        page = 1
-        while True:
-            html_text = retrieve_wireless_clients_html(session, token, page=page, vap_idx=vap_idx)
-            if not html_text:
-                print(f"No data received from HTML endpoint (vapIdx={vap_idx}, Page={page}).")
+    wlan_status_map = {
+        0: "STA-AUTH",
+        1: "STA-ASSOC",
+        2: "WPA",
+        3: "WPA-PSK",
+        4: "WPA2",
+        5: "WPA2-PSK",
+        6: "802_1X",
+        7: "STA-JOINED",
+        8: "AP-UP",
+        9: "AP-DOWN",
+        10: "Disconnected"
+    }
+    vap_idx = 0  # Single SSID based on wlanHostPara[8] = 0
+    page = 1
+    while True:
+        html_text = retrieve_wireless_clients_html(session, token, page=page, vap_idx=vap_idx)
+        if not html_text:
+            print(f"No data received from HTML endpoint (vapIdx={vap_idx}, Page={page}).")
+            break
+
+        try:
+            # Extract the embedded hostList array from the HTML
+            match = re.search(r'var hostList = new Array\(\s*(.*?)\s*\);', html_text, re.DOTALL)
+            if not match:
+                print(f"Could not find hostList in HTML response (vapIdx={vap_idx}, Page={page}).")
                 break
 
-            try:
-                # Extract the embedded stationList array from the HTML
-                match = re.search(r'var stationList = new Array\(\s*(.*?)\s*\);', html_text, re.DOTALL)
-                if not match:
-                    print(f"Could not find stationList in HTML response (vapIdx={vap_idx}, Page={page}).")
-                    break
+            array_str = match.group(1).strip()
+            elements = re.findall(r'"([^"]*)"|(\d+)', array_str)
+            elements = [e[0] if e[0] else e[1] for e in elements]
 
-                array_str = match.group(1).strip()
-                # Split the array elements; each device is a set of values like "MAC", "Associated", etc.
-                elements = re.findall(r'"([^"]*)"|(\d+)', array_str)
-                elements = [e[0] if e[0] else e[1] for e in elements]
+            # Extract wlanHostPara for pagination info
+            para_match = re.search(r'var wlanHostPara = new Array\(\s*(.*?)\s*\);', html_text, re.DOTALL)
+            total_devices = 0
+            devices_per_page = 8
+            field_count = 5
+            if para_match:
+                para_elements = re.findall(r'(\d+)', para_match.group(1))
+                total_devices = int(para_elements[0]) if para_elements else 0
+                devices_per_page = int(para_elements[2]) if len(para_elements) > 2 else 8
+                field_count = int(para_elements[4]) if len(para_elements) > 4 else 5
 
-                # Devices are grouped in fixed-length tuples (typically 10-12 fields per device)
-                field_count = 10  # Adjust based on your model's output
-                page_devices = [elements[i:i+field_count] for i in range(0, len(elements), field_count) if len(elements[i:i+field_count]) == field_count]
-                
-                if not page_devices:
-                    print(f"No more devices found on vapIdx={vap_idx}, Page={page}.")
-                    break
-
-                devices.extend(page_devices)
-                page += 1
-            except Exception as e:
-                print(f"Error parsing HTML device list (vapIdx={vap_idx}, Page={page}):", e)
-                print("Raw HTML response was:")
-                #print(html_text)
+            # Devices are grouped in fixed-length tuples (5 fields per device)
+            page_devices = [elements[i:i+field_count] for i in range(0, len(elements), field_count) if len(elements[i:i+field_count]) == field_count]
+            
+            if not page_devices:
+                print(f"No more devices found on vapIdx={vap_idx}, Page={page}.")
                 break
+
+            devices.extend(page_devices)
+            if len(devices) >= total_devices:
+                break
+            page += 1
+        except Exception as e:
+            print(f"Error parsing HTML device list (vapIdx={vap_idx}, Page={page}):", e)
+            print("Raw HTML response was:")
+            print(html_text)
+            break
 
     if devices:
         print(f"Total connected wireless devices (from HTML): {len(devices)}")
         for idx, device in enumerate(devices, 1):
+            status = wlan_status_map.get(int(device[1]), "Unknown") if len(device) > 1 else "N/A"
             print(f"{idx}. Details:")
-            print(f"   MAC: {device[0]}")
-            print(f"   Associated: {device[1]}")
-            print(f"   Authorized: {device[2]}")
-            print(f"   Encrypted: {device[3]}")
-            print(f"   Cipher: {device[4]}")
-            print(f"   RSSI (Signal): {device[5]}")
-            print(f"   Band Width: {device[6]}")
-            print(f"   Mode: {device[7]}")
-            print(f"   Rx Packets: {device[8]}")
-            print(f"   Tx Packets: {device[9]}")
+            print(f"   MAC: {device[0] if len(device) > 0 else 'N/A'}")
+            print(f"   Current Status: {status}")
+            print(f"   Received Packets: {device[2] if len(device) > 2 else 'N/A'}")
+            print(f"   Sent Packets: {device[3] if len(device) > 3 else 'N/A'}")
+            print(f"   Config Flag: {device[4] if len(device) > 4 else 'N/A'}")
+            print("   Note: IP address and device name not available in HTML response. Please check the JSON endpoint.")
     else:
         print("No devices found in HTML response.")
+        print("The JSON endpoint is required for IP address and device name. Verify the URL: http://192.168.100.108/{token}/data/map_access_wireless_client_grid.json")
+        print("Ensure you are logged in and the session token is valid. Test the endpoint in a browser after logging into the router.")
 
 if __name__ == "__main__":
     session, final_url, resp_text = login()
@@ -201,6 +241,7 @@ if __name__ == "__main__":
             if response.ok:
                 print_connected_devices(session, token)
             else:
-                print("Failed to access Index page.")
+                print(f"Failed to access Index page: {response.status_code}")
+                print("Response:", response.text)
         else:
             print("Session token not found in login response or URL.")
