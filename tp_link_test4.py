@@ -11,9 +11,11 @@ USERNAME = "admin"  # Replace with your username
 PASSWORD = "admin"  # Replace with your password
 
 def md5_hash(text):
+    """Generate MD5 hash of the input text."""
     return hashlib.md5(text.encode('utf-8')).hexdigest()
 
 def get_auth_cookie(username, password, use_md5=True):
+    """Generate Basic Authentication cookie."""
     if use_md5:
         password = md5_hash(password)
     auth_str = f"{username}:{password}"
@@ -21,40 +23,47 @@ def get_auth_cookie(username, password, use_md5=True):
     return f"Basic {b64_auth}"
 
 def login():
+    """Log in to the router and return session, final URL, and response text."""
     session = requests.Session()
     auth_cookie = get_auth_cookie(USERNAME, PASSWORD, use_md5=True)
     session.cookies.set("Authorization", auth_cookie, path="/", domain="192.168.100.108")
     login_url = ROUTER_URL + LOGIN_PATH
     params = {"Save": "Save"}
-    resp = session.get(login_url, params=params, allow_redirects=True)
-    if resp.status_code == 200:
-        return session, resp.url, resp.text
-    return None, None, None
+    try:
+        resp = session.get(login_url, params=params, allow_redirects=True)
+        if resp.status_code == 200:
+            return session, resp.url, resp.text
+        else:
+            return None, None, None
+    except requests.exceptions.RequestException:
+        return None, None, None
 
 def extract_token_from_response(resp_text):
-    match = re.search(r'/([A-Z]{14})/userRpm/Index\.htm', resp_text)
+    """Extract session token from response text."""
+    match = re.search(r'/([A-Za-z0-9]+)/userRpm/Index\.htm', resp_text)
     if match:
         return match.group(1)
     return None
 
 def extract_token_from_url(url):
-    match = re.search(r'/([A-Z]{14})/userRpm/Index\.htm', url)
+    """Extract session token from URL."""
+    match = re.search(r'/([A-Za-z0-9]+)/userRpm/Index\.htm', url)
     if match:
         return match.group(1)
     return None
 
 def parse_response(resp_text):
+    """Parse response text to extract token from href."""
     match = re.search(r'href\s*=\s*"([^"]+)"', resp_text)
     if match:
         url = match.group(1)
-    else:
-        return None
-    path_parts = urlparse(url).path.strip("/").split("/")
-    if len(path_parts) >= 2:
-        return path_parts[0]
+        path_parts = urlparse(url).path.strip("/").split("/")
+        if len(path_parts) >= 2:
+            return path_parts[0]
     return None
 
 def retrieve_dhcp_clients(session, token):
+    """Retrieve DHCP clients list."""
     time.sleep(0.5)
     status_url = f"{ROUTER_URL}/{token}/userRpm/AssignedIpAddrListRpm.htm"
     headers = {
@@ -71,6 +80,7 @@ def retrieve_dhcp_clients(session, token):
         return None
 
 def retrieve_wireless_clients_html(session, token, page=1, vap_idx=0):
+    """Retrieve wireless clients HTML."""
     time.sleep(0.5)
     status_url = f"{ROUTER_URL}/{token}/userRpm/WlanStationRpm.htm?Page={page}&vapIdx={vap_idx}"
     headers = {
@@ -87,6 +97,7 @@ def retrieve_wireless_clients_html(session, token, page=1, vap_idx=0):
         return None
 
 def retrieve_router_status(session, token):
+    """Retrieve router status HTML."""
     time.sleep(0.5)
     status_url = f"{ROUTER_URL}/{token}/userRpm/StatusRpm.htm"
     headers = {
@@ -103,6 +114,7 @@ def retrieve_router_status(session, token):
         return None
 
 def print_connected_devices_and_status(session, token):
+    """Print connected devices and router status."""
     # Fetch wireless MACs
     wireless_macs = set()
     html_text = retrieve_wireless_clients_html(session, token, page=1, vap_idx=0)
@@ -118,7 +130,7 @@ def print_connected_devices_and_status(session, token):
                 wireless_macs = {device[0].lower() for device in html_devices}
         except Exception:
             pass
-    
+
     # Fetch and parse DHCP clients
     dhcp_text = retrieve_dhcp_clients(session, token)
     devices = []
@@ -131,7 +143,6 @@ def print_connected_devices_and_status(session, token):
                 field_count = 4
                 dhcp_devices = [elements[i:i+field_count] for i in range(0, len(elements), field_count) if len(elements[i:i+field_count]) == field_count]
                 
-                # Filter DHCP devices against wireless MACs; if no wireless MACs, include all
                 devices = [
                     {"name": dev[0], "mac_addr": dev[1], "ip_addr": dev[2], "lease_time": dev[3]}
                     for dev in dhcp_devices if not wireless_macs or dev[1].lower() in wireless_macs
@@ -147,94 +158,107 @@ def print_connected_devices_and_status(session, token):
                         print(f"   LEASE TIME: {device['lease_time']}")
         except Exception:
             pass
-    
+
     # Fetch and parse router status
     status_text = retrieve_router_status(session, token)
     if status_text:
         try:
             print("\nRouter Status Information:")
             
-            # Extract all JavaScript variables (arrays or single values)
-            arrays = re.findall(r'var (\w+) = new Array\((.*?)\);|var (\w+) = "([^"]*)";|var (\w+) = (\d+);', status_text, re.DOTALL)
+            # Initialize dictionaries for storing parsed information
             lan_info = {}
             wan_info = {}
             wireless_info = {}
             sys_info = {}
             traffic_info = {}
             
-            for array in arrays:
-                if array[0]:  # Array match: var name, array content
-                    var_name, array_content = array[0], array[1]
-                    elements = re.findall(r'"([^"]*)"|(\d+)', array_content)
-                    elements = [e[0] if e[0] else e[1] for e in elements]
-                elif array[2]:  # String value match: var name, value
-                    var_name, elements = array[2], [array[3]]
-                else:  # Numeric value match: var name, value
-                    var_name, elements = array[4], [array[5]]
-                
-                var_lower = var_name.lower()
-                if 'lan' in var_lower or 'lanCfg' in var_lower or 'laninfo' in var_lower:
-                    lan_info = {
-                        "mac_address": elements[0] if len(elements) > 0 else "N/A",
-                        "ip_address": elements[1] if len(elements) > 1 else "192.168.0.1",
-                        "subnet_mask": elements[2] if len(elements) > 2 else "255.255.255.0"
-                    }
-                elif 'wan' in var_lower or 'wanCfg' in var_lower or 'waninfo' in var_lower:
-                    wan_info = {
-                        "ip_address": elements[0] if len(elements) > 0 else "N/A",
-                        "subnet_mask": elements[1] if len(elements) > 1 else "N/A",
-                        "gateway": elements[2] if len(elements) > 2 else "N/A",
-                        "dns": elements[3] if len(elements) > 3 else "N/A",
-                        "connection_type": elements[4] if len(elements) > 4 else "N/A"
-                    }
-                elif 'wireless' in var_lower or 'ssid' in var_lower or 'wlan' in var_lower or 'wlanCfg' in var_lower:
-                    wireless_info = {
-                        "ssid": elements[0] if len(elements) > 0 else "N/A"
-                    }
-                elif 'sys' in var_lower or 'system' in var_lower or 'firmware' in var_lower or 'hardware' in var_lower or 'uptime' in var_lower or 'sysCfg' in var_lower:
-                    sys_info.update({
-                        "firmware_version": elements[0] if len(elements) > 0 and ('firmware' in var_lower or 'sys' in var_lower or 'sysCfg' in var_lower) else sys_info.get('firmware_version', "N/A"),
-                        "hardware_version": elements[0] if len(elements) > 0 and 'hardware' in var_lower else sys_info.get('hardware_version', "N/A"),
-                        "uptime": elements[0] if len(elements) > 0 and 'uptime' in var_lower else sys_info.get('uptime', "N/A")
-                    })
-                elif 'traffic' in var_lower or 'stat' in var_lower or 'statistic' in var_lower:
-                    traffic_info = {
-                        "bytes_received": elements[0] if len(elements) > 0 else "N/A",
-                        "bytes_sent": elements[1] if len(elements) > 1 else "N/A",
-                        "packets_received": elements[2] if len(elements) > 2 else "N/A",
-                        "packets_sent": elements[3] if len(elements) > 3 else "N/A"
-                    }
+            # Parse lanPara
+            lan_match = re.search(r'var lanPara = new Array\((.*?)\);', status_text, re.DOTALL)
+            if lan_match:
+                lan_elements = re.findall(r'"([^"]*)"|(\d+)', lan_match.group(1))
+                lan_elements = [e[0] if e[0] else e[1] for e in lan_elements]
+                lan_info = {
+                    "mac_address": lan_elements[0] if len(lan_elements) > 0 else "N/A",
+                    "ip_address": lan_elements[1] if len(lan_elements) > 1 else "N/A",
+                    "subnet_mask": lan_elements[2] if len(lan_elements) > 2 else "255.255.255.0"
+                }
             
-            # Print LAN Info
+            # Parse wanPara
+            wan_match = re.search(r'var wanPara = new Array\((.*?)\);', status_text, re.DOTALL)
+            if wan_match:
+                wan_elements = re.findall(r'"([^"]*)"|(\d+)', wan_match.group(1))
+                wan_elements = [e[0] if e[0] else e[1] for e in wan_elements]
+                # Connection type: 4 corresponds to Dynamic IP as per user-provided mapping
+                connection_type = "Dynamic IP" if wan_elements[0] == "4" else "N/A"
+                wan_info = {
+                    "mac_address": wan_elements[1] if len(wan_elements) > 1 else "N/A",
+                    "ip_address": wan_elements[2] if len(wan_elements) > 2 else "N/A",
+                    "subnet_mask": wan_elements[4] if len(wan_elements) > 4 else "N/A",
+                    "gateway": wan_elements[7] if len(wan_elements) > 7 else "N/A",
+                    "dns": wan_elements[11] if len(wan_elements) > 11 else "N/A",
+                    "connection_type": connection_type
+                }
+            
+            # Parse wlanPara
+            wlan_match = re.search(r'var wlanPara = new Array\((.*?)\);', status_text, re.DOTALL)
+            if wlan_match:
+                wlan_elements = re.findall(r'"([^"]*)"|(\d+)', wlan_match.group(1))
+                wlan_elements = [e[0] if e[0] else e[1] for e in wlan_elements]
+                ssids = [wlan_elements[1]] if len(wlan_elements) > 1 and wlan_elements[1] else []
+                if len(wlan_elements) > 11 and wlan_elements[11]:
+                    ssids.append(wlan_elements[11])
+                wireless_info = {
+                    "ssid": ", ".join(ssids) if ssids else "N/A"
+                }
+            
+            # Parse statusPara
+            status_match = re.search(r'var statusPara = new Array\((.*?)\);', status_text, re.DOTALL)
+            if status_match:
+                status_elements = re.findall(r'"([^"]*)"|(\d+)', status_match.group(1))
+                status_elements = [e[0] if e[0] else e[1] for e in status_elements]
+                sys_info = {
+                    "firmware_version": status_elements[5] if len(status_elements) > 5 else "N/A",
+                    "hardware_version": status_elements[6] if len(status_elements) > 6 else "N/A"
+                }
+            
+            # Parse statistList
+            stat_match = re.search(r'var statistList = new Array\((.*?)\);', status_text, re.DOTALL)
+            if stat_match:
+                stat_elements = re.findall(r'"([^"]*)"|(\d+)', stat_match.group(1))
+                stat_elements = [e[0] if e[0] else e[1] for e in stat_elements]
+                traffic_info = {
+                    "bytes_received": stat_elements[0] if len(stat_elements) > 0 else "N/A",
+                    "bytes_sent": stat_elements[1] if len(stat_elements) > 1 else "N/A",
+                    "packets_received": stat_elements[2] if len(stat_elements) > 2 else "N/A",
+                    "packets_sent": stat_elements[3] if len(stat_elements) > 3 else "N/A"
+                }
+            
+            # Print parsed information
             print("  LAN:")
             print(f"    MAC Address: {lan_info.get('mac_address', 'N/A')}")
-            print(f"    IP Address: {lan_info.get('ip_address', '192.168.0.1')}")
-            print(f"    Subnet Mask: {lan_info.get('subnet_mask', '255.255.255.0')}")
+            print(f"    IP Address: {lan_info.get('ip_address', 'N/A')}")
+            print(f"    Subnet Mask: {lan_info.get('subnet_mask', 'N/A')}")
             
-            # Print WAN Info
             print("  WAN:")
+            print(f"    MAC Address: {wan_info.get('mac_address', 'N/A')}")
             print(f"    IP Address: {wan_info.get('ip_address', 'N/A')}")
             print(f"    Subnet Mask: {wan_info.get('subnet_mask', 'N/A')}")
             print(f"    Gateway: {wan_info.get('gateway', 'N/A')}")
             print(f"    DNS: {wan_info.get('dns', 'N/A')}")
             print(f"    Connection Type: {wan_info.get('connection_type', 'N/A')}")
             
-            # Print Wireless Info
             print("  Wireless:")
             print(f"    Name (SSID): {wireless_info.get('ssid', 'N/A')}")
             
-            # Print System Info
             print("  System:")
             print(f"    Firmware Version: {sys_info.get('firmware_version', 'N/A')}")
             print(f"    Hardware Version: {sys_info.get('hardware_version', 'N/A')}")
-            print(f"    Uptime: {sys_info.get('uptime', 'N/A')}")
             
-            # Print Traffic Statistics
-            print("Traffic Statistics:")
-            print(f"  Bytes received: {traffic_info.get('bytes_received', 'N/A')}")
-            print(f"  Bytes sent: {traffic_info.get('bytes_sent', 'N/A')}")
-            print(f"  Packets received: {traffic_info.get('packets_received', 'N/A')}")
-            print(f"  Packets sent: {traffic_info.get('packets_sent', 'N/A')}")
+            print("  Traffic Statistics:")
+            print(f"    Bytes received: {traffic_info.get('bytes_received', 'N/A')}")
+            print(f"    Bytes sent: {traffic_info.get('bytes_sent', 'N/A')}")
+            print(f"    Packets received: {traffic_info.get('packets_received', 'N/A')}")
+            print(f"    Packets sent: {traffic_info.get('packets_sent', 'N/A')}")
         except Exception:
             pass
 
