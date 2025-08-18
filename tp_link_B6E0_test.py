@@ -180,7 +180,7 @@ def print_connected_devices_and_status(session, token):
                 lan_info = {
                     "mac_address": lan_elements[0] if len(lan_elements) > 0 else "N/A",
                     "ip_address": lan_elements[1] if len(lan_elements) > 1 else "N/A",
-                    "subnet_mask": lan_elements[2] if len(lan_elements) > 2 else "255.255.255.0"
+                    "subnet_mask": lan_elements[2] if len(lan_elements) > 2 else "N/A"
                 }
             
             # Parse wanPara
