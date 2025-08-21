@@ -4,11 +4,14 @@ import base64
 from urllib.parse import urlparse
 import re
 import time
+import json
+import os
 
 ROUTER_URL = "http://192.168.100.108"
 LOGIN_PATH = "/userRpm/LoginRpm.htm"
 USERNAME = "admin"  # Replace with your username
 PASSWORD = "admin"  # Replace with your password
+OUTPUT_FILE = "router_status.json"
 
 def md5_hash(text):
     """Generate MD5 hash of the input text."""
@@ -113,8 +116,25 @@ def retrieve_router_status(session, token):
     except requests.exceptions.RequestException:
         return None
 
+def save_to_json(data):
+    """Save data to JSON file, overwriting existing file."""
+    with open(OUTPUT_FILE, 'w') as f:
+        json.dump(data, f, indent=4)
+
 def print_connected_devices_and_status(session, token):
-    """Print connected devices and router status."""
+    """Collect connected devices and router status, save to JSON, and print."""
+    output_data = {
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "devices": [],
+        "router_status": {
+            "lan": {},
+            "wan": {},
+            "wireless": {},
+            "system": {},
+            "traffic": {}
+        }
+    }
+
     # Fetch wireless MACs
     wireless_macs = set()
     html_text = retrieve_wireless_clients_html(session, token, page=1, vap_idx=0)
@@ -148,14 +168,14 @@ def print_connected_devices_and_status(session, token):
                     for dev in dhcp_devices if not wireless_macs or dev[1].lower() in wireless_macs
                 ]
                 
-                if devices:
-                    print(f"Total connected wireless devices (from DHCP): {len(devices)}")
-                    for idx, device in enumerate(devices, 1):
-                        print(f"{idx}. Details:")
-                        print(f"   HOST NAME: {device['name']}")
-                        print(f"   MAC ADDRESS: {device['mac_addr']}")
-                        print(f"   IP ADDRESS: {device['ip_addr']}")
-                        print(f"   LEASE TIME: {device['lease_time']}")
+                output_data["devices"] = devices
+                print(f"Total connected wireless devices (from DHCP): {len(devices)}")
+                for idx, device in enumerate(devices, 1):
+                    print(f"{idx}. Details:")
+                    print(f"   HOST NAME: {device['name']}")
+                    print(f"   MAC ADDRESS: {device['mac_addr']}")
+                    print(f"   IP ADDRESS: {device['ip_addr']}")
+                    print(f"   LEASE TIME: {device['lease_time']}")
         except Exception:
             pass
 
@@ -165,19 +185,12 @@ def print_connected_devices_and_status(session, token):
         try:
             print("\nRouter Status Information:")
             
-            # Initialize dictionaries for storing parsed information
-            lan_info = {}
-            wan_info = {}
-            wireless_info = {}
-            sys_info = {}
-            traffic_info = {}
-            
             # Parse lanPara
             lan_match = re.search(r'var lanPara = new Array\((.*?)\);', status_text, re.DOTALL)
             if lan_match:
                 lan_elements = re.findall(r'"([^"]*)"|(\d+)', lan_match.group(1))
                 lan_elements = [e[0] if e[0] else e[1] for e in lan_elements]
-                lan_info = {
+                output_data["router_status"]["lan"] = {
                     "mac_address": lan_elements[0] if len(lan_elements) > 0 else "N/A",
                     "ip_address": lan_elements[1] if len(lan_elements) > 1 else "N/A",
                     "subnet_mask": lan_elements[2] if len(lan_elements) > 2 else "N/A"
@@ -188,9 +201,8 @@ def print_connected_devices_and_status(session, token):
             if wan_match:
                 wan_elements = re.findall(r'"([^"]*)"|(\d+)', wan_match.group(1))
                 wan_elements = [e[0] if e[0] else e[1] for e in wan_elements]
-                # Connection type: 4 corresponds to Dynamic IP as per user-provided mapping
                 connection_type = "Dynamic IP" if wan_elements[0] == "4" else "N/A"
-                wan_info = {
+                output_data["router_status"]["wan"] = {
                     "mac_address": wan_elements[1] if len(wan_elements) > 1 else "N/A",
                     "ip_address": wan_elements[2] if len(wan_elements) > 2 else "N/A",
                     "subnet_mask": wan_elements[4] if len(wan_elements) > 4 else "N/A",
@@ -207,7 +219,7 @@ def print_connected_devices_and_status(session, token):
                 ssids = [wlan_elements[1]] if len(wlan_elements) > 1 and wlan_elements[1] else []
                 if len(wlan_elements) > 11 and wlan_elements[11]:
                     ssids.append(wlan_elements[11])
-                wireless_info = {
+                output_data["router_status"]["wireless"] = {
                     "ssid": ", ".join(ssids) if ssids else "N/A"
                 }
             
@@ -216,7 +228,7 @@ def print_connected_devices_and_status(session, token):
             if status_match:
                 status_elements = re.findall(r'"([^"]*)"|(\d+)', status_match.group(1))
                 status_elements = [e[0] if e[0] else e[1] for e in status_elements]
-                sys_info = {
+                output_data["router_status"]["system"] = {
                     "firmware_version": status_elements[5] if len(status_elements) > 5 else "N/A",
                     "hardware_version": status_elements[6] if len(status_elements) > 6 else "N/A"
                 }
@@ -226,7 +238,7 @@ def print_connected_devices_and_status(session, token):
             if stat_match:
                 stat_elements = re.findall(r'"([^"]*)"|(\d+)', stat_match.group(1))
                 stat_elements = [e[0] if e[0] else e[1] for e in stat_elements]
-                traffic_info = {
+                output_data["router_status"]["traffic"] = {
                     "bytes_received": stat_elements[0] if len(stat_elements) > 0 else "N/A",
                     "bytes_sent": stat_elements[1] if len(stat_elements) > 1 else "N/A",
                     "packets_received": stat_elements[2] if len(stat_elements) > 2 else "N/A",
@@ -235,32 +247,36 @@ def print_connected_devices_and_status(session, token):
             
             # Print parsed information
             print("  LAN:")
-            print(f"    MAC Address: {lan_info.get('mac_address', 'N/A')}")
-            print(f"    IP Address: {lan_info.get('ip_address', 'N/A')}")
-            print(f"    Subnet Mask: {lan_info.get('subnet_mask', 'N/A')}")
+            print(f"    MAC Address: {output_data['router_status']['lan'].get('mac_address', 'N/A')}")
+            print(f"    IP Address: {output_data['router_status']['lan'].get('ip_address', 'N/A')}")
+            print(f"    Subnet Mask: {output_data['router_status']['lan'].get('subnet_mask', 'N/A')}")
             
             print("  WAN:")
-            print(f"    MAC Address: {wan_info.get('mac_address', 'N/A')}")
-            print(f"    IP Address: {wan_info.get('ip_address', 'N/A')}")
-            print(f"    Subnet Mask: {wan_info.get('subnet_mask', 'N/A')}")
-            print(f"    Gateway: {wan_info.get('gateway', 'N/A')}")
-            print(f"    DNS: {wan_info.get('dns', 'N/A')}")
-            print(f"    Connection Type: {wan_info.get('connection_type', 'N/A')}")
+            print(f"    MAC Address: {output_data['router_status']['wan'].get('mac_address', 'N/A')}")
+            print(f"    IP Address: {output_data['router_status']['wan'].get('ip_address', 'N/A')}")
+            print(f"    Subnet Mask: {output_data['router_status']['wan'].get('subnet_mask', 'N/A')}")
+            print(f"    Gateway: {output_data['router_status']['wan'].get('gateway', 'N/A')}")
+            print(f"    DNS: {output_data['router_status']['wan'].get('dns', 'N/A')}")
+            print(f"    Connection Type: {output_data['router_status']['wan'].get('connection_type', 'N/A')}")
             
             print("  Wireless:")
-            print(f"    Name (SSID): {wireless_info.get('ssid', 'N/A')}")
+            print(f"    Name (SSID): {output_data['router_status']['wireless'].get('ssid', 'N/A')}")
             
             print("  System:")
-            print(f"    Firmware Version: {sys_info.get('firmware_version', 'N/A')}")
-            print(f"    Hardware Version: {sys_info.get('hardware_version', 'N/A')}")
+            print(f"    Firmware Version: {output_data['router_status']['system'].get('firmware_version', 'N/A')}")
+            print(f"    Hardware Version: {output_data['router_status']['system'].get('hardware_version', 'N/A')}")
             
             print("  Traffic Statistics:")
-            print(f"    Bytes received: {traffic_info.get('bytes_received', 'N/A')}")
-            print(f"    Bytes sent: {traffic_info.get('bytes_sent', 'N/A')}")
-            print(f"    Packets received: {traffic_info.get('packets_received', 'N/A')}")
-            print(f"    Packets sent: {traffic_info.get('packets_sent', 'N/A')}")
+            print(f"    Bytes received: {output_data['router_status']['traffic'].get('bytes_received', 'N/A')}")
+            print(f"    Bytes sent: {output_data['router_status']['traffic'].get('bytes_sent', 'N/A')}")
+            print(f"    Packets received: {output_data['router_status']['traffic'].get('packets_received', 'N/A')}")
+            print(f"    Packets sent: {output_data['router_status']['traffic'].get('packets_sent', 'N/A')}")
         except Exception:
             pass
+
+    # Save to JSON file
+    save_to_json(output_data)
+    print(f"\n***Output saved to {OUTPUT_FILE}***")
 
 if __name__ == "__main__":
     session, final_url, resp_text = login()

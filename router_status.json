@@ -1,0 +1,45 @@
+{
+    "timestamp": "2025-08-21 12:33:54",
+    "devices": [
+        {
+            "name": "Unknown",
+            "mac_addr": "1A-B0-A9-C2-62-D0",
+            "ip_addr": "192.168.0.100",
+            "lease_time": "01:21:56"
+        },
+        {
+            "name": "ABRAR",
+            "mac_addr": "C4-23-60-87-10-A9",
+            "ip_addr": "192.168.0.101",
+            "lease_time": "01:27:23"
+        }
+    ],
+    "router_status": {
+        "lan": {
+            "mac_address": "7C-8B-CA-27-B6-E0",
+            "ip_address": "192.168.0.1",
+            "subnet_mask": "255.255.255.0"
+        },
+        "wan": {
+            "mac_address": "7C-8B-CA-27-B6-E1",
+            "ip_address": "192.168.100.108",
+            "subnet_mask": "255.255.252.0",
+            "gateway": "192.168.100.1",
+            "dns": "192.168.100.1 , 0.0.0.0",
+            "connection_type": "Dynamic IP"
+        },
+        "wireless": {
+            "ssid": "TP-LINK_B6E0, TP-LINK_GUEST_B6E0"
+        },
+        "system": {
+            "firmware_version": "3.16.9 Build 20211210 Rel.36206n ",
+            "hardware_version": "TL-WR941HP v1 00000000"
+        },
+        "traffic": {
+            "bytes_received": "78,325,613",
+            "bytes_sent": "11,039,717",
+            "packets_received": "75,988",
+            "packets_sent": "56,897"
+        }
+    }
+}
