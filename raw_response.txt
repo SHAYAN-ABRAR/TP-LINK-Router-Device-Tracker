@@ -1,0 +1,8559 @@
+00000
+id 0|1,0,0
+fullName AC1200%20Dual%20Band%20Wi-Fi%20Router
+facturer TP-Link
+modelName Archer%20C54
+modelVer 1.0
+softVer 1.4.3%20Build%20191119%20Rel.62175n(5553)
+hardVer Archer%20C54%201.0
+prodId 0x0C540001
+specialId 0x5355
+countryCode 0x5355
+mainVer 0x5a010403
+minorVer 0x1
+oemId 0x1
+deviceId 0000000000000000000000000000000000000000
+hardwareId 64721AD1193573DB9F91529DA29F9364
+firmwareId B242516B1596C7F08B11B1D4C054CEFE
+oem_id 8375707CB1ECD46C184F38715EA1CAB6
+facturerType 0
+locale en_US
+id 1|1,0,0
+authKey 0yWcQbhc9TefbwK
+reserved
+setWzd 15
+mode 1
+logLevel 3
+fastpath 1
+mac 0 00-19-66-ca-8b-07
+mac 1 00-19-66-ca-8b-08
+wanMacType 0
+id 2|1,0,0
+num 5
+level 0 2
+level 1 3
+level 2 3
+level 3 3
+level 4 3
+level 5 0
+level 6 0
+level 7 0
+level 8 0
+level 9 0
+level 10 0
+level 11 0
+level 12 0
+level 13 0
+level 14 0
+level 15 0
+level 16 0
+level 17 0
+level 18 0
+level 19 0
+level 20 0
+level 21 0
+level 22 0
+level 23 0
+level 24 0
+level 25 0
+level 26 0
+level 27 0
+level 28 0
+level 29 0
+level 30 0
+level 31 0
+level 32 0
+level 33 0
+level 34 0
+level 35 0
+level 36 0
+level 37 0
+level 38 0
+level 39 0
+level 40 0
+level 41 0
+level 42 0
+level 43 0
+level 44 0
+level 45 0
+level 46 0
+level 47 0
+level 48 0
+level 49 0
+level 50 0
+level 51 0
+level 52 0
+level 53 0
+level 54 0
+level 55 0
+level 56 0
+level 57 0
+level 58 0
+level 59 0
+level 60 0
+level 61 0
+level 62 0
+level 63 0
+level 64 0
+level 65 0
+level 66 0
+level 67 0
+level 68 0
+level 69 0
+level 70 0
+level 71 0
+level 72 0
+level 73 0
+level 74 0
+level 75 0
+level 76 0
+level 77 0
+level 78 0
+level 79 0
+level 80 0
+level 81 0
+level 82 0
+level 83 0
+level 84 0
+level 85 0
+level 86 0
+level 87 0
+level 88 0
+level 89 0
+level 90 0
+level 91 0
+level 92 0
+level 93 0
+level 94 0
+level 95 0
+level 96 0
+level 97 0
+level 98 0
+level 99 0
+level 100 0
+level 101 0
+level 102 0
+level 103 0
+level 104 0
+level 105 0
+level 106 0
+level 107 0
+level 108 0
+level 109 0
+level 110 0
+level 111 0
+level 112 0
+level 113 0
+level 114 0
+level 115 0
+level 116 0
+level 117 0
+level 118 0
+level 119 0
+level 120 0
+level 121 0
+level 122 0
+level 123 0
+level 124 0
+level 125 0
+level 126 0
+level 127 0
+level 128 0
+level 129 0
+level 130 0
+level 131 0
+level 132 0
+level 133 0
+level 134 0
+level 135 0
+level 136 0
+level 137 0
+level 138 0
+level 139 0
+level 140 0
+level 141 0
+level 142 0
+level 143 0
+level 144 0
+level 145 0
+level 146 0
+level 147 0
+level 148 0
+level 149 0
+level 150 0
+level 151 0
+level 152 0
+level 153 0
+level 154 0
+level 155 0
+level 156 0
+level 157 0
+level 158 0
+level 159 0
+level 160 0
+level 161 0
+level 162 0
+level 163 0
+level 164 0
+level 165 0
+level 166 0
+level 167 0
+level 168 0
+level 169 0
+level 170 0
+level 171 0
+level 172 0
+level 173 0
+level 174 0
+level 175 0
+level 176 0
+level 177 0
+level 178 0
+level 179 0
+level 180 0
+level 181 0
+level 182 0
+level 183 0
+level 184 0
+level 185 0
+level 186 0
+level 187 0
+level 188 0
+level 189 0
+level 190 0
+level 191 0
+level 192 0
+level 193 0
+level 194 0
+level 195 0
+level 196 0
+level 197 0
+level 198 0
+level 199 0
+level 200 0
+level 201 0
+level 202 0
+level 203 0
+level 204 0
+level 205 0
+level 206 0
+level 207 0
+level 208 0
+level 209 0
+level 210 0
+level 211 0
+level 212 0
+level 213 0
+level 214 0
+level 215 0
+level 216 0
+level 217 0
+level 218 0
+level 219 0
+level 220 0
+level 221 0
+level 222 0
+level 223 0
+level 224 0
+level 225 0
+level 226 0
+level 227 0
+level 228 0
+level 229 0
+level 230 0
+level 231 0
+level 232 0
+level 233 0
+level 234 0
+level 235 0
+level 236 0
+level 237 0
+level 238 0
+level 239 0
+level 240 0
+level 241 0
+level 242 0
+level 243 0
+level 244 0
+level 245 0
+level 246 0
+level 247 0
+level 248 0
+level 249 0
+level 250 0
+level 251 0
+level 252 0
+level 253 0
+level 254 0
+level 255 0
+level 256 0
+level 257 0
+level 258 0
+level 259 0
+level 260 0
+level 261 0
+level 262 0
+level 263 0
+level 264 0
+level 265 0
+level 266 0
+level 267 0
+level 268 0
+level 269 0
+level 270 0
+level 271 0
+level 272 0
+level 273 0
+level 274 0
+level 275 0
+level 276 0
+level 277 0
+level 278 0
+level 279 0
+level 280 0
+level 281 0
+level 282 0
+level 283 0
+level 284 0
+level 285 0
+level 286 0
+level 287 0
+level 288 0
+level 289 0
+level 290 0
+level 291 0
+level 292 0
+level 293 0
+level 294 0
+level 295 0
+level 296 0
+level 297 0
+level 298 0
+level 299 0
+level 300 0
+level 301 0
+level 302 0
+level 303 0
+level 304 0
+level 305 0
+level 306 0
+level 307 0
+level 308 0
+level 309 0
+level 310 0
+level 311 0
+level 312 0
+level 313 0
+level 314 0
+level 315 0
+level 316 0
+level 317 0
+level 318 0
+level 319 0
+level 320 0
+level 321 0
+level 322 0
+level 323 0
+level 324 0
+level 325 0
+level 326 0
+level 327 0
+level 328 0
+level 329 0
+level 330 0
+level 331 0
+level 332 0
+level 333 0
+level 334 0
+level 335 0
+level 336 0
+level 337 0
+level 338 0
+level 339 0
+level 340 0
+level 341 0
+level 342 0
+level 343 0
+level 344 0
+level 345 0
+level 346 0
+level 347 0
+level 348 0
+level 349 0
+level 350 0
+level 351 0
+level 352 0
+level 353 0
+level 354 0
+level 355 0
+level 356 0
+level 357 0
+level 358 0
+level 359 0
+level 360 0
+level 361 0
+level 362 0
+level 363 0
+level 364 0
+level 365 0
+level 366 0
+level 367 0
+level 368 0
+level 369 0
+level 370 0
+level 371 0
+level 372 0
+level 373 0
+level 374 0
+level 375 0
+level 376 0
+level 377 0
+level 378 0
+level 379 0
+level 380 0
+level 381 0
+level 382 0
+level 383 0
+level 384 0
+level 385 0
+level 386 0
+level 387 0
+level 388 0
+level 389 0
+level 390 0
+level 391 0
+level 392 0
+level 393 0
+level 394 0
+level 395 0
+level 396 0
+level 397 0
+level 398 0
+level 399 0
+days 0 0
+days 1 0
+days 2 0
+days 3 0
+days 4 0
+days 5 0
+days 6 0
+days 7 0
+days 8 0
+days 9 0
+days 10 0
+days 11 0
+days 12 0
+days 13 0
+days 14 0
+days 15 0
+days 16 0
+days 17 0
+days 18 0
+days 19 0
+days 20 0
+days 21 0
+days 22 0
+days 23 0
+days 24 0
+days 25 0
+days 26 0
+days 27 0
+days 28 0
+days 29 0
+days 30 0
+days 31 0
+days 32 0
+days 33 0
+days 34 0
+days 35 0
+days 36 0
+days 37 0
+days 38 0
+days 39 0
+days 40 0
+days 41 0
+days 42 0
+days 43 0
+days 44 0
+days 45 0
+days 46 0
+days 47 0
+days 48 0
+days 49 0
+days 50 0
+days 51 0
+days 52 0
+days 53 0
+days 54 0
+days 55 0
+days 56 0
+days 57 0
+days 58 0
+days 59 0
+days 60 0
+days 61 0
+days 62 0
+days 63 0
+days 64 0
+days 65 0
+days 66 0
+days 67 0
+days 68 0
+days 69 0
+days 70 0
+days 71 0
+days 72 0
+days 73 0
+days 74 0
+days 75 0
+days 76 0
+days 77 0
+days 78 0
+days 79 0
+days 80 0
+days 81 0
+days 82 0
+days 83 0
+days 84 0
+days 85 0
+days 86 0
+days 87 0
+days 88 0
+days 89 0
+days 90 0
+days 91 0
+days 92 0
+days 93 0
+days 94 0
+days 95 0
+days 96 0
+days 97 0
+days 98 0
+days 99 0
+days 100 0
+days 101 0
+days 102 0
+days 103 0
+days 104 0
+days 105 0
+days 106 0
+days 107 0
+days 108 0
+days 109 0
+days 110 0
+days 111 0
+days 112 0
+days 113 0
+days 114 0
+days 115 0
+days 116 0
+days 117 0
+days 118 0
+days 119 0
+days 120 0
+days 121 0
+days 122 0
+days 123 0
+days 124 0
+days 125 0
+days 126 0
+days 127 0
+days 128 0
+days 129 0
+days 130 0
+days 131 0
+days 132 0
+days 133 0
+days 134 0
+days 135 0
+days 136 0
+days 137 0
+days 138 0
+days 139 0
+days 140 0
+days 141 0
+days 142 0
+days 143 0
+days 144 0
+days 145 0
+days 146 0
+days 147 0
+days 148 0
+days 149 0
+days 150 0
+days 151 0
+days 152 0
+days 153 0
+days 154 0
+days 155 0
+days 156 0
+days 157 0
+days 158 0
+days 159 0
+days 160 0
+days 161 0
+days 162 0
+days 163 0
+days 164 0
+days 165 0
+days 166 0
+days 167 0
+days 168 0
+days 169 0
+days 170 0
+days 171 0
+days 172 0
+days 173 0
+days 174 0
+days 175 0
+days 176 0
+days 177 0
+days 178 0
+days 179 0
+days 180 0
+days 181 0
+days 182 0
+days 183 0
+days 184 0
+days 185 0
+days 186 0
+days 187 0
+days 188 0
+days 189 0
+days 190 0
+days 191 0
+days 192 0
+days 193 0
+days 194 0
+days 195 0
+days 196 0
+days 197 0
+days 198 0
+days 199 0
+days 200 0
+days 201 0
+days 202 0
+days 203 0
+days 204 0
+days 205 0
+days 206 0
+days 207 0
+days 208 0
+days 209 0
+days 210 0
+days 211 0
+days 212 0
+days 213 0
+days 214 0
+days 215 0
+days 216 0
+days 217 0
+days 218 0
+days 219 0
+days 220 0
+days 221 0
+days 222 0
+days 223 0
+days 224 0
+days 225 0
+days 226 0
+days 227 0
+days 228 0
+days 229 0
+days 230 0
+days 231 0
+days 232 0
+days 233 0
+days 234 0
+days 235 0
+days 236 0
+days 237 0
+days 238 0
+days 239 0
+days 240 0
+days 241 0
+days 242 0
+days 243 0
+days 244 0
+days 245 0
+days 246 0
+days 247 0
+days 248 0
+days 249 0
+days 250 0
+days 251 0
+days 252 0
+days 253 0
+days 254 0
+days 255 0
+days 256 0
+days 257 0
+days 258 0
+days 259 0
+days 260 0
+days 261 0
+days 262 0
+days 263 0
+days 264 0
+days 265 0
+days 266 0
+days 267 0
+days 268 0
+days 269 0
+days 270 0
+days 271 0
+days 272 0
+days 273 0
+days 274 0
+days 275 0
+days 276 0
+days 277 0
+days 278 0
+days 279 0
+days 280 0
+days 281 0
+days 282 0
+days 283 0
+days 284 0
+days 285 0
+days 286 0
+days 287 0
+days 288 0
+days 289 0
+days 290 0
+days 291 0
+days 292 0
+days 293 0
+days 294 0
+days 295 0
+days 296 0
+days 297 0
+days 298 0
+days 299 0
+days 300 0
+days 301 0
+days 302 0
+days 303 0
+days 304 0
+days 305 0
+days 306 0
+days 307 0
+days 308 0
+days 309 0
+days 310 0
+days 311 0
+days 312 0
+days 313 0
+days 314 0
+days 315 0
+days 316 0
+days 317 0
+days 318 0
+days 319 0
+days 320 0
+days 321 0
+days 322 0
+days 323 0
+days 324 0
+days 325 0
+days 326 0
+days 327 0
+days 328 0
+days 329 0
+days 330 0
+days 331 0
+days 332 0
+days 333 0
+days 334 0
+days 335 0
+days 336 0
+days 337 0
+days 338 0
+days 339 0
+days 340 0
+days 341 0
+days 342 0
+days 343 0
+days 344 0
+days 345 0
+days 346 0
+days 347 0
+days 348 0
+days 349 0
+days 350 0
+days 351 0
+days 352 0
+days 353 0
+days 354 0
+days 355 0
+days 356 0
+days 357 0
+days 358 0
+days 359 0
+days 360 0
+days 361 0
+days 362 0
+days 363 0
+days 364 0
+days 365 0
+days 366 0
+days 367 0
+days 368 0
+days 369 0
+days 370 0
+days 371 0
+days 372 0
+days 373 0
+days 374 0
+days 375 0
+days 376 0
+days 377 0
+days 378 0
+days 379 0
+days 380 0
+days 381 0
+days 382 0
+days 383 0
+days 384 0
+days 385 0
+days 386 0
+days 387 0
+days 388 0
+days 389 0
+days 390 0
+days 391 0
+days 392 0
+days 393 0
+days 394 0
+days 395 0
+days 396 0
+days 397 0
+days 398 0
+days 399 0
+hours 0 0
+hours 1 0
+hours 2 0
+hours 3 0
+hours 4 0
+hours 5 0
+hours 6 0
+hours 7 0
+hours 8 0
+hours 9 0
+hours 10 0
+hours 11 0
+hours 12 0
+hours 13 0
+hours 14 0
+hours 15 0
+hours 16 0
+hours 17 0
+hours 18 0
+hours 19 0
+hours 20 0
+hours 21 0
+hours 22 0
+hours 23 0
+hours 24 0
+hours 25 0
+hours 26 0
+hours 27 0
+hours 28 0
+hours 29 0
+hours 30 0
+hours 31 0
+hours 32 0
+hours 33 0
+hours 34 0
+hours 35 0
+hours 36 0
+hours 37 0
+hours 38 0
+hours 39 0
+hours 40 0
+hours 41 0
+hours 42 0
+hours 43 0
+hours 44 0
+hours 45 0
+hours 46 0
+hours 47 0
+hours 48 0
+hours 49 0
+hours 50 0
+hours 51 0
+hours 52 0
+hours 53 0
+hours 54 0
+hours 55 0
+hours 56 0
+hours 57 0
+hours 58 0
+hours 59 0
+hours 60 0
+hours 61 0
+hours 62 0
+hours 63 0
+hours 64 0
+hours 65 0
+hours 66 0
+hours 67 0
+hours 68 0
+hours 69 0
+hours 70 0
+hours 71 0
+hours 72 0
+hours 73 0
+hours 74 0
+hours 75 0
+hours 76 0
+hours 77 0
+hours 78 0
+hours 79 0
+hours 80 0
+hours 81 0
+hours 82 0
+hours 83 0
+hours 84 0
+hours 85 0
+hours 86 0
+hours 87 0
+hours 88 0
+hours 89 0
+hours 90 0
+hours 91 0
+hours 92 0
+hours 93 0
+hours 94 0
+hours 95 0
+hours 96 0
+hours 97 0
+hours 98 0
+hours 99 0
+hours 100 0
+hours 101 0
+hours 102 0
+hours 103 0
+hours 104 0
+hours 105 0
+hours 106 0
+hours 107 0
+hours 108 0
+hours 109 0
+hours 110 0
+hours 111 0
+hours 112 0
+hours 113 0
+hours 114 0
+hours 115 0
+hours 116 0
+hours 117 0
+hours 118 0
+hours 119 0
+hours 120 0
+hours 121 0
+hours 122 0
+hours 123 0
+hours 124 0
+hours 125 0
+hours 126 0
+hours 127 0
+hours 128 0
+hours 129 0
+hours 130 0
+hours 131 0
+hours 132 0
+hours 133 0
+hours 134 0
+hours 135 0
+hours 136 0
+hours 137 0
+hours 138 0
+hours 139 0
+hours 140 0
+hours 141 0
+hours 142 0
+hours 143 0
+hours 144 0
+hours 145 0
+hours 146 0
+hours 147 0
+hours 148 0
+hours 149 0
+hours 150 0
+hours 151 0
+hours 152 0
+hours 153 0
+hours 154 0
+hours 155 0
+hours 156 0
+hours 157 0
+hours 158 0
+hours 159 0
+hours 160 0
+hours 161 0
+hours 162 0
+hours 163 0
+hours 164 0
+hours 165 0
+hours 166 0
+hours 167 0
+hours 168 0
+hours 169 0
+hours 170 0
+hours 171 0
+hours 172 0
+hours 173 0
+hours 174 0
+hours 175 0
+hours 176 0
+hours 177 0
+hours 178 0
+hours 179 0
+hours 180 0
+hours 181 0
+hours 182 0
+hours 183 0
+hours 184 0
+hours 185 0
+hours 186 0
+hours 187 0
+hours 188 0
+hours 189 0
+hours 190 0
+hours 191 0
+hours 192 0
+hours 193 0
+hours 194 0
+hours 195 0
+hours 196 0
+hours 197 0
+hours 198 0
+hours 199 0
+hours 200 0
+hours 201 0
+hours 202 0
+hours 203 0
+hours 204 0
+hours 205 0
+hours 206 0
+hours 207 0
+hours 208 0
+hours 209 0
+hours 210 0
+hours 211 0
+hours 212 0
+hours 213 0
+hours 214 0
+hours 215 0
+hours 216 0
+hours 217 0
+hours 218 0
+hours 219 0
+hours 220 0
+hours 221 0
+hours 222 0
+hours 223 0
+hours 224 0
+hours 225 0
+hours 226 0
+hours 227 0
+hours 228 0
+hours 229 0
+hours 230 0
+hours 231 0
+hours 232 0
+hours 233 0
+hours 234 0
+hours 235 0
+hours 236 0
+hours 237 0
+hours 238 0
+hours 239 0
+hours 240 0
+hours 241 0
+hours 242 0
+hours 243 0
+hours 244 0
+hours 245 0
+hours 246 0
+hours 247 0
+hours 248 0
+hours 249 0
+hours 250 0
+hours 251 0
+hours 252 0
+hours 253 0
+hours 254 0
+hours 255 0
+hours 256 0
+hours 257 0
+hours 258 0
+hours 259 0
+hours 260 0
+hours 261 0
+hours 262 0
+hours 263 0
+hours 264 0
+hours 265 0
+hours 266 0
+hours 267 0
+hours 268 0
+hours 269 0
+hours 270 0
+hours 271 0
+hours 272 0
+hours 273 0
+hours 274 0
+hours 275 0
+hours 276 0
+hours 277 0
+hours 278 0
+hours 279 0
+hours 280 0
+hours 281 0
+hours 282 0
+hours 283 0
+hours 284 0
+hours 285 0
+hours 286 0
+hours 287 0
+hours 288 0
+hours 289 0
+hours 290 0
+hours 291 0
+hours 292 0
+hours 293 0
+hours 294 0
+hours 295 0
+hours 296 0
+hours 297 0
+hours 298 0
+hours 299 0
+hours 300 0
+hours 301 0
+hours 302 0
+hours 303 0
+hours 304 0
+hours 305 0
+hours 306 0
+hours 307 0
+hours 308 0
+hours 309 0
+hours 310 0
+hours 311 0
+hours 312 0
+hours 313 0
+hours 314 0
+hours 315 0
+hours 316 0
+hours 317 0
+hours 318 0
+hours 319 0
+hours 320 0
+hours 321 0
+hours 322 0
+hours 323 0
+hours 324 0
+hours 325 0
+hours 326 0
+hours 327 0
+hours 328 0
+hours 329 0
+hours 330 0
+hours 331 0
+hours 332 0
+hours 333 0
+hours 334 0
+hours 335 0
+hours 336 0
+hours 337 0
+hours 338 0
+hours 339 0
+hours 340 0
+hours 341 0
+hours 342 0
+hours 343 0
+hours 344 0
+hours 345 0
+hours 346 0
+hours 347 0
+hours 348 0
+hours 349 0
+hours 350 0
+hours 351 0
+hours 352 0
+hours 353 0
+hours 354 0
+hours 355 0
+hours 356 0
+hours 357 0
+hours 358 0
+hours 359 0
+hours 360 0
+hours 361 0
+hours 362 0
+hours 363 0
+hours 364 0
+hours 365 0
+hours 366 0
+hours 367 0
+hours 368 0
+hours 369 0
+hours 370 0
+hours 371 0
+hours 372 0
+hours 373 0
+hours 374 0
+hours 375 0
+hours 376 0
+hours 377 0
+hours 378 0
+hours 379 0
+hours 380 0
+hours 381 0
+hours 382 0
+hours 383 0
+hours 384 0
+hours 385 0
+hours 386 0
+hours 387 0
+hours 388 0
+hours 389 0
+hours 390 0
+hours 391 0
+hours 392 0
+hours 393 0
+hours 394 0
+hours 395 0
+hours 396 0
+hours 397 0
+hours 398 0
+hours 399 0
+mins 0 0
+mins 1 0
+mins 2 0
+mins 3 0
+mins 4 0
+mins 5 0
+mins 6 0
+mins 7 0
+mins 8 0
+mins 9 0
+mins 10 0
+mins 11 0
+mins 12 0
+mins 13 0
+mins 14 0
+mins 15 0
+mins 16 0
+mins 17 0
+mins 18 0
+mins 19 0
+mins 20 0
+mins 21 0
+mins 22 0
+mins 23 0
+mins 24 0
+mins 25 0
+mins 26 0
+mins 27 0
+mins 28 0
+mins 29 0
+mins 30 0
+mins 31 0
+mins 32 0
+mins 33 0
+mins 34 0
+mins 35 0
+mins 36 0
+mins 37 0
+mins 38 0
+mins 39 0
+mins 40 0
+mins 41 0
+mins 42 0
+mins 43 0
+mins 44 0
+mins 45 0
+mins 46 0
+mins 47 0
+mins 48 0
+mins 49 0
+mins 50 0
+mins 51 0
+mins 52 0
+mins 53 0
+mins 54 0
+mins 55 0
+mins 56 0
+mins 57 0
+mins 58 0
+mins 59 0
+mins 60 0
+mins 61 0
+mins 62 0
+mins 63 0
+mins 64 0
+mins 65 0
+mins 66 0
+mins 67 0
+mins 68 0
+mins 69 0
+mins 70 0
+mins 71 0
+mins 72 0
+mins 73 0
+mins 74 0
+mins 75 0
+mins 76 0
+mins 77 0
+mins 78 0
+mins 79 0
+mins 80 0
+mins 81 0
+mins 82 0
+mins 83 0
+mins 84 0
+mins 85 0
+mins 86 0
+mins 87 0
+mins 88 0
+mins 89 0
+mins 90 0
+mins 91 0
+mins 92 0
+mins 93 0
+mins 94 0
+mins 95 0
+mins 96 0
+mins 97 0
+mins 98 0
+mins 99 0
+mins 100 0
+mins 101 0
+mins 102 0
+mins 103 0
+mins 104 0
+mins 105 0
+mins 106 0
+mins 107 0
+mins 108 0
+mins 109 0
+mins 110 0
+mins 111 0
+mins 112 0
+mins 113 0
+mins 114 0
+mins 115 0
+mins 116 0
+mins 117 0
+mins 118 0
+mins 119 0
+mins 120 0
+mins 121 0
+mins 122 0
+mins 123 0
+mins 124 0
+mins 125 0
+mins 126 0
+mins 127 0
+mins 128 0
+mins 129 0
+mins 130 0
+mins 131 0
+mins 132 0
+mins 133 0
+mins 134 0
+mins 135 0
+mins 136 0
+mins 137 0
+mins 138 0
+mins 139 0
+mins 140 0
+mins 141 0
+mins 142 0
+mins 143 0
+mins 144 0
+mins 145 0
+mins 146 0
+mins 147 0
+mins 148 0
+mins 149 0
+mins 150 0
+mins 151 0
+mins 152 0
+mins 153 0
+mins 154 0
+mins 155 0
+mins 156 0
+mins 157 0
+mins 158 0
+mins 159 0
+mins 160 0
+mins 161 0
+mins 162 0
+mins 163 0
+mins 164 0
+mins 165 0
+mins 166 0
+mins 167 0
+mins 168 0
+mins 169 0
+mins 170 0
+mins 171 0
+mins 172 0
+mins 173 0
+mins 174 0
+mins 175 0
+mins 176 0
+mins 177 0
+mins 178 0
+mins 179 0
+mins 180 0
+mins 181 0
+mins 182 0
+mins 183 0
+mins 184 0
+mins 185 0
+mins 186 0
+mins 187 0
+mins 188 0
+mins 189 0
+mins 190 0
+mins 191 0
+mins 192 0
+mins 193 0
+mins 194 0
+mins 195 0
+mins 196 0
+mins 197 0
+mins 198 0
+mins 199 0
+mins 200 0
+mins 201 0
+mins 202 0
+mins 203 0
+mins 204 0
+mins 205 0
+mins 206 0
+mins 207 0
+mins 208 0
+mins 209 0
+mins 210 0
+mins 211 0
+mins 212 0
+mins 213 0
+mins 214 0
+mins 215 0
+mins 216 0
+mins 217 0
+mins 218 0
+mins 219 0
+mins 220 0
+mins 221 0
+mins 222 0
+mins 223 0
+mins 224 0
+mins 225 0
+mins 226 0
+mins 227 0
+mins 228 0
+mins 229 0
+mins 230 0
+mins 231 0
+mins 232 0
+mins 233 0
+mins 234 0
+mins 235 0
+mins 236 0
+mins 237 0
+mins 238 0
+mins 239 0
+mins 240 0
+mins 241 0
+mins 242 0
+mins 243 0
+mins 244 0
+mins 245 0
+mins 246 0
+mins 247 0
+mins 248 0
+mins 249 0
+mins 250 0
+mins 251 0
+mins 252 0
+mins 253 0
+mins 254 0
+mins 255 0
+mins 256 0
+mins 257 0
+mins 258 0
+mins 259 0
+mins 260 0
+mins 261 0
+mins 262 0
+mins 263 0
+mins 264 0
+mins 265 0
+mins 266 0
+mins 267 0
+mins 268 0
+mins 269 0
+mins 270 0
+mins 271 0
+mins 272 0
+mins 273 0
+mins 274 0
+mins 275 0
+mins 276 0
+mins 277 0
+mins 278 0
+mins 279 0
+mins 280 0
+mins 281 0
+mins 282 0
+mins 283 0
+mins 284 0
+mins 285 0
+mins 286 0
+mins 287 0
+mins 288 0
+mins 289 0
+mins 290 0
+mins 291 0
+mins 292 0
+mins 293 0
+mins 294 0
+mins 295 0
+mins 296 0
+mins 297 0
+mins 298 0
+mins 299 0
+mins 300 0
+mins 301 0
+mins 302 0
+mins 303 0
+mins 304 0
+mins 305 0
+mins 306 0
+mins 307 0
+mins 308 0
+mins 309 0
+mins 310 0
+mins 311 0
+mins 312 0
+mins 313 0
+mins 314 0
+mins 315 0
+mins 316 0
+mins 317 0
+mins 318 0
+mins 319 0
+mins 320 0
+mins 321 0
+mins 322 0
+mins 323 0
+mins 324 0
+mins 325 0
+mins 326 0
+mins 327 0
+mins 328 0
+mins 329 0
+mins 330 0
+mins 331 0
+mins 332 0
+mins 333 0
+mins 334 0
+mins 335 0
+mins 336 0
+mins 337 0
+mins 338 0
+mins 339 0
+mins 340 0
+mins 341 0
+mins 342 0
+mins 343 0
+mins 344 0
+mins 345 0
+mins 346 0
+mins 347 0
+mins 348 0
+mins 349 0
+mins 350 0
+mins 351 0
+mins 352 0
+mins 353 0
+mins 354 0
+mins 355 0
+mins 356 0
+mins 357 0
+mins 358 0
+mins 359 0
+mins 360 0
+mins 361 0
+mins 362 0
+mins 363 0
+mins 364 0
+mins 365 0
+mins 366 0
+mins 367 0
+mins 368 0
+mins 369 0
+mins 370 0
+mins 371 0
+mins 372 0
+mins 373 0
+mins 374 0
+mins 375 0
+mins 376 0
+mins 377 0
+mins 378 0
+mins 379 0
+mins 380 0
+mins 381 0
+mins 382 0
+mins 383 0
+mins 384 0
+mins 385 0
+mins 386 0
+mins 387 0
+mins 388 0
+mins 389 0
+mins 390 0
+mins 391 0
+mins 392 0
+mins 393 0
+mins 394 0
+mins 395 0
+mins 396 0
+mins 397 0
+mins 398 0
+mins 399 0
+secs 0 1
+secs 1 1
+secs 2 1
+secs 3 18
+secs 4 18
+secs 5 0
+secs 6 0
+secs 7 0
+secs 8 0
+secs 9 0
+secs 10 0
+secs 11 0
+secs 12 0
+secs 13 0
+secs 14 0
+secs 15 0
+secs 16 0
+secs 17 0
+secs 18 0
+secs 19 0
+secs 20 0
+secs 21 0
+secs 22 0
+secs 23 0
+secs 24 0
+secs 25 0
+secs 26 0
+secs 27 0
+secs 28 0
+secs 29 0
+secs 30 0
+secs 31 0
+secs 32 0
+secs 33 0
+secs 34 0
+secs 35 0
+secs 36 0
+secs 37 0
+secs 38 0
+secs 39 0
+secs 40 0
+secs 41 0
+secs 42 0
+secs 43 0
+secs 44 0
+secs 45 0
+secs 46 0
+secs 47 0
+secs 48 0
+secs 49 0
+secs 50 0
+secs 51 0
+secs 52 0
+secs 53 0
+secs 54 0
+secs 55 0
+secs 56 0
+secs 57 0
+secs 58 0
+secs 59 0
+secs 60 0
+secs 61 0
+secs 62 0
+secs 63 0
+secs 64 0
+secs 65 0
+secs 66 0
+secs 67 0
+secs 68 0
+secs 69 0
+secs 70 0
+secs 71 0
+secs 72 0
+secs 73 0
+secs 74 0
+secs 75 0
+secs 76 0
+secs 77 0
+secs 78 0
+secs 79 0
+secs 80 0
+secs 81 0
+secs 82 0
+secs 83 0
+secs 84 0
+secs 85 0
+secs 86 0
+secs 87 0
+secs 88 0
+secs 89 0
+secs 90 0
+secs 91 0
+secs 92 0
+secs 93 0
+secs 94 0
+secs 95 0
+secs 96 0
+secs 97 0
+secs 98 0
+secs 99 0
+secs 100 0
+secs 101 0
+secs 102 0
+secs 103 0
+secs 104 0
+secs 105 0
+secs 106 0
+secs 107 0
+secs 108 0
+secs 109 0
+secs 110 0
+secs 111 0
+secs 112 0
+secs 113 0
+secs 114 0
+secs 115 0
+secs 116 0
+secs 117 0
+secs 118 0
+secs 119 0
+secs 120 0
+secs 121 0
+secs 122 0
+secs 123 0
+secs 124 0
+secs 125 0
+secs 126 0
+secs 127 0
+secs 128 0
+secs 129 0
+secs 130 0
+secs 131 0
+secs 132 0
+secs 133 0
+secs 134 0
+secs 135 0
+secs 136 0
+secs 137 0
+secs 138 0
+secs 139 0
+secs 140 0
+secs 141 0
+secs 142 0
+secs 143 0
+secs 144 0
+secs 145 0
+secs 146 0
+secs 147 0
+secs 148 0
+secs 149 0
+secs 150 0
+secs 151 0
+secs 152 0
+secs 153 0
+secs 154 0
+secs 155 0
+secs 156 0
+secs 157 0
+secs 158 0
+secs 159 0
+secs 160 0
+secs 161 0
+secs 162 0
+secs 163 0
+secs 164 0
+secs 165 0
+secs 166 0
+secs 167 0
+secs 168 0
+secs 169 0
+secs 170 0
+secs 171 0
+secs 172 0
+secs 173 0
+secs 174 0
+secs 175 0
+secs 176 0
+secs 177 0
+secs 178 0
+secs 179 0
+secs 180 0
+secs 181 0
+secs 182 0
+secs 183 0
+secs 184 0
+secs 185 0
+secs 186 0
+secs 187 0
+secs 188 0
+secs 189 0
+secs 190 0
+secs 191 0
+secs 192 0
+secs 193 0
+secs 194 0
+secs 195 0
+secs 196 0
+secs 197 0
+secs 198 0
+secs 199 0
+secs 200 0
+secs 201 0
+secs 202 0
+secs 203 0
+secs 204 0
+secs 205 0
+secs 206 0
+secs 207 0
+secs 208 0
+secs 209 0
+secs 210 0
+secs 211 0
+secs 212 0
+secs 213 0
+secs 214 0
+secs 215 0
+secs 216 0
+secs 217 0
+secs 218 0
+secs 219 0
+secs 220 0
+secs 221 0
+secs 222 0
+secs 223 0
+secs 224 0
+secs 225 0
+secs 226 0
+secs 227 0
+secs 228 0
+secs 229 0
+secs 230 0
+secs 231 0
+secs 232 0
+secs 233 0
+secs 234 0
+secs 235 0
+secs 236 0
+secs 237 0
+secs 238 0
+secs 239 0
+secs 240 0
+secs 241 0
+secs 242 0
+secs 243 0
+secs 244 0
+secs 245 0
+secs 246 0
+secs 247 0
+secs 248 0
+secs 249 0
+secs 250 0
+secs 251 0
+secs 252 0
+secs 253 0
+secs 254 0
+secs 255 0
+secs 256 0
+secs 257 0
+secs 258 0
+secs 259 0
+secs 260 0
+secs 261 0
+secs 262 0
+secs 263 0
+secs 264 0
+secs 265 0
+secs 266 0
+secs 267 0
+secs 268 0
+secs 269 0
+secs 270 0
+secs 271 0
+secs 272 0
+secs 273 0
+secs 274 0
+secs 275 0
+secs 276 0
+secs 277 0
+secs 278 0
+secs 279 0
+secs 280 0
+secs 281 0
+secs 282 0
+secs 283 0
+secs 284 0
+secs 285 0
+secs 286 0
+secs 287 0
+secs 288 0
+secs 289 0
+secs 290 0
+secs 291 0
+secs 292 0
+secs 293 0
+secs 294 0
+secs 295 0
+secs 296 0
+secs 297 0
+secs 298 0
+secs 299 0
+secs 300 0
+secs 301 0
+secs 302 0
+secs 303 0
+secs 304 0
+secs 305 0
+secs 306 0
+secs 307 0
+secs 308 0
+secs 309 0
+secs 310 0
+secs 311 0
+secs 312 0
+secs 313 0
+secs 314 0
+secs 315 0
+secs 316 0
+secs 317 0
+secs 318 0
+secs 319 0
+secs 320 0
+secs 321 0
+secs 322 0
+secs 323 0
+secs 324 0
+secs 325 0
+secs 326 0
+secs 327 0
+secs 328 0
+secs 329 0
+secs 330 0
+secs 331 0
+secs 332 0
+secs 333 0
+secs 334 0
+secs 335 0
+secs 336 0
+secs 337 0
+secs 338 0
+secs 339 0
+secs 340 0
+secs 341 0
+secs 342 0
+secs 343 0
+secs 344 0
+secs 345 0
+secs 346 0
+secs 347 0
+secs 348 0
+secs 349 0
+secs 350 0
+secs 351 0
+secs 352 0
+secs 353 0
+secs 354 0
+secs 355 0
+secs 356 0
+secs 357 0
+secs 358 0
+secs 359 0
+secs 360 0
+secs 361 0
+secs 362 0
+secs 363 0
+secs 364 0
+secs 365 0
+secs 366 0
+secs 367 0
+secs 368 0
+secs 369 0
+secs 370 0
+secs 371 0
+secs 372 0
+secs 373 0
+secs 374 0
+secs 375 0
+secs 376 0
+secs 377 0
+secs 378 0
+secs 379 0
+secs 380 0
+secs 381 0
+secs 382 0
+secs 383 0
+secs 384 0
+secs 385 0
+secs 386 0
+secs 387 0
+secs 388 0
+secs 389 0
+secs 390 0
+secs 391 0
+secs 392 0
+secs 393 0
+secs 394 0
+secs 395 0
+secs 396 0
+secs 397 0
+secs 398 0
+secs 399 0
+msecs 0 850
+msecs 1 850
+msecs 2 933
+msecs 3 716
+msecs 4 800
+msecs 5 0
+msecs 6 0
+msecs 7 0
+msecs 8 0
+msecs 9 0
+msecs 10 0
+msecs 11 0
+msecs 12 0
+msecs 13 0
+msecs 14 0
+msecs 15 0
+msecs 16 0
+msecs 17 0
+msecs 18 0
+msecs 19 0
+msecs 20 0
+msecs 21 0
+msecs 22 0
+msecs 23 0
+msecs 24 0
+msecs 25 0
+msecs 26 0
+msecs 27 0
+msecs 28 0
+msecs 29 0
+msecs 30 0
+msecs 31 0
+msecs 32 0
+msecs 33 0
+msecs 34 0
+msecs 35 0
+msecs 36 0
+msecs 37 0
+msecs 38 0
+msecs 39 0
+msecs 40 0
+msecs 41 0
+msecs 42 0
+msecs 43 0
+msecs 44 0
+msecs 45 0
+msecs 46 0
+msecs 47 0
+msecs 48 0
+msecs 49 0
+msecs 50 0
+msecs 51 0
+msecs 52 0
+msecs 53 0
+msecs 54 0
+msecs 55 0
+msecs 56 0
+msecs 57 0
+msecs 58 0
+msecs 59 0
+msecs 60 0
+msecs 61 0
+msecs 62 0
+msecs 63 0
+msecs 64 0
+msecs 65 0
+msecs 66 0
+msecs 67 0
+msecs 68 0
+msecs 69 0
+msecs 70 0
+msecs 71 0
+msecs 72 0
+msecs 73 0
+msecs 74 0
+msecs 75 0
+msecs 76 0
+msecs 77 0
+msecs 78 0
+msecs 79 0
+msecs 80 0
+msecs 81 0
+msecs 82 0
+msecs 83 0
+msecs 84 0
+msecs 85 0
+msecs 86 0
+msecs 87 0
+msecs 88 0
+msecs 89 0
+msecs 90 0
+msecs 91 0
+msecs 92 0
+msecs 93 0
+msecs 94 0
+msecs 95 0
+msecs 96 0
+msecs 97 0
+msecs 98 0
+msecs 99 0
+msecs 100 0
+msecs 101 0
+msecs 102 0
+msecs 103 0
+msecs 104 0
+msecs 105 0
+msecs 106 0
+msecs 107 0
+msecs 108 0
+msecs 109 0
+msecs 110 0
+msecs 111 0
+msecs 112 0
+msecs 113 0
+msecs 114 0
+msecs 115 0
+msecs 116 0
+msecs 117 0
+msecs 118 0
+msecs 119 0
+msecs 120 0
+msecs 121 0
+msecs 122 0
+msecs 123 0
+msecs 124 0
+msecs 125 0
+msecs 126 0
+msecs 127 0
+msecs 128 0
+msecs 129 0
+msecs 130 0
+msecs 131 0
+msecs 132 0
+msecs 133 0
+msecs 134 0
+msecs 135 0
+msecs 136 0
+msecs 137 0
+msecs 138 0
+msecs 139 0
+msecs 140 0
+msecs 141 0
+msecs 142 0
+msecs 143 0
+msecs 144 0
+msecs 145 0
+msecs 146 0
+msecs 147 0
+msecs 148 0
+msecs 149 0
+msecs 150 0
+msecs 151 0
+msecs 152 0
+msecs 153 0
+msecs 154 0
+msecs 155 0
+msecs 156 0
+msecs 157 0
+msecs 158 0
+msecs 159 0
+msecs 160 0
+msecs 161 0
+msecs 162 0
+msecs 163 0
+msecs 164 0
+msecs 165 0
+msecs 166 0
+msecs 167 0
+msecs 168 0
+msecs 169 0
+msecs 170 0
+msecs 171 0
+msecs 172 0
+msecs 173 0
+msecs 174 0
+msecs 175 0
+msecs 176 0
+msecs 177 0
+msecs 178 0
+msecs 179 0
+msecs 180 0
+msecs 181 0
+msecs 182 0
+msecs 183 0
+msecs 184 0
+msecs 185 0
+msecs 186 0
+msecs 187 0
+msecs 188 0
+msecs 189 0
+msecs 190 0
+msecs 191 0
+msecs 192 0
+msecs 193 0
+msecs 194 0
+msecs 195 0
+msecs 196 0
+msecs 197 0
+msecs 198 0
+msecs 199 0
+msecs 200 0
+msecs 201 0
+msecs 202 0
+msecs 203 0
+msecs 204 0
+msecs 205 0
+msecs 206 0
+msecs 207 0
+msecs 208 0
+msecs 209 0
+msecs 210 0
+msecs 211 0
+msecs 212 0
+msecs 213 0
+msecs 214 0
+msecs 215 0
+msecs 216 0
+msecs 217 0
+msecs 218 0
+msecs 219 0
+msecs 220 0
+msecs 221 0
+msecs 222 0
+msecs 223 0
+msecs 224 0
+msecs 225 0
+msecs 226 0
+msecs 227 0
+msecs 228 0
+msecs 229 0
+msecs 230 0
+msecs 231 0
+msecs 232 0
+msecs 233 0
+msecs 234 0
+msecs 235 0
+msecs 236 0
+msecs 237 0
+msecs 238 0
+msecs 239 0
+msecs 240 0
+msecs 241 0
+msecs 242 0
+msecs 243 0
+msecs 244 0
+msecs 245 0
+msecs 246 0
+msecs 247 0
+msecs 248 0
+msecs 249 0
+msecs 250 0
+msecs 251 0
+msecs 252 0
+msecs 253 0
+msecs 254 0
+msecs 255 0
+msecs 256 0
+msecs 257 0
+msecs 258 0
+msecs 259 0
+msecs 260 0
+msecs 261 0
+msecs 262 0
+msecs 263 0
+msecs 264 0
+msecs 265 0
+msecs 266 0
+msecs 267 0
+msecs 268 0
+msecs 269 0
+msecs 270 0
+msecs 271 0
+msecs 272 0
+msecs 273 0
+msecs 274 0
+msecs 275 0
+msecs 276 0
+msecs 277 0
+msecs 278 0
+msecs 279 0
+msecs 280 0
+msecs 281 0
+msecs 282 0
+msecs 283 0
+msecs 284 0
+msecs 285 0
+msecs 286 0
+msecs 287 0
+msecs 288 0
+msecs 289 0
+msecs 290 0
+msecs 291 0
+msecs 292 0
+msecs 293 0
+msecs 294 0
+msecs 295 0
+msecs 296 0
+msecs 297 0
+msecs 298 0
+msecs 299 0
+msecs 300 0
+msecs 301 0
+msecs 302 0
+msecs 303 0
+msecs 304 0
+msecs 305 0
+msecs 306 0
+msecs 307 0
+msecs 308 0
+msecs 309 0
+msecs 310 0
+msecs 311 0
+msecs 312 0
+msecs 313 0
+msecs 314 0
+msecs 315 0
+msecs 316 0
+msecs 317 0
+msecs 318 0
+msecs 319 0
+msecs 320 0
+msecs 321 0
+msecs 322 0
+msecs 323 0
+msecs 324 0
+msecs 325 0
+msecs 326 0
+msecs 327 0
+msecs 328 0
+msecs 329 0
+msecs 330 0
+msecs 331 0
+msecs 332 0
+msecs 333 0
+msecs 334 0
+msecs 335 0
+msecs 336 0
+msecs 337 0
+msecs 338 0
+msecs 339 0
+msecs 340 0
+msecs 341 0
+msecs 342 0
+msecs 343 0
+msecs 344 0
+msecs 345 0
+msecs 346 0
+msecs 347 0
+msecs 348 0
+msecs 349 0
+msecs 350 0
+msecs 351 0
+msecs 352 0
+msecs 353 0
+msecs 354 0
+msecs 355 0
+msecs 356 0
+msecs 357 0
+msecs 358 0
+msecs 359 0
+msecs 360 0
+msecs 361 0
+msecs 362 0
+msecs 363 0
+msecs 364 0
+msecs 365 0
+msecs 366 0
+msecs 367 0
+msecs 368 0
+msecs 369 0
+msecs 370 0
+msecs 371 0
+msecs 372 0
+msecs 373 0
+msecs 374 0
+msecs 375 0
+msecs 376 0
+msecs 377 0
+msecs 378 0
+msecs 379 0
+msecs 380 0
+msecs 381 0
+msecs 382 0
+msecs 383 0
+msecs 384 0
+msecs 385 0
+msecs 386 0
+msecs 387 0
+msecs 388 0
+msecs 389 0
+msecs 390 0
+msecs 391 0
+msecs 392 0
+msecs 393 0
+msecs 394 0
+msecs 395 0
+msecs 396 0
+msecs 397 0
+msecs 398 0
+msecs 399 0
+msg 0 [lan]Invalid%20lan%20mac,%20now%20start%20by%20default%20mac%2000-19-66-CA-8B-07.
+msg 1 [lan]LAN:%20Attach%20mirror0%20to%20stack.
+msg 2 [lan]LAN:%20Set%20interface%20mirror0%20ip=192.168.0.1%20netmask%20255.255.255.0.
+msg 3 [wan]Attach%20interface%20eth1.
+msg 4 [httpd]Http%20server%20start!
+msg 5
+msg 6
+msg 7
+msg 8
+msg 9
+msg 10
+msg 11
+msg 12
+msg 13
+msg 14
+msg 15
+msg 16
+msg 17
+msg 18
+msg 19
+msg 20
+msg 21
+msg 22
+msg 23
+msg 24
+msg 25
+msg 26
+msg 27
+msg 28
+msg 29
+msg 30
+msg 31
+msg 32
+msg 33
+msg 34
+msg 35
+msg 36
+msg 37
+msg 38
+msg 39
+msg 40
+msg 41
+msg 42
+msg 43
+msg 44
+msg 45
+msg 46
+msg 47
+msg 48
+msg 49
+msg 50
+msg 51
+msg 52
+msg 53
+msg 54
+msg 55
+msg 56
+msg 57
+msg 58
+msg 59
+msg 60
+msg 61
+msg 62
+msg 63
+msg 64
+msg 65
+msg 66
+msg 67
+msg 68
+msg 69
+msg 70
+msg 71
+msg 72
+msg 73
+msg 74
+msg 75
+msg 76
+msg 77
+msg 78
+msg 79
+msg 80
+msg 81
+msg 82
+msg 83
+msg 84
+msg 85
+msg 86
+msg 87
+msg 88
+msg 89
+msg 90
+msg 91
+msg 92
+msg 93
+msg 94
+msg 95
+msg 96
+msg 97
+msg 98
+msg 99
+msg 100
+msg 101
+msg 102
+msg 103
+msg 104
+msg 105
+msg 106
+msg 107
+msg 108
+msg 109
+msg 110
+msg 111
+msg 112
+msg 113
+msg 114
+msg 115
+msg 116
+msg 117
+msg 118
+msg 119
+msg 120
+msg 121
+msg 122
+msg 123
+msg 124
+msg 125
+msg 126
+msg 127
+msg 128
+msg 129
+msg 130
+msg 131
+msg 132
+msg 133
+msg 134
+msg 135
+msg 136
+msg 137
+msg 138
+msg 139
+msg 140
+msg 141
+msg 142
+msg 143
+msg 144
+msg 145
+msg 146
+msg 147
+msg 148
+msg 149
+msg 150
+msg 151
+msg 152
+msg 153
+msg 154
+msg 155
+msg 156
+msg 157
+msg 158
+msg 159
+msg 160
+msg 161
+msg 162
+msg 163
+msg 164
+msg 165
+msg 166
+msg 167
+msg 168
+msg 169
+msg 170
+msg 171
+msg 172
+msg 173
+msg 174
+msg 175
+msg 176
+msg 177
+msg 178
+msg 179
+msg 180
+msg 181
+msg 182
+msg 183
+msg 184
+msg 185
+msg 186
+msg 187
+msg 188
+msg 189
+msg 190
+msg 191
+msg 192
+msg 193
+msg 194
+msg 195
+msg 196
+msg 197
+msg 198
+msg 199
+msg 200
+msg 201
+msg 202
+msg 203
+msg 204
+msg 205
+msg 206
+msg 207
+msg 208
+msg 209
+msg 210
+msg 211
+msg 212
+msg 213
+msg 214
+msg 215
+msg 216
+msg 217
+msg 218
+msg 219
+msg 220
+msg 221
+msg 222
+msg 223
+msg 224
+msg 225
+msg 226
+msg 227
+msg 228
+msg 229
+msg 230
+msg 231
+msg 232
+msg 233
+msg 234
+msg 235
+msg 236
+msg 237
+msg 238
+msg 239
+msg 240
+msg 241
+msg 242
+msg 243
+msg 244
+msg 245
+msg 246
+msg 247
+msg 248
+msg 249
+msg 250
+msg 251
+msg 252
+msg 253
+msg 254
+msg 255
+msg 256
+msg 257
+msg 258
+msg 259
+msg 260
+msg 261
+msg 262
+msg 263
+msg 264
+msg 265
+msg 266
+msg 267
+msg 268
+msg 269
+msg 270
+msg 271
+msg 272
+msg 273
+msg 274
+msg 275
+msg 276
+msg 277
+msg 278
+msg 279
+msg 280
+msg 281
+msg 282
+msg 283
+msg 284
+msg 285
+msg 286
+msg 287
+msg 288
+msg 289
+msg 290
+msg 291
+msg 292
+msg 293
+msg 294
+msg 295
+msg 296
+msg 297
+msg 298
+msg 299
+msg 300
+msg 301
+msg 302
+msg 303
+msg 304
+msg 305
+msg 306
+msg 307
+msg 308
+msg 309
+msg 310
+msg 311
+msg 312
+msg 313
+msg 314
+msg 315
+msg 316
+msg 317
+msg 318
+msg 319
+msg 320
+msg 321
+msg 322
+msg 323
+msg 324
+msg 325
+msg 326
+msg 327
+msg 328
+msg 329
+msg 330
+msg 331
+msg 332
+msg 333
+msg 334
+msg 335
+msg 336
+msg 337
+msg 338
+msg 339
+msg 340
+msg 341
+msg 342
+msg 343
+msg 344
+msg 345
+msg 346
+msg 347
+msg 348
+msg 349
+msg 350
+msg 351
+msg 352
+msg 353
+msg 354
+msg 355
+msg 356
+msg 357
+msg 358
+msg 359
+msg 360
+msg 361
+msg 362
+msg 363
+msg 364
+msg 365
+msg 366
+msg 367
+msg 368
+msg 369
+msg 370
+msg 371
+msg 372
+msg 373
+msg 374
+msg 375
+msg 376
+msg 377
+msg 378
+msg 379
+msg 380
+msg 381
+msg 382
+msg 383
+msg 384
+msg 385
+msg 386
+msg 387
+msg 388
+msg 389
+msg 390
+msg 391
+msg 392
+msg 393
+msg 394
+msg 395
+msg 396
+msg 397
+msg 398
+msg 399
+id 3|1,0,0
+num 1
+msg 0 exception%20message
+id 4|1,0,0
+mac B0-BE-76-8D-FF-D9
+ip 192.168.0.1
+mode 1
+mask 255.255.255.0
+lan_type dynamic
+smartIp 0
+gateway 192.168.0.254
+id 5|1,0,0
+port 80
+reserved 0
+id 6|1,0,0
+enableAll 1
+mac 0 90-F6-52-43-3C-B0
+mac 1 00-00-00-00-00-00
+mac 2 00-00-00-00-00-00
+mac 3 00-00-00-00-00-00
+mac 4 00-00-00-00-00-00
+mac 5 00-00-00-00-00-00
+desc 0 TP-Link_Test_Device_1
+desc 1 00-00-00-00-00-00
+desc 2 00-00-00-00-00-00
+desc 3 00-00-00-00-00-00
+desc 5 00-00-00-00-00-00
+desc 6 00-00-00-00-00-00
+id 7|1,0,0
+port 8888
+rule 0
+addr 0.0.0.0
+id 8|1,0,0
+enable 1
+poolStart 192.168.0.100
+poolEnd 192.168.0.249
+leaseTime 120
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+gateway 0.0.0.0
+hostName TP-Link_Test_Device_64
+id 9|1,0,0
+hostName 0 TP-Link_Test_Device_3
+hostName 1 TP-Link_Test_Device_4
+hostName 2 TP-Link_Test_Device_5
+hostName 3 
+hostName 4 
+hostName 5 
+hostName 6 
+hostName 7
+hostName 8
+hostName 9
+hostName 10 
+hostName 11 
+hostName 12 
+hostName 13 
+hostName 14 
+hostName 15 
+hostName 16 
+hostName 17 
+hostName 18 
+hostName 19 
+hostName 20 
+hostName 21 
+hostName 22 
+hostName 23 
+hostName 24 
+hostName 25 
+hostName 26 
+hostName 27 
+hostName 28 
+hostName 29 
+hostName 30 
+hostName 31 
+hostName 32 
+hostName 33 
+hostName 34 
+hostName 35 
+hostName 36 
+hostName 37 
+hostName 38 
+hostName 39 
+hostName 40 
+hostName 41 
+hostName 42 
+hostName 43 
+hostName 44 
+hostName 45 
+hostName 46 
+hostName 47 
+hostName 48 
+hostName 49 
+hostName 50 
+hostName 51 
+hostName 52 
+hostName 53 
+hostName 54 
+hostName 55 
+hostName 56 
+hostName 57 
+hostName 58 
+hostName 59 
+hostName 60 
+hostName 61 
+hostName 62 
+hostName 63 
+hostName 64 
+hostName 65 
+hostName 66 
+hostName 67 
+hostName 68 
+hostName 69 
+hostName 70 
+hostName 71 
+hostName 72 
+hostName 73 
+hostName 74 
+hostName 75 
+hostName 76 
+hostName 77 
+hostName 78 
+hostName 79 
+hostName 80 
+hostName 81 
+hostName 82 
+hostName 83 
+hostName 84 
+hostName 85 
+hostName 86 
+hostName 87 
+hostName 88 
+hostName 89 
+hostName 90 
+hostName 91 
+hostName 92 
+hostName 93 
+hostName 94 
+hostName 95 
+hostName 96 
+hostName 97 
+hostName 98 
+hostName 99 
+hostName 100 
+hostName 101 
+hostName 102 
+hostName 103 
+hostName 104 
+hostName 105 
+hostName 106 
+hostName 107 
+hostName 108 
+hostName 109 
+hostName 110 
+hostName 111 
+hostName 112 
+hostName 113 
+hostName 114 
+hostName 115 
+hostName 116 
+hostName 117 
+hostName 118 
+hostName 119 
+hostName 120 
+hostName 121 
+hostName 122 
+hostName 123 
+hostName 124 
+hostName 125 
+hostName 126 
+hostName 127 
+mac 0 B0-95-8E-66-5A-03
+mac 1 40-16-9F-0F-B7-BA
+mac 2 54-A7-03-FE-3D-4A
+mac 3 00-00-00-00-00-00
+mac 4 00-00-00-00-00-00
+mac 5 00-00-00-00-00-00
+mac 6 00-00-00-00-00-00
+mac 7 00-00-00-00-00-00
+mac 8 00-00-00-00-00-00
+mac 9 00-00-00-00-00-00
+mac 10 00-00-00-00-00-00
+mac 11 00-00-00-00-00-00
+mac 12 00-00-00-00-00-00
+mac 13 00-00-00-00-00-00
+mac 14 00-00-00-00-00-00
+mac 15 00-00-00-00-00-00
+mac 16 00-00-00-00-00-00
+mac 17 00-00-00-00-00-00
+mac 18 00-00-00-00-00-00
+mac 19 00-00-00-00-00-00
+mac 20 00-00-00-00-00-00
+mac 21 00-00-00-00-00-00
+mac 22 00-00-00-00-00-00
+mac 23 00-00-00-00-00-00
+mac 24 00-00-00-00-00-00
+mac 25 00-00-00-00-00-00
+mac 26 00-00-00-00-00-00
+mac 27 00-00-00-00-00-00
+mac 28 00-00-00-00-00-00
+mac 29 00-00-00-00-00-00
+mac 30 00-00-00-00-00-00
+mac 31 00-00-00-00-00-00
+mac 32 00-00-00-00-00-00
+mac 33 00-00-00-00-00-00
+mac 34 00-00-00-00-00-00
+mac 35 00-00-00-00-00-00
+mac 36 00-00-00-00-00-00
+mac 37 00-00-00-00-00-00
+mac 38 00-00-00-00-00-00
+mac 39 00-00-00-00-00-00
+mac 40 00-00-00-00-00-00
+mac 41 00-00-00-00-00-00
+mac 42 00-00-00-00-00-00
+mac 43 00-00-00-00-00-00
+mac 44 00-00-00-00-00-00
+mac 45 00-00-00-00-00-00
+mac 46 00-00-00-00-00-00
+mac 47 00-00-00-00-00-00
+mac 48 00-00-00-00-00-00
+mac 49 00-00-00-00-00-00
+mac 50 00-00-00-00-00-00
+mac 51 00-00-00-00-00-00
+mac 52 00-00-00-00-00-00
+mac 53 00-00-00-00-00-00
+mac 54 00-00-00-00-00-00
+mac 55 00-00-00-00-00-00
+mac 56 00-00-00-00-00-00
+mac 57 00-00-00-00-00-00
+mac 58 00-00-00-00-00-00
+mac 59 00-00-00-00-00-00
+mac 60 00-00-00-00-00-00
+mac 61 00-00-00-00-00-00
+mac 62 00-00-00-00-00-00
+mac 63 00-00-00-00-00-00
+mac 64 00-00-00-00-00-00
+mac 65 00-00-00-00-00-00
+mac 66 00-00-00-00-00-00
+mac 67 00-00-00-00-00-00
+mac 68 00-00-00-00-00-00
+mac 69 00-00-00-00-00-00
+mac 70 00-00-00-00-00-00
+mac 71 00-00-00-00-00-00
+mac 72 00-00-00-00-00-00
+mac 73 00-00-00-00-00-00
+mac 74 00-00-00-00-00-00
+mac 75 00-00-00-00-00-00
+mac 76 00-00-00-00-00-00
+mac 77 00-00-00-00-00-00
+mac 78 00-00-00-00-00-00
+mac 79 00-00-00-00-00-00
+mac 80 00-00-00-00-00-00
+mac 81 00-00-00-00-00-00
+mac 82 00-00-00-00-00-00
+mac 83 00-00-00-00-00-00
+mac 84 00-00-00-00-00-00
+mac 85 00-00-00-00-00-00
+mac 86 00-00-00-00-00-00
+mac 87 00-00-00-00-00-00
+mac 88 00-00-00-00-00-00
+mac 89 00-00-00-00-00-00
+mac 90 00-00-00-00-00-00
+mac 91 00-00-00-00-00-00
+mac 92 00-00-00-00-00-00
+mac 93 00-00-00-00-00-00
+mac 94 00-00-00-00-00-00
+mac 95 00-00-00-00-00-00
+mac 96 00-00-00-00-00-00
+mac 97 00-00-00-00-00-00
+mac 98 00-00-00-00-00-00
+mac 99 00-00-00-00-00-00
+mac 100 00-00-00-00-00-00
+mac 101 00-00-00-00-00-00
+mac 102 00-00-00-00-00-00
+mac 103 00-00-00-00-00-00
+mac 104 00-00-00-00-00-00
+mac 105 00-00-00-00-00-00
+mac 106 00-00-00-00-00-00
+mac 107 00-00-00-00-00-00
+mac 108 00-00-00-00-00-00
+mac 109 00-00-00-00-00-00
+mac 110 00-00-00-00-00-00
+mac 111 00-00-00-00-00-00
+mac 112 00-00-00-00-00-00
+mac 113 00-00-00-00-00-00
+mac 114 00-00-00-00-00-00
+mac 115 00-00-00-00-00-00
+mac 116 00-00-00-00-00-00
+mac 117 00-00-00-00-00-00
+mac 118 00-00-00-00-00-00
+mac 119 00-00-00-00-00-00
+mac 120 00-00-00-00-00-00
+mac 121 00-00-00-00-00-00
+mac 122 00-00-00-00-00-00
+mac 123 00-00-00-00-00-00
+mac 124 00-00-00-00-00-00
+mac 125 00-00-00-00-00-00
+mac 126 00-00-00-00-00-00
+mac 127 00-00-00-00-00-00
+reserved 0 
+reserved 1 
+reserved 2 
+reserved 3 
+reserved 4 
+reserved 5 
+reserved 6 
+reserved 7 
+reserved 8 
+reserved 9 
+reserved 10 
+reserved 11 
+reserved 12 
+reserved 13 
+reserved 14 
+reserved 15 
+reserved 16 
+reserved 17 
+reserved 18 
+reserved 19 
+reserved 20 
+reserved 21 
+reserved 22 
+reserved 23 
+reserved 24 
+reserved 25 
+reserved 26 
+reserved 27 
+reserved 28 
+reserved 29 
+reserved 30 
+reserved 31 
+reserved 32 
+reserved 33 
+reserved 34 
+reserved 35 
+reserved 36 
+reserved 37 
+reserved 38 
+reserved 39 
+reserved 40 
+reserved 41 
+reserved 42 
+reserved 43 
+reserved 44 
+reserved 45 
+reserved 46 
+reserved 47 
+reserved 48 
+reserved 49 
+reserved 50 
+reserved 51 
+reserved 52 
+reserved 53 
+reserved 54 
+reserved 55 
+reserved 56 
+reserved 57 
+reserved 58 
+reserved 59 
+reserved 60 
+reserved 61 
+reserved 62 
+reserved 63 
+reserved 64 
+reserved 65 
+reserved 66 
+reserved 67 
+reserved 68 
+reserved 69 
+reserved 70 
+reserved 71 
+reserved 72 
+reserved 73 
+reserved 74 
+reserved 75 
+reserved 76 
+reserved 77 
+reserved 78 
+reserved 79 
+reserved 80 
+reserved 81 
+reserved 82 
+reserved 83 
+reserved 84 
+reserved 85 
+reserved 86 
+reserved 87 
+reserved 88 
+reserved 89 
+reserved 90 
+reserved 91 
+reserved 92 
+reserved 93 
+reserved 94 
+reserved 95 
+reserved 96 
+reserved 97 
+reserved 98 
+reserved 99 
+reserved 100 
+reserved 101 
+reserved 102 
+reserved 103 
+reserved 104 
+reserved 105 
+reserved 106 
+reserved 107 
+reserved 108 
+reserved 109 
+reserved 110 
+reserved 111 
+reserved 112 
+reserved 113 
+reserved 114 
+reserved 115 
+reserved 116 
+reserved 117 
+reserved 118 
+reserved 119 
+reserved 120 
+reserved 121 
+reserved 122 
+reserved 123 
+reserved 124 
+reserved 125 
+reserved 126 
+reserved 127 
+state 0 5
+state 1 5
+state 2 5
+state 3 5
+state 4 5
+state 5 5
+state 6 5
+state 7 5
+state 8 5
+state 9 5
+state 10 5
+state 11 5
+state 12 5
+state 13 5
+state 14 0
+state 15 0
+state 16 0
+state 17 0
+state 18 0
+state 19 0
+state 20 0
+state 21 0
+state 22 0
+state 23 0
+state 24 0
+state 25 0
+state 26 0
+state 27 0
+state 28 0
+state 29 0
+state 30 0
+state 31 0
+state 32 0
+state 33 0
+state 34 0
+state 35 0
+state 36 0
+state 37 0
+state 38 0
+state 39 0
+state 40 0
+state 41 0
+state 42 0
+state 43 0
+state 44 0
+state 45 0
+state 46 0
+state 47 0
+state 48 0
+state 49 0
+state 50 0
+state 51 0
+state 52 0
+state 53 0
+state 54 0
+state 55 0
+state 56 0
+state 57 0
+state 58 0
+state 59 0
+state 60 0
+state 61 0
+state 62 0
+state 63 0
+state 64 0
+state 65 0
+state 66 0
+state 67 0
+state 68 0
+state 69 0
+state 70 0
+state 71 0
+state 72 0
+state 73 0
+state 74 0
+state 75 0
+state 76 0
+state 77 0
+state 78 0
+state 79 0
+state 80 0
+state 81 0
+state 82 0
+state 83 0
+state 84 0
+state 85 0
+state 86 0
+state 87 0
+state 88 0
+state 89 0
+state 90 0
+state 91 0
+state 92 0
+state 93 0
+state 94 0
+state 95 0
+state 96 0
+state 97 0
+state 98 0
+state 99 0
+state 100 0
+state 101 0
+state 102 0
+state 103 0
+state 104 0
+state 105 0
+state 106 0
+state 107 0
+state 108 0
+state 109 0
+state 110 0
+state 111 0
+state 112 0
+state 113 0
+state 114 0
+state 115 0
+state 116 0
+state 117 0
+state 118 0
+state 119 0
+state 120 0
+state 121 0
+state 122 0
+state 123 0
+state 124 0
+state 125 0
+state 126 0
+state 127 0
+ip 0 192.168.0.110
+ip 1 192.168.0.101
+ip 2 192.168.0.102
+ip 3 0.0.0.0
+ip 4 0.0.0.0
+ip 5 0.0.0.0
+ip 6 0.0.0.0
+ip 7 0.0.0.0
+ip 8 0.0.0.0
+ip 9 0.0.0.0
+ip 10 0.0.0.0
+ip 11 0.0.0.0
+ip 12 0.0.0.0
+ip 13 0.0.0.0
+ip 14 0.0.0.0
+ip 15 0.0.0.0
+ip 16 0.0.0.0
+ip 17 0.0.0.0
+ip 18 0.0.0.0
+ip 19 0.0.0.0
+ip 20 0.0.0.0
+ip 21 0.0.0.0
+ip 22 0.0.0.0
+ip 23 0.0.0.0
+ip 24 0.0.0.0
+ip 25 0.0.0.0
+ip 26 0.0.0.0
+ip 27 0.0.0.0
+ip 28 0.0.0.0
+ip 29 0.0.0.0
+ip 30 0.0.0.0
+ip 31 0.0.0.0
+ip 32 0.0.0.0
+ip 33 0.0.0.0
+ip 34 0.0.0.0
+ip 35 0.0.0.0
+ip 36 0.0.0.0
+ip 37 0.0.0.0
+ip 38 0.0.0.0
+ip 39 0.0.0.0
+ip 40 0.0.0.0
+ip 41 0.0.0.0
+ip 42 0.0.0.0
+ip 43 0.0.0.0
+ip 44 0.0.0.0
+ip 45 0.0.0.0
+ip 46 0.0.0.0
+ip 47 0.0.0.0
+ip 48 0.0.0.0
+ip 49 0.0.0.0
+ip 50 0.0.0.0
+ip 51 0.0.0.0
+ip 52 0.0.0.0
+ip 53 0.0.0.0
+ip 54 0.0.0.0
+ip 55 0.0.0.0
+ip 56 0.0.0.0
+ip 57 0.0.0.0
+ip 58 0.0.0.0
+ip 59 0.0.0.0
+ip 60 0.0.0.0
+ip 61 0.0.0.0
+ip 62 0.0.0.0
+ip 63 0.0.0.0
+ip 64 0.0.0.0
+ip 65 0.0.0.0
+ip 66 0.0.0.0
+ip 67 0.0.0.0
+ip 68 0.0.0.0
+ip 69 0.0.0.0
+ip 70 0.0.0.0
+ip 71 0.0.0.0
+ip 72 0.0.0.0
+ip 73 0.0.0.0
+ip 74 0.0.0.0
+ip 75 0.0.0.0
+ip 76 0.0.0.0
+ip 77 0.0.0.0
+ip 78 0.0.0.0
+ip 79 0.0.0.0
+ip 80 0.0.0.0
+ip 81 0.0.0.0
+ip 82 0.0.0.0
+ip 83 0.0.0.0
+ip 84 0.0.0.0
+ip 85 0.0.0.0
+ip 86 0.0.0.0
+ip 87 0.0.0.0
+ip 88 0.0.0.0
+ip 89 0.0.0.0
+ip 90 0.0.0.0
+ip 91 0.0.0.0
+ip 92 0.0.0.0
+ip 93 0.0.0.0
+ip 94 0.0.0.0
+ip 95 0.0.0.0
+ip 96 0.0.0.0
+ip 97 0.0.0.0
+ip 98 0.0.0.0
+ip 99 0.0.0.0
+ip 100 0.0.0.0
+ip 101 0.0.0.0
+ip 102 0.0.0.0
+ip 103 0.0.0.0
+ip 104 0.0.0.0
+ip 105 0.0.0.0
+ip 106 0.0.0.0
+ip 107 0.0.0.0
+ip 108 0.0.0.0
+ip 109 0.0.0.0
+ip 110 0.0.0.0
+ip 111 0.0.0.0
+ip 112 0.0.0.0
+ip 113 0.0.0.0
+ip 114 0.0.0.0
+ip 115 0.0.0.0
+ip 116 0.0.0.0
+ip 117 0.0.0.0
+ip 118 0.0.0.0
+ip 119 0.0.0.0
+ip 120 0.0.0.0
+ip 121 0.0.0.0
+ip 122 0.0.0.0
+ip 123 0.0.0.0
+ip 124 0.0.0.0
+ip 125 0.0.0.0
+ip 126 0.0.0.0
+ip 127 0.0.0.0
+expires 0 6942
+expires 1 6994
+expires 2 7016
+expires 3 7017
+expires 4 7017
+expires 5 7045
+expires 6 7046
+expires 7 7048
+expires 8 7051
+expires 9 7053
+expires 10 7054
+expires 11 7056
+expires 12 7057
+expires 13 7061
+expires 14 0
+expires 15 0
+expires 16 0
+expires 17 0
+expires 18 0
+expires 19 0
+expires 20 0
+expires 21 0
+expires 22 0
+expires 23 0
+expires 24 0
+expires 25 0
+expires 26 0
+expires 27 0
+expires 28 0
+expires 29 0
+expires 30 0
+expires 31 0
+expires 32 0
+expires 33 0
+expires 34 0
+expires 35 0
+expires 36 0
+expires 37 0
+expires 38 0
+expires 39 0
+expires 40 0
+expires 41 0
+expires 42 0
+expires 43 0
+expires 44 0
+expires 45 0
+expires 46 0
+expires 47 0
+expires 48 0
+expires 49 0
+expires 50 0
+expires 51 0
+expires 52 0
+expires 53 0
+expires 54 0
+expires 55 0
+expires 56 0
+expires 57 0
+expires 58 0
+expires 59 0
+expires 60 0
+expires 61 0
+expires 62 0
+expires 63 0
+expires 64 0
+expires 65 0
+expires 66 0
+expires 67 0
+expires 68 0
+expires 69 0
+expires 70 0
+expires 71 0
+expires 72 0
+expires 73 0
+expires 74 0
+expires 75 0
+expires 76 0
+expires 77 0
+expires 78 0
+expires 79 0
+expires 80 0
+expires 81 0
+expires 82 0
+expires 83 0
+expires 84 0
+expires 85 0
+expires 86 0
+expires 87 0
+expires 88 0
+expires 89 0
+expires 90 0
+expires 91 0
+expires 92 0
+expires 93 0
+expires 94 0
+expires 95 0
+expires 96 0
+expires 97 0
+expires 98 0
+expires 99 0
+expires 100 0
+expires 101 0
+expires 102 0
+expires 103 0
+expires 104 0
+expires 105 0
+expires 106 0
+expires 107 0
+expires 108 0
+expires 109 0
+expires 110 0
+expires 111 0
+expires 112 0
+expires 113 0
+expires 114 0
+expires 115 0
+expires 116 0
+expires 117 0
+expires 118 0
+expires 119 0
+expires 120 0
+expires 121 0
+expires 122 0
+expires 123 0
+expires 124 0
+expires 125 0
+expires 126 0
+expires 127 0
+id 10|1,0,0
+enable 1
+name tplinkwifi.net
+id 11|1,0,0
+lanIp 192.168.0.1
+lanMask 255.255.255.0
+authKey tyWcQbhc9TefbwK
+reserved
+id 12|1,0,0
+ip 0 192.168.0.100
+ip 1 0.0.0.0
+ip 2 0.0.0.0
+ip 3 0.0.0.0
+ip 4 0.0.0.0
+ip 5 0.0.0.0
+ip 6 0.0.0.0
+ip 7 0.0.0.0
+ip 8 0.0.0.0
+ip 9 0.0.0.0
+ip 10 0.0.0.0
+ip 11 0.0.0.0
+ip 12 0.0.0.0
+ip 13 0.0.0.0
+ip 14 0.0.0.0
+ip 15 0.0.0.0
+ip 16 0.0.0.0
+ip 17 0.0.0.0
+ip 18 0.0.0.0
+ip 19 0.0.0.0
+ip 20 0.0.0.0
+ip 21 0.0.0.0
+ip 22 0.0.0.0
+ip 23 0.0.0.0
+ip 24 0.0.0.0
+ip 25 0.0.0.0
+ip 26 0.0.0.0
+ip 27 0.0.0.0
+ip 28 0.0.0.0
+ip 29 0.0.0.0
+ip 30 0.0.0.0
+ip 31 0.0.0.0
+ip 32 0.0.0.0
+ip 33 0.0.0.0
+ip 34 0.0.0.0
+ip 35 0.0.0.0
+ip 36 0.0.0.0
+ip 37 0.0.0.0
+ip 38 0.0.0.0
+ip 39 0.0.0.0
+ip 40 0.0.0.0
+ip 41 0.0.0.0
+ip 42 0.0.0.0
+ip 43 0.0.0.0
+ip 44 0.0.0.0
+ip 45 0.0.0.0
+ip 46 0.0.0.0
+ip 47 0.0.0.0
+ip 48 0.0.0.0
+ip 49 0.0.0.0
+ip 50 0.0.0.0
+ip 51 0.0.0.0
+ip 52 0.0.0.0
+ip 53 0.0.0.0
+ip 54 0.0.0.0
+ip 55 0.0.0.0
+ip 56 0.0.0.0
+ip 57 0.0.0.0
+ip 58 0.0.0.0
+ip 59 0.0.0.0
+ip 60 0.0.0.0
+ip 61 0.0.0.0
+ip 62 0.0.0.0
+ip 63 0.0.0.0
+mac 0 90-F6-52-43-3C-B0
+mac 1 00-00-00-00-00-00
+mac 2 00-00-00-00-00-00
+mac 3 00-00-00-00-00-00
+mac 4 00-00-00-00-00-00
+mac 5 00-00-00-00-00-00
+mac 6 00-00-00-00-00-00
+mac 7 00-00-00-00-00-00
+mac 8 00-00-00-00-00-00
+mac 9 00-00-00-00-00-00
+mac 10 00-00-00-00-00-00
+mac 11 00-00-00-00-00-00
+mac 12 00-00-00-00-00-00
+mac 13 00-00-00-00-00-00
+mac 14 00-00-00-00-00-00
+mac 15 00-00-00-00-00-00
+mac 16 00-00-00-00-00-00
+mac 17 00-00-00-00-00-00
+mac 18 00-00-00-00-00-00
+mac 19 00-00-00-00-00-00
+mac 20 00-00-00-00-00-00
+mac 21 00-00-00-00-00-00
+mac 22 00-00-00-00-00-00
+mac 23 00-00-00-00-00-00
+mac 24 00-00-00-00-00-00
+mac 25 00-00-00-00-00-00
+mac 26 00-00-00-00-00-00
+mac 27 00-00-00-00-00-00
+mac 28 00-00-00-00-00-00
+mac 29 00-00-00-00-00-00
+mac 30 00-00-00-00-00-00
+mac 31 00-00-00-00-00-00
+mac 32 00-00-00-00-00-00
+mac 33 00-00-00-00-00-00
+mac 34 00-00-00-00-00-00
+mac 35 00-00-00-00-00-00
+mac 36 00-00-00-00-00-00
+mac 37 00-00-00-00-00-00
+mac 38 00-00-00-00-00-00
+mac 39 00-00-00-00-00-00
+mac 40 00-00-00-00-00-00
+mac 41 00-00-00-00-00-00
+mac 42 00-00-00-00-00-00
+mac 43 00-00-00-00-00-00
+mac 44 00-00-00-00-00-00
+mac 45 00-00-00-00-00-00
+mac 46 00-00-00-00-00-00
+mac 47 00-00-00-00-00-00
+mac 48 00-00-00-00-00-00
+mac 49 00-00-00-00-00-00
+mac 50 00-00-00-00-00-00
+mac 51 00-00-00-00-00-00
+mac 52 00-00-00-00-00-00
+mac 53 00-00-00-00-00-00
+mac 54 00-00-00-00-00-00
+mac 55 00-00-00-00-00-00
+mac 56 00-00-00-00-00-00
+mac 57 00-00-00-00-00-00
+mac 58 00-00-00-00-00-00
+mac 59 00-00-00-00-00-00
+mac 60 00-00-00-00-00-00
+mac 61 00-00-00-00-00-00
+mac 62 00-00-00-00-00-00
+mac 63 00-00-00-00-00-00
+reserved 0 
+reserved 1 
+reserved 2 
+reserved 3 
+reserved 4 
+reserved 5 
+reserved 6 
+reserved 7 
+reserved 8 
+reserved 9 
+reserved 10 
+reserved 11 
+reserved 12 
+reserved 13 
+reserved 14 
+reserved 15 
+reserved 16 
+reserved 17 
+reserved 18 
+reserved 19 
+reserved 20 
+reserved 21 
+reserved 22 
+reserved 23 
+reserved 24 
+reserved 25 
+reserved 26 
+reserved 27 
+reserved 28 
+reserved 29 
+reserved 30 
+reserved 31 
+reserved 32 
+reserved 33 
+reserved 34 
+reserved 35 
+reserved 36 
+reserved 37 
+reserved 38 
+reserved 39 
+reserved 40 
+reserved 41 
+reserved 42 
+reserved 43 
+reserved 44 
+reserved 45 
+reserved 46 
+reserved 47 
+reserved 48 
+reserved 49 
+reserved 50 
+reserved 51 
+reserved 52 
+reserved 53 
+reserved 54 
+reserved 55 
+reserved 56 
+reserved 57 
+reserved 58 
+reserved 59 
+reserved 60 
+reserved 61 
+reserved 62 
+reserved 63 
+bindEntry 0 1
+bindEntry 1 0
+bindEntry 2 0
+bindEntry 3 0
+bindEntry 4 0
+bindEntry 5 0
+bindEntry 6 0
+bindEntry 7 0
+bindEntry 8 0
+bindEntry 9 0
+bindEntry 10 0
+bindEntry 11 0
+bindEntry 12 0
+bindEntry 13 0
+bindEntry 14 0
+bindEntry 15 0
+bindEntry 16 0
+bindEntry 17 0
+bindEntry 18 0
+bindEntry 19 0
+bindEntry 20 0
+bindEntry 21 0
+bindEntry 22 0
+bindEntry 23 0
+bindEntry 24 0
+bindEntry 25 0
+bindEntry 26 0
+bindEntry 27 0
+bindEntry 28 0
+bindEntry 29 0
+bindEntry 30 0
+bindEntry 31 0
+bindEntry 32 0
+bindEntry 33 0
+bindEntry 34 0
+bindEntry 35 0
+bindEntry 36 0
+bindEntry 37 0
+bindEntry 38 0
+bindEntry 39 0
+bindEntry 40 0
+bindEntry 41 0
+bindEntry 42 0
+bindEntry 43 0
+bindEntry 44 0
+bindEntry 45 0
+bindEntry 46 0
+bindEntry 47 0
+bindEntry 48 0
+bindEntry 49 0
+bindEntry 50 0
+bindEntry 51 0
+bindEntry 52 0
+bindEntry 53 0
+bindEntry 54 0
+bindEntry 55 0
+bindEntry 56 0
+bindEntry 57 0
+bindEntry 58 0
+bindEntry 59 0
+bindEntry 60 0
+bindEntry 61 0
+bindEntry 62 0
+bindEntry 63 0
+staMgtEntry 0 0
+staMgtEntry 1 0
+staMgtEntry 2 0
+staMgtEntry 3 0
+staMgtEntry 4 0
+staMgtEntry 5 0
+staMgtEntry 6 0
+staMgtEntry 7 0
+staMgtEntry 8 0
+staMgtEntry 9 0
+staMgtEntry 10 0
+staMgtEntry 11 0
+staMgtEntry 12 0
+staMgtEntry 13 0
+staMgtEntry 14 0
+staMgtEntry 15 0
+staMgtEntry 16 0
+staMgtEntry 17 0
+staMgtEntry 18 0
+staMgtEntry 19 0
+staMgtEntry 20 0
+staMgtEntry 21 0
+staMgtEntry 22 0
+staMgtEntry 23 0
+staMgtEntry 24 0
+staMgtEntry 25 0
+staMgtEntry 26 0
+staMgtEntry 27 0
+staMgtEntry 28 0
+staMgtEntry 29 0
+staMgtEntry 30 0
+staMgtEntry 31 0
+staMgtEntry 32 0
+staMgtEntry 33 0
+staMgtEntry 34 0
+staMgtEntry 35 0
+staMgtEntry 36 0
+staMgtEntry 37 0
+staMgtEntry 38 0
+staMgtEntry 39 0
+staMgtEntry 40 0
+staMgtEntry 41 0
+staMgtEntry 42 0
+staMgtEntry 43 0
+staMgtEntry 44 0
+staMgtEntry 45 0
+staMgtEntry 46 0
+staMgtEntry 47 0
+staMgtEntry 48 0
+staMgtEntry 49 0
+staMgtEntry 50 0
+staMgtEntry 51 0
+staMgtEntry 52 0
+staMgtEntry 53 0
+staMgtEntry 54 0
+staMgtEntry 55 0
+staMgtEntry 56 0
+staMgtEntry 57 0
+staMgtEntry 58 0
+staMgtEntry 59 0
+staMgtEntry 60 0
+staMgtEntry 61 0
+staMgtEntry 62 0
+staMgtEntry 63 0
+name 0 TP-Link_Test_Device_1
+name 1 
+name 2 
+name 3 
+name 4 
+name 5 
+name 6 
+name 7 
+name 8 
+name 9 
+name 10 
+name 11 
+name 12 
+name 13 
+name 14 
+name 15 
+name 16 
+name 17 
+name 18 
+name 19 
+name 20 
+name 21 
+name 22 
+name 23 
+name 24 
+name 25 
+name 26 
+name 27 
+name 28 
+name 29 
+name 30 
+name 31 
+name 32 
+name 33 
+name 34 
+name 35 
+name 36 
+name 37 
+name 38 
+name 39 
+name 40 
+name 41 
+name 42 
+name 43 
+name 44 
+name 45 
+name 46 
+name 47 
+name 48 
+name 49 
+name 50 
+name 51 
+name 52 
+name 53 
+name 54 
+name 55 
+name 56 
+name 57 
+name 58 
+name 59 
+name 60 
+name 61 
+name 62 
+name 63 
+blocked 0 0
+blocked 1 0
+blocked 2 0
+blocked 3 0
+blocked 4 0
+blocked 5 0
+blocked 6 0
+blocked 7 0
+blocked 8 0
+blocked 9 0
+blocked 10 0
+blocked 11 0
+blocked 12 0
+blocked 13 0
+blocked 14 0
+blocked 15 0
+blocked 16 0
+blocked 17 0
+blocked 18 0
+blocked 19 0
+blocked 20 0
+blocked 21 0
+blocked 22 0
+blocked 23 0
+blocked 24 0
+blocked 25 0
+blocked 26 0
+blocked 27 0
+blocked 28 0
+blocked 29 0
+blocked 30 0
+blocked 31 0
+blocked 32 0
+blocked 33 0
+blocked 34 0
+blocked 35 0
+blocked 36 0
+blocked 37 0
+blocked 38 0
+blocked 39 0
+blocked 40 0
+blocked 41 0
+blocked 42 0
+blocked 43 0
+blocked 44 0
+blocked 45 0
+blocked 46 0
+blocked 47 0
+blocked 48 0
+blocked 49 0
+blocked 50 0
+blocked 51 0
+blocked 52 0
+blocked 53 0
+blocked 54 0
+blocked 55 0
+blocked 56 0
+blocked 57 0
+blocked 58 0
+blocked 59 0
+blocked 60 0
+blocked 61 0
+blocked 62 0
+blocked 63 0
+upLimit 0 0
+upLimit 1 0
+upLimit 2 0
+upLimit 3 0
+upLimit 4 0
+upLimit 5 0
+upLimit 6 0
+upLimit 7 0
+upLimit 8 0
+upLimit 9 0
+upLimit 10 0
+upLimit 11 0
+upLimit 12 0
+upLimit 13 0
+upLimit 14 0
+upLimit 15 0
+upLimit 16 0
+upLimit 17 0
+upLimit 18 0
+upLimit 19 0
+upLimit 20 0
+upLimit 21 0
+upLimit 22 0
+upLimit 23 0
+upLimit 24 0
+upLimit 25 0
+upLimit 26 0
+upLimit 27 0
+upLimit 28 0
+upLimit 29 0
+upLimit 30 0
+upLimit 31 0
+upLimit 32 0
+upLimit 33 0
+upLimit 34 0
+upLimit 35 0
+upLimit 36 0
+upLimit 37 0
+upLimit 38 0
+upLimit 39 0
+upLimit 40 0
+upLimit 41 0
+upLimit 42 0
+upLimit 43 0
+upLimit 44 0
+upLimit 45 0
+upLimit 46 0
+upLimit 47 0
+upLimit 48 0
+upLimit 49 0
+upLimit 50 0
+upLimit 51 0
+upLimit 52 0
+upLimit 53 0
+upLimit 54 0
+upLimit 55 0
+upLimit 56 0
+upLimit 57 0
+upLimit 58 0
+upLimit 59 0
+upLimit 60 0
+upLimit 61 0
+upLimit 62 0
+upLimit 63 0
+downLimit 0 0
+downLimit 1 0
+downLimit 2 0
+downLimit 3 0
+downLimit 4 0
+downLimit 5 0
+downLimit 6 0
+downLimit 7 0
+downLimit 8 0
+downLimit 9 0
+downLimit 10 0
+downLimit 11 0
+downLimit 12 0
+downLimit 13 0
+downLimit 14 0
+downLimit 15 0
+downLimit 16 0
+downLimit 17 0
+downLimit 18 0
+downLimit 19 0
+downLimit 20 0
+downLimit 21 0
+downLimit 22 0
+downLimit 23 0
+downLimit 24 0
+downLimit 25 0
+downLimit 26 0
+downLimit 27 0
+downLimit 28 0
+downLimit 29 0
+downLimit 30 0
+downLimit 31 0
+downLimit 32 0
+downLimit 33 0
+downLimit 34 0
+downLimit 35 0
+downLimit 36 0
+downLimit 37 0
+downLimit 38 0
+downLimit 39 0
+downLimit 40 0
+downLimit 41 0
+downLimit 42 0
+downLimit 43 0
+downLimit 44 0
+downLimit 45 0
+downLimit 46 0
+downLimit 47 0
+downLimit 48 0
+downLimit 49 0
+downLimit 50 0
+downLimit 51 0
+downLimit 52 0
+downLimit 53 0
+downLimit 54 0
+downLimit 55 0
+downLimit 56 0
+downLimit 57 0
+downLimit 58 0
+downLimit 59 0
+downLimit 60 0
+downLimit 61 0
+downLimit 62 0
+downLimit 63 0
+qosEntry 0 0
+qosEntry 1 0
+qosEntry 2 0
+qosEntry 3 0
+qosEntry 4 0
+qosEntry 5 0
+qosEntry 6 0
+qosEntry 7 0
+qosEntry 8 0
+qosEntry 9 0
+qosEntry 10 0
+qosEntry 11 0
+qosEntry 12 0
+qosEntry 13 0
+qosEntry 14 0
+qosEntry 15 0
+qosEntry 16 0
+qosEntry 17 0
+qosEntry 18 0
+qosEntry 19 0
+qosEntry 20 0
+qosEntry 21 0
+qosEntry 22 0
+qosEntry 23 0
+qosEntry 24 0
+qosEntry 25 0
+qosEntry 26 0
+qosEntry 27 0
+qosEntry 28 0
+qosEntry 29 0
+qosEntry 30 0
+qosEntry 31 0
+qosEntry 32 0
+qosEntry 33 0
+qosEntry 34 0
+qosEntry 35 0
+qosEntry 36 0
+qosEntry 37 0
+qosEntry 38 0
+qosEntry 39 0
+qosEntry 40 0
+qosEntry 41 0
+qosEntry 42 0
+qosEntry 43 0
+qosEntry 44 0
+qosEntry 45 0
+qosEntry 46 0
+qosEntry 47 0
+qosEntry 48 0
+qosEntry 49 0
+qosEntry 50 0
+qosEntry 51 0
+qosEntry 52 0
+qosEntry 53 0
+qosEntry 54 0
+qosEntry 55 0
+qosEntry 56 0
+qosEntry 57 0
+qosEntry 58 0
+qosEntry 59 0
+qosEntry 60 0
+qosEntry 61 0
+qosEntry 62 0
+qosEntry 63 0
+priTime 0 0
+priTime 1 0
+priTime 2 0
+priTime 3 0
+priTime 4 0
+priTime 5 0
+priTime 6 0
+priTime 7 0
+priTime 8 0
+priTime 9 0
+priTime 10 0
+priTime 11 0
+priTime 12 0
+priTime 13 0
+priTime 14 0
+priTime 15 0
+priTime 16 0
+priTime 17 0
+priTime 18 0
+priTime 19 0
+priTime 20 0
+priTime 21 0
+priTime 22 0
+priTime 23 0
+priTime 24 0
+priTime 25 0
+priTime 26 0
+priTime 27 0
+priTime 28 0
+priTime 29 0
+priTime 30 0
+priTime 31 0
+priTime 32 0
+priTime 33 0
+priTime 34 0
+priTime 35 0
+priTime 36 0
+priTime 37 0
+priTime 38 0
+priTime 39 0
+priTime 40 0
+priTime 41 0
+priTime 42 0
+priTime 43 0
+priTime 44 0
+priTime 45 0
+priTime 46 0
+priTime 47 0
+priTime 48 0
+priTime 49 0
+priTime 50 0
+priTime 51 0
+priTime 52 0
+priTime 53 0
+priTime 54 0
+priTime 55 0
+priTime 56 0
+priTime 57 0
+priTime 58 0
+priTime 59 0
+priTime 60 0
+priTime 61 0
+priTime 62 0
+priTime 63 0
+dhcpsEntry 0 1
+dhcpsEntry 1 0
+dhcpsEntry 2 0
+dhcpsEntry 3 0
+dhcpsEntry 4 0
+dhcpsEntry 5 0
+dhcpsEntry 6 0
+dhcpsEntry 7 0
+dhcpsEntry 8 0
+dhcpsEntry 9 0
+dhcpsEntry 10 0
+dhcpsEntry 11 0
+dhcpsEntry 12 0
+dhcpsEntry 13 0
+dhcpsEntry 14 0
+dhcpsEntry 15 0
+dhcpsEntry 16 0
+dhcpsEntry 17 0
+dhcpsEntry 18 0
+dhcpsEntry 19 0
+dhcpsEntry 20 0
+dhcpsEntry 21 0
+dhcpsEntry 22 0
+dhcpsEntry 23 0
+dhcpsEntry 24 0
+dhcpsEntry 25 0
+dhcpsEntry 26 0
+dhcpsEntry 27 0
+dhcpsEntry 28 0
+dhcpsEntry 29 0
+dhcpsEntry 30 0
+dhcpsEntry 31 0
+dhcpsEntry 32 0
+dhcpsEntry 33 0
+dhcpsEntry 34 0
+dhcpsEntry 35 0
+dhcpsEntry 36 0
+dhcpsEntry 37 0
+dhcpsEntry 38 0
+dhcpsEntry 39 0
+dhcpsEntry 40 0
+dhcpsEntry 41 0
+dhcpsEntry 42 0
+dhcpsEntry 43 0
+dhcpsEntry 44 0
+dhcpsEntry 45 0
+dhcpsEntry 46 0
+dhcpsEntry 47 0
+dhcpsEntry 48 0
+dhcpsEntry 49 0
+dhcpsEntry 50 0
+dhcpsEntry 51 0
+dhcpsEntry 52 0
+dhcpsEntry 53 0
+dhcpsEntry 54 0
+dhcpsEntry 55 0
+dhcpsEntry 56 0
+dhcpsEntry 57 0
+dhcpsEntry 58 0
+dhcpsEntry 59 0
+dhcpsEntry 60 0
+dhcpsEntry 61 0
+dhcpsEntry 62 0
+dhcpsEntry 63 0
+dhcpsEnable 0 0
+dhcpsEnable 1 0
+dhcpsEnable 2 0
+dhcpsEnable 3 0
+dhcpsEnable 4 0
+dhcpsEnable 5 0
+dhcpsEnable 6 0
+dhcpsEnable 7 0
+dhcpsEnable 8 0
+dhcpsEnable 9 0
+dhcpsEnable 10 0
+dhcpsEnable 11 0
+dhcpsEnable 12 0
+dhcpsEnable 13 0
+dhcpsEnable 14 0
+dhcpsEnable 15 0
+dhcpsEnable 16 0
+dhcpsEnable 17 0
+dhcpsEnable 18 0
+dhcpsEnable 19 0
+dhcpsEnable 20 0
+dhcpsEnable 21 0
+dhcpsEnable 22 0
+dhcpsEnable 23 0
+dhcpsEnable 24 0
+dhcpsEnable 25 0
+dhcpsEnable 26 0
+dhcpsEnable 27 0
+dhcpsEnable 28 0
+dhcpsEnable 29 0
+dhcpsEnable 30 0
+dhcpsEnable 31 0
+dhcpsEnable 32 0
+dhcpsEnable 33 0
+dhcpsEnable 34 0
+dhcpsEnable 35 0
+dhcpsEnable 36 0
+dhcpsEnable 37 0
+dhcpsEnable 38 0
+dhcpsEnable 39 0
+dhcpsEnable 40 0
+dhcpsEnable 41 0
+dhcpsEnable 42 0
+dhcpsEnable 43 0
+dhcpsEnable 44 0
+dhcpsEnable 45 0
+dhcpsEnable 46 0
+dhcpsEnable 47 0
+dhcpsEnable 48 0
+dhcpsEnable 49 0
+dhcpsEnable 50 0
+dhcpsEnable 51 0
+dhcpsEnable 52 0
+dhcpsEnable 53 0
+dhcpsEnable 54 0
+dhcpsEnable 55 0
+dhcpsEnable 56 0
+dhcpsEnable 57 0
+dhcpsEnable 58 0
+dhcpsEnable 59 0
+dhcpsEnable 60 0
+dhcpsEnable 61 0
+dhcpsEnable 62 0
+dhcpsEnable 63 0
+disable 0
+id 13
+enable 1
+ip 0 192.168.0.100
+ip 1 192.168.0.101
+ip 2 192.168.0.102
+ip 3 192.168.0.103
+ip 4 192.168.0.104
+ip 5 192.168.0.107
+ip 6 192.168.0.105
+ip 7 192.168.0.106
+ip 8 192.168.0.110
+ip 9 192.168.0.108
+ip 10 0.0.0.0
+ip 11 0.0.0.0
+ip 12 0.0.0.0
+ip 13 0.0.0.0
+ip 14 0.0.0.0
+ip 15 0.0.0.0
+ip 16 0.0.0.0
+ip 17 0.0.0.0
+ip 18 0.0.0.0
+ip 19 0.0.0.0
+ip 20 0.0.0.0
+ip 21 0.0.0.0
+ip 22 0.0.0.0
+ip 23 0.0.0.0
+ip 24 0.0.0.0
+ip 25 0.0.0.0
+ip 26 0.0.0.0
+ip 27 0.0.0.0
+ip 28 0.0.0.0
+ip 29 0.0.0.0
+ip 30 0.0.0.0
+ip 31 0.0.0.0
+ip 32 0.0.0.0
+ip 33 0.0.0.0
+ip 34 0.0.0.0
+ip 35 0.0.0.0
+ip 36 0.0.0.0
+ip 37 0.0.0.0
+ip 38 0.0.0.0
+ip 39 0.0.0.0
+ip 40 0.0.0.0
+ip 41 0.0.0.0
+ip 42 0.0.0.0
+ip 43 0.0.0.0
+ip 44 0.0.0.0
+ip 45 0.0.0.0
+ip 46 0.0.0.0
+ip 47 0.0.0.0
+ip 48 0.0.0.0
+ip 49 0.0.0.0
+ip 50 0.0.0.0
+ip 51 0.0.0.0
+ip 52 0.0.0.0
+ip 53 0.0.0.0
+ip 54 0.0.0.0
+ip 55 0.0.0.0
+ip 56 0.0.0.0
+ip 57 0.0.0.0
+ip 58 0.0.0.0
+ip 59 0.0.0.0
+ip 60 0.0.0.0
+ip 61 0.0.0.0
+ip 62 0.0.0.0
+ip 63 0.0.0.0
+mac 0 90-F6-52-43-3C-B0
+mac 1 40-16-9F-0F-B7-BA
+mac 2 54-A7-03-FE-3D-4A
+mac 3 E4-D3-32-CE-EB-CF
+mac 4 40-16-9F-35-BC-4B
+mac 5 28-2C-B2-08-27-E0
+mac 6 AC-84-C6-00-92-9D
+mac 7 AC-84-C6-EC-5E-87
+mac 8 14-CC-20-EC-2D-2B
+mac 9 20-DC-E6-96-C7-F3
+mac 10 00-00-00-00-00-00
+mac 11 00-00-00-00-00-00
+mac 12 00-00-00-00-00-00
+mac 13 00-00-00-00-00-00
+mac 14 00-00-00-00-00-00
+mac 15 00-00-00-00-00-00
+mac 16 00-00-00-00-00-00
+mac 17 00-00-00-00-00-00
+mac 18 00-00-00-00-00-00
+mac 19 00-00-00-00-00-00
+mac 20 00-00-00-00-00-00
+mac 21 00-00-00-00-00-00
+mac 22 00-00-00-00-00-00
+mac 23 00-00-00-00-00-00
+mac 24 00-00-00-00-00-00
+mac 25 00-00-00-00-00-00
+mac 26 00-00-00-00-00-00
+mac 27 00-00-00-00-00-00
+mac 28 00-00-00-00-00-00
+mac 29 00-00-00-00-00-00
+mac 30 00-00-00-00-00-00
+mac 31 00-00-00-00-00-00
+mac 32 00-00-00-00-00-00
+mac 33 00-00-00-00-00-00
+mac 34 00-00-00-00-00-00
+mac 35 00-00-00-00-00-00
+mac 36 00-00-00-00-00-00
+mac 37 00-00-00-00-00-00
+mac 38 00-00-00-00-00-00
+mac 39 00-00-00-00-00-00
+mac 40 00-00-00-00-00-00
+mac 41 00-00-00-00-00-00
+mac 42 00-00-00-00-00-00
+mac 43 00-00-00-00-00-00
+mac 44 00-00-00-00-00-00
+mac 45 00-00-00-00-00-00
+mac 46 00-00-00-00-00-00
+mac 47 00-00-00-00-00-00
+mac 48 00-00-00-00-00-00
+mac 49 00-00-00-00-00-00
+mac 50 00-00-00-00-00-00
+mac 51 00-00-00-00-00-00
+mac 52 00-00-00-00-00-00
+mac 53 00-00-00-00-00-00
+mac 54 00-00-00-00-00-00
+mac 55 00-00-00-00-00-00
+mac 56 00-00-00-00-00-00
+mac 57 00-00-00-00-00-00
+mac 58 00-00-00-00-00-00
+mac 59 00-00-00-00-00-00
+mac 60 00-00-00-00-00-00
+mac 61 00-00-00-00-00-00
+mac 62 00-00-00-00-00-00
+mac 63 00-00-00-00-00-00
+reserved 0
+reserved 1
+reserved 2
+reserved 3
+reserved 4
+reserved 5
+reserved 6
+reserved 7
+reserved 8
+reserved 9
+reserved 10
+reserved 11
+reserved 12
+reserved 13
+reserved 14
+reserved 15
+reserved 16
+reserved 17
+reserved 18
+reserved 19
+reserved 20
+reserved 21
+reserved 22
+reserved 23
+reserved 24
+reserved 25
+reserved 26
+reserved 27
+reserved 28
+reserved 29
+reserved 30
+reserved 31
+reserved 32
+reserved 33
+reserved 34
+reserved 35
+reserved 36
+reserved 37
+reserved 38
+reserved 39
+reserved 40
+reserved 41
+reserved 42
+reserved 43
+reserved 44
+reserved 45
+reserved 46
+reserved 47
+reserved 48
+reserved 49
+reserved 50
+reserved 51
+reserved 52
+reserved 53
+reserved 54
+reserved 55
+reserved 56
+reserved 57
+reserved 58
+reserved 59
+reserved 60
+reserved 61
+reserved 62
+reserved 63
+bindEntry 0 0
+bindEntry 1 0
+bindEntry 2 0
+bindEntry 3 0
+bindEntry 4 0
+bindEntry 5 0
+bindEntry 6 0
+bindEntry 7 0
+bindEntry 8 0
+bindEntry 9 0
+bindEntry 10 0
+bindEntry 11 0
+bindEntry 12 0
+bindEntry 13 0
+bindEntry 14 0
+bindEntry 15 0
+bindEntry 16 0
+bindEntry 17 0
+bindEntry 18 0
+bindEntry 19 0
+bindEntry 20 0
+bindEntry 21 0
+bindEntry 22 0
+bindEntry 23 0
+bindEntry 24 0
+bindEntry 25 0
+bindEntry 26 0
+bindEntry 27 0
+bindEntry 28 0
+bindEntry 29 0
+bindEntry 30 0
+bindEntry 31 0
+bindEntry 32 0
+bindEntry 33 0
+bindEntry 34 0
+bindEntry 35 0
+bindEntry 36 0
+bindEntry 37 0
+bindEntry 38 0
+bindEntry 39 0
+bindEntry 40 0
+bindEntry 41 0
+bindEntry 42 0
+bindEntry 43 0
+bindEntry 44 0
+bindEntry 45 0
+bindEntry 46 0
+bindEntry 47 0
+bindEntry 48 0
+bindEntry 49 0
+bindEntry 50 0
+bindEntry 51 0
+bindEntry 52 0
+bindEntry 53 0
+bindEntry 54 0
+bindEntry 55 0
+bindEntry 56 0
+bindEntry 57 0
+bindEntry 58 0
+bindEntry 59 0
+bindEntry 60 0
+bindEntry 61 0
+bindEntry 62 0
+bindEntry 63 0
+staMgtEntry 0 0
+staMgtEntry 1 0
+staMgtEntry 2 0
+staMgtEntry 3 1
+staMgtEntry 4 0
+staMgtEntry 5 0
+staMgtEntry 6 0
+staMgtEntry 7 0
+staMgtEntry 8 0
+staMgtEntry 9 0
+staMgtEntry 10 0
+staMgtEntry 11 0
+staMgtEntry 12 0
+staMgtEntry 13 0
+staMgtEntry 14 0
+staMgtEntry 15 0
+staMgtEntry 16 0
+staMgtEntry 17 0
+staMgtEntry 18 0
+staMgtEntry 19 0
+staMgtEntry 20 0
+staMgtEntry 21 0
+staMgtEntry 22 0
+staMgtEntry 23 0
+staMgtEntry 24 0
+staMgtEntry 25 0
+staMgtEntry 26 0
+staMgtEntry 27 0
+staMgtEntry 28 0
+staMgtEntry 29 0
+staMgtEntry 30 0
+staMgtEntry 31 0
+staMgtEntry 32 0
+staMgtEntry 33 0
+staMgtEntry 34 0
+staMgtEntry 35 0
+staMgtEntry 36 0
+staMgtEntry 37 0
+staMgtEntry 38 0
+staMgtEntry 39 0
+staMgtEntry 40 0
+staMgtEntry 41 0
+staMgtEntry 42 0
+staMgtEntry 43 0
+staMgtEntry 44 0
+staMgtEntry 45 0
+staMgtEntry 46 0
+staMgtEntry 47 0
+staMgtEntry 48 0
+staMgtEntry 49 0
+staMgtEntry 50 0
+staMgtEntry 51 0
+staMgtEntry 52 0
+staMgtEntry 53 0
+staMgtEntry 54 0
+staMgtEntry 55 0
+staMgtEntry 56 0
+staMgtEntry 57 0
+staMgtEntry 58 0
+staMgtEntry 59 0
+staMgtEntry 60 0
+staMgtEntry 61 0
+staMgtEntry 62 0
+staMgtEntry 63 0
+type 0 0
+type 1 4
+type 2 1
+type 3 2
+type 4 1
+type 5 1
+type 6 1
+type 7 1
+type 8 1
+type 9 1
+type 10 2
+type 11 3
+type 12 4
+type 13 5
+type 14 0
+type 15 0
+type 16 0
+type 17 0
+type 18 0
+type 19 0
+type 20 0
+type 21 0
+type 22 0
+type 23 0
+type 24 0
+type 25 0
+type 26 0
+type 27 0
+type 28 0
+type 29 0
+type 30 0
+type 31 0
+type 32 0
+type 33 0
+type 34 0
+type 35 0
+type 36 0
+type 37 0
+type 38 0
+type 39 0
+type 40 0
+type 41 0
+type 42 0
+type 43 0
+type 44 0
+type 45 0
+type 46 0
+type 47 0
+type 48 0
+type 49 0
+type 50 0
+type 51 0
+type 52 0
+type 53 0
+type 54 0
+type 55 0
+type 56 0
+type 57 0
+type 58 0
+type 59 0
+type 60 0
+type 61 0
+type 62 0
+type 63 0
+online 0 1
+online 1 1
+online 2 1
+online 3 1
+online 4 1
+online 5 0
+online 6 1
+online 7 1
+online 8 1
+online 9 1
+online 10 1
+online 11 1
+online 12 1
+online 13 1
+online 14 0
+online 15 0
+online 16 0
+online 17 0
+online 18 0
+online 19 0
+online 20 0
+online 21 0
+online 22 0
+online 23 0
+online 24 0
+online 25 0
+online 26 0
+online 27 0
+online 28 0
+online 29 0
+online 30 0
+online 31 0
+online 32 0
+online 33 0
+online 34 0
+online 35 0
+online 36 0
+online 37 0
+online 38 0
+online 39 0
+online 40 0
+online 41 0
+online 42 0
+online 43 0
+online 44 0
+online 45 0
+online 46 0
+online 47 0
+online 48 0
+online 49 0
+online 50 0
+online 51 0
+online 52 0
+online 53 0
+online 54 0
+online 55 0
+online 56 0
+online 57 0
+online 58 0
+online 59 0
+online 60 0
+online 61 0
+online 62 0
+online 63 0
+blocked 0 0
+blocked 1 0
+blocked 2 0
+blocked 3 0
+blocked 4 0
+blocked 5 0
+blocked 6 0
+blocked 7 0
+blocked 8 0
+blocked 9 0
+blocked 10 0
+blocked 11 0
+blocked 12 0
+blocked 13 0
+blocked 14 0
+blocked 15 0
+blocked 16 0
+blocked 17 0
+blocked 18 0
+blocked 19 0
+blocked 20 0
+blocked 21 0
+blocked 22 0
+blocked 23 0
+blocked 24 0
+blocked 25 0
+blocked 26 0
+blocked 27 0
+blocked 28 0
+blocked 29 0
+blocked 30 0
+blocked 31 0
+blocked 32 0
+blocked 33 0
+blocked 34 0
+blocked 35 0
+blocked 36 0
+blocked 37 0
+blocked 38 0
+blocked 39 0
+blocked 40 0
+blocked 41 0
+blocked 42 0
+blocked 43 0
+blocked 44 0
+blocked 45 0
+blocked 46 0
+blocked 47 0
+blocked 48 0
+blocked 49 0
+blocked 50 0
+blocked 51 0
+blocked 52 0
+blocked 53 0
+blocked 54 0
+blocked 55 0
+blocked 56 0
+blocked 57 0
+blocked 58 0
+blocked 59 0
+blocked 60 0
+blocked 61 0
+blocked 62 0
+blocked 63 0
+up 0 10
+up 1 200
+up 2 3000
+up 3 40000000
+up 4 400000
+up 5 500000
+up 6 40000
+up 7 600000
+up 8 100000
+up 9 10000
+up 10 0
+up 11 0
+up 12 0
+up 13 0
+up 14 0
+up 15 0
+up 16 0
+up 17 0
+up 18 0
+up 19 0
+up 20 0
+up 21 0
+up 22 0
+up 23 0
+up 24 0
+up 25 0
+up 26 0
+up 27 0
+up 28 0
+up 29 0
+up 30 0
+up 31 0
+up 32 0
+up 33 0
+up 34 0
+up 35 0
+up 36 0
+up 37 0
+up 38 0
+up 39 0
+up 40 0
+up 41 0
+up 42 0
+up 43 0
+up 44 0
+up 45 0
+up 46 0
+up 47 0
+up 48 0
+up 49 0
+up 50 0
+up 51 0
+up 52 0
+up 53 0
+up 54 0
+up 55 0
+up 56 0
+up 57 0
+up 58 0
+up 59 0
+up 60 0
+up 61 0
+up 62 0
+up 63 0
+down 0 1024
+down 1 2048
+down 2 2000
+down 3 20000
+down 4 30000
+down 5 40000
+down 6 50000
+down 7 60000
+down 8 80000
+down 9 90000
+down 10 0
+down 11 0
+down 12 0
+down 13 0
+down 14 0
+down 15 0
+down 16 0
+down 17 0
+down 18 0
+down 19 0
+down 20 0
+down 21 0
+down 22 0
+down 23 0
+down 24 0
+down 25 0
+down 26 0
+down 27 0
+down 28 0
+down 29 0
+down 30 0
+down 31 0
+down 32 0
+down 33 0
+down 34 0
+down 35 0
+down 36 0
+down 37 0
+down 38 0
+down 39 0
+down 40 0
+down 41 0
+down 42 0
+down 43 0
+down 44 0
+down 45 0
+down 46 0
+down 47 0
+down 48 0
+down 49 0
+down 50 0
+down 51 0
+down 52 0
+down 53 0
+down 54 0
+down 55 0
+down 56 0
+down 57 0
+down 58 0
+down 59 0
+down 60 0
+down 61 0
+down 62 0
+down 63 0
+upLimit 0 0
+upLimit 1 0
+upLimit 2 0
+upLimit 3 10240
+upLimit 4 0
+upLimit 5 0
+upLimit 6 0
+upLimit 7 0
+upLimit 8 0
+upLimit 9 0
+upLimit 10 0
+upLimit 11 0
+upLimit 12 0
+upLimit 13 0
+upLimit 14 0
+upLimit 15 0
+upLimit 16 0
+upLimit 17 0
+upLimit 18 0
+upLimit 19 0
+upLimit 20 0
+upLimit 21 0
+upLimit 22 0
+upLimit 23 0
+upLimit 24 0
+upLimit 25 0
+upLimit 26 0
+upLimit 27 0
+upLimit 28 0
+upLimit 29 0
+upLimit 30 0
+upLimit 31 0
+upLimit 32 0
+upLimit 33 0
+upLimit 34 0
+upLimit 35 0
+upLimit 36 0
+upLimit 37 0
+upLimit 38 0
+upLimit 39 0
+upLimit 40 0
+upLimit 41 0
+upLimit 42 0
+upLimit 43 0
+upLimit 44 0
+upLimit 45 0
+upLimit 46 0
+upLimit 47 0
+upLimit 48 0
+upLimit 49 0
+upLimit 50 0
+upLimit 51 0
+upLimit 52 0
+upLimit 53 0
+upLimit 54 0
+upLimit 55 0
+upLimit 56 0
+upLimit 57 0
+upLimit 58 0
+upLimit 59 0
+upLimit 60 0
+upLimit 61 0
+upLimit 62 0
+upLimit 63 0
+downLimit 0 0
+downLimit 1 0
+downLimit 2 0
+downLimit 3 204800
+downLimit 4 0
+downLimit 5 0
+downLimit 6 0
+downLimit 7 0
+downLimit 8 0
+downLimit 9 0
+downLimit 10 0
+downLimit 11 0
+downLimit 12 0
+downLimit 13 0
+downLimit 14 0
+downLimit 15 0
+downLimit 16 0
+downLimit 17 0
+downLimit 18 0
+downLimit 19 0
+downLimit 20 0
+downLimit 21 0
+downLimit 22 0
+downLimit 23 0
+downLimit 24 0
+downLimit 25 0
+downLimit 26 0
+downLimit 27 0
+downLimit 28 0
+downLimit 29 0
+downLimit 30 0
+downLimit 31 0
+downLimit 32 0
+downLimit 33 0
+downLimit 34 0
+downLimit 35 0
+downLimit 36 0
+downLimit 37 0
+downLimit 38 0
+downLimit 39 0
+downLimit 40 0
+downLimit 41 0
+downLimit 42 0
+downLimit 43 0
+downLimit 44 0
+downLimit 45 0
+downLimit 46 0
+downLimit 47 0
+downLimit 48 0
+downLimit 49 0
+downLimit 50 0
+downLimit 51 0
+downLimit 52 0
+downLimit 53 0
+downLimit 54 0
+downLimit 55 0
+downLimit 56 0
+downLimit 57 0
+downLimit 58 0
+downLimit 59 0
+downLimit 60 0
+downLimit 61 0
+downLimit 62 0
+downLimit 63 0
+leaseTime 0 3600
+leaseTime 1 360
+leaseTime 2 7200
+leaseTime 3 7300
+leaseTime 4 0
+leaseTime 5 0
+leaseTime 6 0
+leaseTime 7 0
+leaseTime 8 0
+leaseTime 9 0
+leaseTime 10 0
+leaseTime 11 0
+leaseTime 12 0
+leaseTime 13 0
+leaseTime 14 0
+leaseTime 15 0
+leaseTime 16 0
+leaseTime 17 0
+leaseTime 18 0
+leaseTime 19 0
+leaseTime 20 0
+leaseTime 21 0
+leaseTime 22 0
+leaseTime 23 0
+leaseTime 24 0
+leaseTime 25 0
+leaseTime 26 0
+leaseTime 27 0
+leaseTime 28 0
+leaseTime 29 0
+leaseTime 30 0
+leaseTime 31 0
+leaseTime 32 0
+leaseTime 33 0
+leaseTime 34 0
+leaseTime 35 0
+leaseTime 36 0
+leaseTime 37 0
+leaseTime 38 0
+leaseTime 39 0
+leaseTime 40 0
+leaseTime 41 0
+leaseTime 42 0
+leaseTime 43 0
+leaseTime 44 0
+leaseTime 45 0
+leaseTime 46 0
+leaseTime 47 0
+leaseTime 48 0
+leaseTime 49 0
+leaseTime 50 0
+leaseTime 51 0
+leaseTime 52 0
+leaseTime 53 0
+leaseTime 54 0
+leaseTime 55 0
+leaseTime 56 0
+leaseTime 57 0
+leaseTime 58 0
+leaseTime 59 0
+leaseTime 60 0
+leaseTime 61 0
+leaseTime 62 0
+leaseTime 63 0
+name 0 TP-Link_Test_Device_1
+name 1 TP-Link_Test_Device_4
+name 2 TP-Link_Test_Device_3
+name 3 TP-Link_Test_Device_5
+name 4 TP-Link_Test_Device_6
+name 5 TP-Link_Test_Device_7
+name 6 TP-Link_Test_Device_8
+name 7 TP-Link_Test_Device_9
+name 8 TP-Link_Test_Device_10
+name 9 TP-Link_Test_Device_16
+name 10
+name 11
+name 12
+name 13
+name 14
+name 15
+name 16
+name 17
+name 18
+name 19
+name 20
+name 21
+name 22
+name 23
+name 24
+name 25
+name 26
+name 27
+name 28
+name 29
+name 30
+name 31
+name 32
+name 33
+name 34
+name 35
+name 36
+name 37
+name 38
+name 39
+name 40
+name 41
+name 42
+name 43
+name 44
+name 45
+name 46
+name 47
+name 48
+name 49
+name 50
+name 51
+name 52
+name 53
+name 54
+name 55
+name 56
+name 57
+name 58
+name 59
+name 60
+name 61
+name 62
+name 63
+qosPrior 0 0
+qosPrior 1 1
+qosPrior 2 1
+qosPrior 3 0
+qosPrior 4 0
+qosPrior 5 0 
+qosPrior 6 0
+qosPrior 7 0
+qosPrior 8 0
+qosPrior 9 0
+qosPrior 10 0
+qosPrior 11
+qosPrior 12
+qosPrior 13
+qosPrior 14
+qosPrior 15
+qosPrior 16
+qosPrior 17
+qosPrior 18
+qosPrior 19
+qosPrior 20
+qosPrior 21
+qosPrior 22
+qosPrior 23
+qosPrior 24
+qosPrior 25
+qosPrior 26
+qosPrior 27
+qosPrior 28
+qosPrior 29
+qosPrior 30
+qosPrior 31
+qosPrior 32
+qosPrior 33
+qosPrior 34
+qosPrior 35
+qosPrior 36
+qosPrior 37
+qosPrior 38
+qosPrior 39
+qosPrior 40
+qosPrior 41
+qosPrior 42
+qosPrior 43
+qosPrior 44
+qosPrior 45
+qosPrior 46
+qosPrior 47
+qosPrior 48
+qosPrior 49
+qosPrior 50
+qosPrior 51
+qosPrior 52
+qosPrior 53
+qosPrior 54
+qosPrior 55
+qosPrior 56
+qosPrior 57
+qosPrior 58
+qosPrior 59
+qosPrior 60
+qosPrior 61
+qosPrior 62
+qosPrior 63
+priTime 0 3600
+priTime 1 7200
+priTime 2 14400
+priTime 3 24400
+priTime 4 34400
+priTime 5 44400
+priTime 6 1440
+priTime 7 54400
+priTime 8 19400
+priTime 9 10400
+priTime 10
+priTime 11
+priTime 12
+priTime 13
+priTime 14
+priTime 15
+priTime 16
+priTime 17
+priTime 18
+priTime 19
+priTime 20
+priTime 21
+priTime 22
+priTime 23
+priTime 24
+priTime 25
+priTime 26
+priTime 27
+priTime 28
+priTime 29
+priTime 30
+priTime 31
+priTime 32
+priTime 33
+priTime 34
+priTime 35
+priTime 36
+priTime 37
+priTime 38
+priTime 39
+priTime 40
+priTime 41
+priTime 42
+priTime 43
+priTime 44
+priTime 45
+priTime 46
+priTime 47
+priTime 48
+priTime 49
+priTime 50
+priTime 51
+priTime 52
+priTime 53
+priTime 54
+priTime 55
+priTime 56
+priTime 57
+priTime 58
+priTime 59
+priTime 60
+priTime 61
+priTime 62
+priTime 63
+totalVal 0 1
+totalVal 1 2
+totalVal 2 3
+totalVal 3 10
+totalVal 4 34
+totalVal 5 56
+totalVal 6 45
+totalVal 7 45
+totalVal 8 7
+totalVal 9 46
+totalVal 10
+totalVal 11
+totalVal 12
+totalVal 13
+totalVal 14
+totalVal 15
+totalVal 16
+totalVal 17
+totalVal 18
+totalVal 19
+totalVal 20
+totalVal 21
+totalVal 22
+totalVal 23
+totalVal 24
+totalVal 25
+totalVal 26
+totalVal 27
+totalVal 28
+totalVal 29
+totalVal 30
+totalVal 31
+totalVal 32
+totalVal 33
+totalVal 34
+totalVal 35
+totalVal 36
+totalVal 37
+totalVal 38
+totalVal 39
+totalVal 40
+totalVal 41
+totalVal 42
+totalVal 43
+totalVal 44
+totalVal 45
+totalVal 46
+totalVal 47
+totalVal 48
+totalVal 49
+totalVal 50
+totalVal 51
+totalVal 52
+totalVal 53
+totalVal 54
+totalVal 55
+totalVal 56
+totalVal 57
+totalVal 58
+totalVal 59
+totalVal 60
+totalVal 61
+totalVal 62
+totalVal 63
+totalUnit 0 0
+totalUnit 1 1
+totalUnit 2 2
+totalUnit 3 2
+totalUnit 4 2
+totalUnit 5 1
+totalUnit 6 1
+totalUnit 7 1
+totalUnit 8 0
+totalUnit 9 0
+totalUnit 10 
+totalUnit 11
+totalUnit 12
+totalUnit 13
+totalUnit 14
+totalUnit 15
+totalUnit 16
+totalUnit 17
+totalUnit 18
+totalUnit 19
+totalUnit 20
+totalUnit 21
+totalUnit 22
+totalUnit 23
+totalUnit 24
+totalUnit 25
+totalUnit 26
+totalUnit 27
+totalUnit 28
+totalUnit 29
+totalUnit 30
+totalUnit 31
+totalUnit 32
+totalUnit 33
+totalUnit 34
+totalUnit 35
+totalUnit 36
+totalUnit 37
+totalUnit 38
+totalUnit 39
+totalUnit 40
+totalUnit 41
+totalUnit 42
+totalUnit 43
+totalUnit 44
+totalUnit 45
+totalUnit 46
+totalUnit 47
+totalUnit 48
+totalUnit 49
+totalUnit 50
+totalUnit 51
+totalUnit 52
+totalUnit 53
+totalUnit 54
+totalUnit 55
+totalUnit 56
+totalUnit 57
+totalUnit 58
+totalUnit 59
+totalUnit 60
+totalUnit 61
+totalUnit 62
+totalUnit 63
+id 14|1,0,0
+enable 0 1
+enable 1 0
+enable 2 0
+enable 3 0
+enable 4 0
+enable 5 0
+enable 6 0
+enable 7 0
+enable 8 0
+enable 9 0
+enable 10 0
+enable 11 0
+enable 12 0
+enable 13 0
+enable 14 0
+enable 15 0
+net 0 192.168.202.0
+net 1 192.168.3.0
+net 2 0.0.0.0
+net 3 0.0.0.0
+net 4 0.0.0.0
+net 5 0.0.0.0
+net 6 0.0.0.0
+net 7 0.0.0.0
+net 8 0.0.0.0
+net 9 0.0.0.0
+net 10 0.0.0.0
+net 11 0.0.0.0
+net 12 0.0.0.0
+net 13 0.0.0.0
+net 14 0.0.0.0
+net 15 0.0.0.0
+mask 0 255.255.255.0
+mask 1 255.255.255.0
+mask 2 0.0.0.0
+mask 3 0.0.0.0
+mask 4 0.0.0.0
+mask 5 0.0.0.0
+mask 6 0.0.0.0
+mask 7 0.0.0.0
+mask 8 0.0.0.0
+mask 9 0.0.0.0
+mask 10 0.0.0.0
+mask 11 0.0.0.0
+mask 12 0.0.0.0
+mask 13 0.0.0.0
+mask 14 0.0.0.0
+mask 15 0.0.0.0
+gateway 0 192.168.202.255
+gateway 1 192.168.1.2
+gateway 2 0.0.0.0
+gateway 3 0.0.0.0
+gateway 4 0.0.0.0
+gateway 5 0.0.0.0
+gateway 6 0.0.0.0
+gateway 7 0.0.0.0
+gateway 8 0.0.0.0
+gateway 9 0.0.0.0
+gateway 10 0.0.0.0
+gateway 11 0.0.0.0
+gateway 12 0.0.0.0
+gateway 13 0.0.0.0
+gateway 14 0.0.0.0
+gateway 15 0.0.0.0
+netif 0 1
+netif 1 1
+netif 2 0
+netif 3 0
+netif 4 0
+netif 5 0
+netif 6 0
+netif 7 0
+netif 8 0
+netif 9 0
+netif 10 0
+netif 11 0
+netif 12 0
+netif 13 0
+netif 14 0
+netif 15 0
+desc 0 static%20route1
+desc 1 test%20static%20route%202
+desc 2
+desc 3
+desc 4
+desc 5
+desc 6
+desc 7
+desc 8
+desc 9
+desc 10
+desc 11
+desc 12
+desc 13
+desc 14
+desc 15
+id 15|1,0,0
+net 0 0.0.0.0
+net 1 0.0.0.0
+net 2 0.0.0.0
+net 3 0.0.0.0
+net 4 0.0.0.0
+net 5 0.0.0.0
+net 6 0.0.0.0
+net 7 0.0.0.0
+net 8 0.0.0.0
+net 9 0.0.0.0
+net 10 0.0.0.0
+net 11 0.0.0.0
+net 12 0.0.0.0
+net 13 0.0.0.0
+net 14 0.0.0.0
+net 15 0.0.0.0
+net 16 0.0.0.0
+net 17 0.0.0.0
+net 18 0.0.0.0
+net 19 0.0.0.0
+net 20 0.0.0.0
+net 21 0.0.0.0
+net 22 0.0.0.0
+net 23 0.0.0.0
+net 24 0.0.0.0
+net 25 0.0.0.0
+net 26 0.0.0.0
+net 27 0.0.0.0
+net 28 0.0.0.0
+net 29 0.0.0.0
+net 30 0.0.0.0
+net 31 0.0.0.0
+mask 0 0.0.0.0
+mask 1 0.0.0.0
+mask 2 0.0.0.0
+mask 3 0.0.0.0
+mask 4 0.0.0.0
+mask 5 0.0.0.0
+mask 6 0.0.0.0
+mask 7 0.0.0.0
+mask 8 0.0.0.0
+mask 9 0.0.0.0
+mask 10 0.0.0.0
+mask 11 0.0.0.0
+mask 12 0.0.0.0
+mask 13 0.0.0.0
+mask 14 0.0.0.0
+mask 15 0.0.0.0
+mask 16 0.0.0.0
+mask 17 0.0.0.0
+mask 18 0.0.0.0
+mask 19 0.0.0.0
+mask 20 0.0.0.0
+mask 21 0.0.0.0
+mask 22 0.0.0.0
+mask 23 0.0.0.0
+mask 24 0.0.0.0
+mask 25 0.0.0.0
+mask 26 0.0.0.0
+mask 27 0.0.0.0
+mask 28 0.0.0.0
+mask 29 0.0.0.0
+mask 30 0.0.0.0
+mask 31 0.0.0.0
+gateway 0 0.0.0.0
+gateway 1 0.0.0.0
+gateway 2 0.0.0.0
+gateway 3 0.0.0.0
+gateway 4 0.0.0.0
+gateway 5 0.0.0.0
+gateway 6 0.0.0.0
+gateway 7 0.0.0.0
+gateway 8 0.0.0.0
+gateway 9 0.0.0.0
+gateway 10 0.0.0.0
+gateway 11 0.0.0.0
+gateway 12 0.0.0.0
+gateway 13 0.0.0.0
+gateway 14 0.0.0.0
+gateway 15 0.0.0.0
+gateway 16 0.0.0.0
+gateway 17 0.0.0.0
+gateway 18 0.0.0.0
+gateway 19 0.0.0.0
+gateway 20 0.0.0.0
+gateway 21 0.0.0.0
+gateway 22 0.0.0.0
+gateway 23 0.0.0.0
+gateway 24 0.0.0.0
+gateway 25 0.0.0.0
+gateway 26 0.0.0.0
+gateway 27 0.0.0.0
+gateway 28 0.0.0.0
+gateway 29 0.0.0.0
+gateway 30 0.0.0.0
+gateway 31 0.0.0.0
+id 16|1,0,0
+net 0 192.168.0.0
+net 1 192.168.202.0
+net 2 192.168.202.255
+net 3 127.0.0.1
+net 4 0.0.0.0
+net 5 0.0.0.0
+net 6 0.0.0.0
+net 7 0.0.0.0
+net 8 0.0.0.0
+net 9 0.0.0.0
+net 10 0.0.0.0
+net 11 0.0.0.0
+net 12 0.0.0.0
+net 13 0.0.0.0
+net 14 0.0.0.0
+net 15 0.0.0.0
+net 16 0.0.0.0
+net 17 0.0.0.0
+net 18 0.0.0.0
+net 19 0.0.0.0
+net 20 0.0.0.0
+net 21 0.0.0.0
+net 22 0.0.0.0
+net 23 0.0.0.0
+net 24 0.0.0.0
+net 25 0.0.0.0
+net 26 0.0.0.0
+net 27 0.0.0.0
+net 28 0.0.0.0
+net 29 0.0.0.0
+net 30 0.0.0.0
+net 31 0.0.0.0
+net 32 0.0.0.0
+net 33 0.0.0.0
+net 34 0.0.0.0
+net 35 0.0.0.0
+net 36 0.0.0.0
+net 37 0.0.0.0
+net 38 0.0.0.0
+net 39 0.0.0.0
+net 40 0.0.0.0
+net 41 0.0.0.0
+net 42 0.0.0.0
+net 43 0.0.0.0
+net 44 0.0.0.0
+net 45 0.0.0.0
+net 46 0.0.0.0
+net 47 0.0.0.0
+net 48 0.0.0.0
+net 49 0.0.0.0
+net 50 0.0.0.0
+net 51 0.0.0.0
+net 52 0.0.0.0
+net 53 0.0.0.0
+net 54 0.0.0.0
+net 55 0.0.0.0
+net 56 0.0.0.0
+net 57 0.0.0.0
+net 58 0.0.0.0
+net 59 0.0.0.0
+net 60 0.0.0.0
+net 61 0.0.0.0
+net 62 0.0.0.0
+net 63 0.0.0.0
+gateway 0 192.168.0.1
+gateway 1 192.168.202.255
+gateway 2 169.254.106.97
+gateway 3 127.0.0.1
+gateway 4 0.0.0.0
+gateway 5 0.0.0.0
+gateway 6 0.0.0.0
+gateway 7 0.0.0.0
+gateway 8 0.0.0.0
+gateway 9 0.0.0.0
+gateway 10 0.0.0.0
+gateway 11 0.0.0.0
+gateway 12 0.0.0.0
+gateway 13 0.0.0.0
+gateway 14 0.0.0.0
+gateway 15 0.0.0.0
+gateway 16 0.0.0.0
+gateway 17 0.0.0.0
+gateway 18 0.0.0.0
+gateway 19 0.0.0.0
+gateway 20 0.0.0.0
+gateway 21 0.0.0.0
+gateway 22 0.0.0.0
+gateway 23 0.0.0.0
+gateway 24 0.0.0.0
+gateway 25 0.0.0.0
+gateway 26 0.0.0.0
+gateway 27 0.0.0.0
+gateway 28 0.0.0.0
+gateway 29 0.0.0.0
+gateway 30 0.0.0.0
+gateway 31 0.0.0.0
+gateway 32 0.0.0.0
+gateway 33 0.0.0.0
+gateway 34 0.0.0.0
+gateway 35 0.0.0.0
+gateway 36 0.0.0.0
+gateway 37 0.0.0.0
+gateway 38 0.0.0.0
+gateway 39 0.0.0.0
+gateway 40 0.0.0.0
+gateway 41 0.0.0.0
+gateway 42 0.0.0.0
+gateway 43 0.0.0.0
+gateway 44 0.0.0.0
+gateway 45 0.0.0.0
+gateway 46 0.0.0.0
+gateway 47 0.0.0.0
+gateway 48 0.0.0.0
+gateway 49 0.0.0.0
+gateway 50 0.0.0.0
+gateway 51 0.0.0.0
+gateway 52 0.0.0.0
+gateway 53 0.0.0.0
+gateway 54 0.0.0.0
+gateway 55 0.0.0.0
+gateway 56 0.0.0.0
+gateway 57 0.0.0.0
+gateway 58 0.0.0.0
+gateway 59 0.0.0.0
+gateway 60 0.0.0.0
+gateway 61 0.0.0.0
+gateway 62 0.0.0.0
+gateway 63 0.0.0.0
+mask 0 255.255.255.0
+mask 1 255.255.255.0
+mask 2 255.255.255.255
+mask 3 255.255.255.255
+mask 4 0.0.0.0
+mask 5 0.0.0.0
+mask 6 0.0.0.0
+mask 7 0.0.0.0
+mask 8 0.0.0.0
+mask 9 0.0.0.0
+mask 10 0.0.0.0
+mask 11 0.0.0.0
+mask 12 0.0.0.0
+mask 13 0.0.0.0
+mask 14 0.0.0.0
+mask 15 0.0.0.0
+mask 16 0.0.0.0
+mask 17 0.0.0.0
+mask 18 0.0.0.0
+mask 19 0.0.0.0
+mask 20 0.0.0.0
+mask 21 0.0.0.0
+mask 22 0.0.0.0
+mask 23 0.0.0.0
+mask 24 0.0.0.0
+mask 25 0.0.0.0
+mask 26 0.0.0.0
+mask 27 0.0.0.0
+mask 28 0.0.0.0
+mask 29 0.0.0.0
+mask 30 0.0.0.0
+mask 31 0.0.0.0
+mask 32 0.0.0.0
+mask 33 0.0.0.0
+mask 34 0.0.0.0
+mask 35 0.0.0.0
+mask 36 0.0.0.0
+mask 37 0.0.0.0
+mask 38 0.0.0.0
+mask 39 0.0.0.0
+mask 40 0.0.0.0
+mask 41 0.0.0.0
+mask 42 0.0.0.0
+mask 43 0.0.0.0
+mask 44 0.0.0.0
+mask 45 0.0.0.0
+mask 46 0.0.0.0
+mask 47 0.0.0.0
+mask 48 0.0.0.0
+mask 49 0.0.0.0
+mask 50 0.0.0.0
+mask 51 0.0.0.0
+mask 52 0.0.0.0
+mask 53 0.0.0.0
+mask 54 0.0.0.0
+mask 55 0.0.0.0
+mask 56 0.0.0.0
+mask 57 0.0.0.0
+mask 58 0.0.0.0
+mask 59 0.0.0.0
+mask 60 0.0.0.0
+mask 61 0.0.0.0
+mask 62 0.0.0.0
+mask 63 0.0.0.0
+netif 0 0
+netif 1 1
+netif 2 1
+netif 3 0
+netif 4 0
+netif 5 0
+netif 6 0
+netif 7 0
+netif 8 0
+netif 9 0
+netif 10 0
+netif 11 0
+netif 12 0
+netif 13 0
+netif 14 0
+netif 15 0
+netif 16 0
+netif 17 0
+netif 18 0
+netif 19 0
+netif 20 0
+netif 21 0
+netif 22 0
+netif 23 0
+netif 24 0
+netif 25 0
+netif 26 0
+netif 27 0
+netif 28 0
+netif 29 0
+netif 30 0
+netif 31 0
+netif 32 0
+netif 33 0
+netif 34 0
+netif 35 0
+netif 36 0
+netif 37 0
+netif 38 0
+netif 39 0
+netif 40 0
+netif 41 0
+netif 42 0
+netif 43 0
+netif 44 0
+netif 45 0
+netif 46 0
+netif 47 0
+netif 48 0
+netif 49 0
+netif 50 0
+netif 51 0
+netif 52 0
+netif 53 0
+netif 54 0
+netif 55 0
+netif 56 0
+netif 57 0
+netif 58 0
+netif 59 0
+netif 60 0
+netif 61 0
+netif 62 0
+netif 63 0
+id 17|1,0,0
+ftpAlgEnable 1
+pptpAlgEnable 1
+rtspAlgEnable 1
+sipAlgEnable 1
+ipsecAlgEnable 1
+h323AlgEnable 1
+natEnable 1
+tftpAlgEnable 1
+l2tpAlgEnable 1
+id 18|1,0,0
+dmzEnable 0
+dmzClient 192.168.0.100
+macAddr 22-44-55-66-77-88
+state 0
+id 19
+igdEnable 1
+id 20
+num 2
+extPort 0 10
+extPort 1 20
+extPort 2 0
+extPort 3 0
+extPort 4 0
+extPort 5 0
+extPort 6 0
+extPort 7 0
+extPort 8 0
+extPort 9 0
+extPort 10 0
+extPort 11 0
+extPort 12 0
+extPort 13 0
+extPort 14 0
+extPort 15 0
+extPort 16 0
+extPort 17 0
+extPort 18 0
+extPort 19 0
+extPort 20 0
+extPort 21 0
+extPort 22 0
+extPort 23 0
+extPort 24 0
+extPort 25 0
+extPort 26 0
+extPort 27 0
+extPort 28 0
+extPort 29 0
+extPort 30 0
+extPort 31 0
+extPort 32 0
+extPort 33 0
+extPort 34 0
+extPort 35 0
+extPort 36 0
+extPort 37 0
+extPort 38 0
+extPort 39 0
+extPort 40 0
+extPort 41 0
+extPort 42 0
+extPort 43 0
+extPort 44 0
+extPort 45 0
+extPort 46 0
+extPort 47 0
+extPort 48 0
+extPort 49 0
+extPort 50 0
+extPort 51 0
+extPort 52 0
+extPort 53 0
+extPort 54 0
+extPort 55 0
+extPort 56 0
+extPort 57 0
+extPort 58 0
+extPort 59 0
+extPort 60 0
+extPort 61 0
+extPort 62 0
+extPort 63 0
+intPort 0 20
+intPort 1 70
+intPort 2 0
+intPort 3 0
+intPort 4 0
+intPort 5 0
+intPort 6 0
+intPort 7 0
+intPort 8 0
+intPort 9 0
+intPort 10 0
+intPort 11 0
+intPort 12 0
+intPort 13 0
+intPort 14 0
+intPort 15 0
+intPort 16 0
+intPort 17 0
+intPort 18 0
+intPort 19 0
+intPort 20 0
+intPort 21 0
+intPort 22 0
+intPort 23 0
+intPort 24 0
+intPort 25 0
+intPort 26 0
+intPort 27 0
+intPort 28 0
+intPort 29 0
+intPort 30 0
+intPort 31 0
+intPort 32 0
+intPort 33 0
+intPort 34 0
+intPort 35 0
+intPort 36 0
+intPort 37 0
+intPort 38 0
+intPort 39 0
+intPort 40 0
+intPort 41 0
+intPort 42 0
+intPort 43 0
+intPort 44 0
+intPort 45 0
+intPort 46 0
+intPort 47 0
+intPort 48 0
+intPort 49 0
+intPort 50 0
+intPort 51 0
+intPort 52 0
+intPort 53 0
+intPort 54 0
+intPort 55 0
+intPort 56 0
+intPort 57 0
+intPort 58 0
+intPort 59 0
+intPort 60 0
+intPort 61 0
+intPort 62 0
+intPort 63 0
+ptc 0 6
+ptc 1 17
+ptc 2 0
+ptc 3 0
+ptc 4 0
+ptc 5 0
+ptc 6 0
+ptc 7 0
+ptc 8 0
+ptc 9 0
+ptc 10 0
+ptc 11 0
+ptc 12 0
+ptc 13 0
+ptc 14 0
+ptc 15 0
+ptc 16 0
+ptc 17 0
+ptc 18 0
+ptc 19 0
+ptc 20 0
+ptc 21 0
+ptc 22 0
+ptc 23 0
+ptc 24 0
+ptc 25 0
+ptc 26 0
+ptc 27 0
+ptc 28 0
+ptc 29 0
+ptc 30 0
+ptc 31 0
+ptc 32 0
+ptc 33 0
+ptc 34 0
+ptc 35 0
+ptc 36 0
+ptc 37 0
+ptc 38 0
+ptc 39 0
+ptc 40 0
+ptc 41 0
+ptc 42 0
+ptc 43 0
+ptc 44 0
+ptc 45 0
+ptc 46 0
+ptc 47 0
+ptc 48 0
+ptc 49 0
+ptc 50 0
+ptc 51 0
+ptc 52 0
+ptc 53 0
+ptc 54 0
+ptc 55 0
+ptc 56 0
+ptc 57 0
+ptc 58 0
+ptc 59 0
+ptc 60 0
+ptc 61 0
+ptc 62 0
+ptc 63 0
+enabled 0 0
+enabled 1 0
+enabled 2 0
+enabled 3 0
+enabled 4 0
+enabled 5 0
+enabled 6 0
+enabled 7 0
+enabled 8 0
+enabled 9 0
+enabled 10 0
+enabled 11 0
+enabled 12 0
+enabled 13 0
+enabled 14 0
+enabled 15 0
+enabled 16 0
+enabled 17 0
+enabled 18 0
+enabled 19 0
+enabled 20 0
+enabled 21 0
+enabled 22 0
+enabled 23 0
+enabled 24 0
+enabled 25 0
+enabled 26 0
+enabled 27 0
+enabled 28 0
+enabled 29 0
+enabled 30 0
+enabled 31 0
+enabled 32 0
+enabled 33 0
+enabled 34 0
+enabled 35 0
+enabled 36 0
+enabled 37 0
+enabled 38 0
+enabled 39 0
+enabled 40 0
+enabled 41 0
+enabled 42 0
+enabled 43 0
+enabled 44 0
+enabled 45 0
+enabled 46 0
+enabled 47 0
+enabled 48 0
+enabled 49 0
+enabled 50 0
+enabled 51 0
+enabled 52 0
+enabled 53 0
+enabled 54 0
+enabled 55 0
+enabled 56 0
+enabled 57 0
+enabled 58 0
+enabled 59 0
+enabled 60 0
+enabled 61 0
+enabled 62 0
+enabled 63 0
+leaseDuration 0 0
+leaseDuration 1 0
+leaseDuration 2 0
+leaseDuration 3 0
+leaseDuration 4 0
+leaseDuration 5 0
+leaseDuration 6 0
+leaseDuration 7 0
+leaseDuration 8 0
+leaseDuration 9 0
+leaseDuration 10 0
+leaseDuration 11 0
+leaseDuration 12 0
+leaseDuration 13 0
+leaseDuration 14 0
+leaseDuration 15 0
+leaseDuration 16 0
+leaseDuration 17 0
+leaseDuration 18 0
+leaseDuration 19 0
+leaseDuration 20 0
+leaseDuration 21 0
+leaseDuration 22 0
+leaseDuration 23 0
+leaseDuration 24 0
+leaseDuration 25 0
+leaseDuration 26 0
+leaseDuration 27 0
+leaseDuration 28 0
+leaseDuration 29 0
+leaseDuration 30 0
+leaseDuration 31 0
+leaseDuration 32 0
+leaseDuration 33 0
+leaseDuration 34 0
+leaseDuration 35 0
+leaseDuration 36 0
+leaseDuration 37 0
+leaseDuration 38 0
+leaseDuration 39 0
+leaseDuration 40 0
+leaseDuration 41 0
+leaseDuration 42 0
+leaseDuration 43 0
+leaseDuration 44 0
+leaseDuration 45 0
+leaseDuration 46 0
+leaseDuration 47 0
+leaseDuration 48 0
+leaseDuration 49 0
+leaseDuration 50 0
+leaseDuration 51 0
+leaseDuration 52 0
+leaseDuration 53 0
+leaseDuration 54 0
+leaseDuration 55 0
+leaseDuration 56 0
+leaseDuration 57 0
+leaseDuration 58 0
+leaseDuration 59 0
+leaseDuration 60 0
+leaseDuration 61 0
+leaseDuration 62 0
+leaseDuration 63 0
+leaseTimer 0 0
+leaseTimer 1 0
+leaseTimer 2 0
+leaseTimer 3 0
+leaseTimer 4 0
+leaseTimer 5 0
+leaseTimer 6 0
+leaseTimer 7 0
+leaseTimer 8 0
+leaseTimer 9 0
+leaseTimer 10 0
+leaseTimer 11 0
+leaseTimer 12 0
+leaseTimer 13 0
+leaseTimer 14 0
+leaseTimer 15 0
+leaseTimer 16 0
+leaseTimer 17 0
+leaseTimer 18 0
+leaseTimer 19 0
+leaseTimer 20 0
+leaseTimer 21 0
+leaseTimer 22 0
+leaseTimer 23 0
+leaseTimer 24 0
+leaseTimer 25 0
+leaseTimer 26 0
+leaseTimer 27 0
+leaseTimer 28 0
+leaseTimer 29 0
+leaseTimer 30 0
+leaseTimer 31 0
+leaseTimer 32 0
+leaseTimer 33 0
+leaseTimer 34 0
+leaseTimer 35 0
+leaseTimer 36 0
+leaseTimer 37 0
+leaseTimer 38 0
+leaseTimer 39 0
+leaseTimer 40 0
+leaseTimer 41 0
+leaseTimer 42 0
+leaseTimer 43 0
+leaseTimer 44 0
+leaseTimer 45 0
+leaseTimer 46 0
+leaseTimer 47 0
+leaseTimer 48 0
+leaseTimer 49 0
+leaseTimer 50 0
+leaseTimer 51 0
+leaseTimer 52 0
+leaseTimer 53 0
+leaseTimer 54 0
+leaseTimer 55 0
+leaseTimer 56 0
+leaseTimer 57 0
+leaseTimer 58 0
+leaseTimer 59 0
+leaseTimer 60 0
+leaseTimer 61 0
+leaseTimer 62 0
+leaseTimer 63 0
+rmtHost 0 0.0.0.0
+rmtHost 1 0.0.0.0
+rmtHost 2 0.0.0.0
+rmtHost 3 0.0.0.0
+rmtHost 4 0.0.0.0
+rmtHost 5 0.0.0.0
+rmtHost 6 0.0.0.0
+rmtHost 7 0.0.0.0
+rmtHost 8 0.0.0.0
+rmtHost 9 0.0.0.0
+rmtHost 10 0.0.0.0
+rmtHost 11 0.0.0.0
+rmtHost 12 0.0.0.0
+rmtHost 13 0.0.0.0
+rmtHost 14 0.0.0.0
+rmtHost 15 0.0.0.0
+rmtHost 16 0.0.0.0
+rmtHost 17 0.0.0.0
+rmtHost 18 0.0.0.0
+rmtHost 19 0.0.0.0
+rmtHost 20 0.0.0.0
+rmtHost 21 0.0.0.0
+rmtHost 22 0.0.0.0
+rmtHost 23 0.0.0.0
+rmtHost 24 0.0.0.0
+rmtHost 25 0.0.0.0
+rmtHost 26 0.0.0.0
+rmtHost 27 0.0.0.0
+rmtHost 28 0.0.0.0
+rmtHost 29 0.0.0.0
+rmtHost 30 0.0.0.0
+rmtHost 31 0.0.0.0
+rmtHost 32 0.0.0.0
+rmtHost 33 0.0.0.0
+rmtHost 34 0.0.0.0
+rmtHost 35 0.0.0.0
+rmtHost 36 0.0.0.0
+rmtHost 37 0.0.0.0
+rmtHost 38 0.0.0.0
+rmtHost 39 0.0.0.0
+rmtHost 40 0.0.0.0
+rmtHost 41 0.0.0.0
+rmtHost 42 0.0.0.0
+rmtHost 43 0.0.0.0
+rmtHost 44 0.0.0.0
+rmtHost 45 0.0.0.0
+rmtHost 46 0.0.0.0
+rmtHost 47 0.0.0.0
+rmtHost 48 0.0.0.0
+rmtHost 49 0.0.0.0
+rmtHost 50 0.0.0.0
+rmtHost 51 0.0.0.0
+rmtHost 52 0.0.0.0
+rmtHost 53 0.0.0.0
+rmtHost 54 0.0.0.0
+rmtHost 55 0.0.0.0
+rmtHost 56 0.0.0.0
+rmtHost 57 0.0.0.0
+rmtHost 58 0.0.0.0
+rmtHost 59 0.0.0.0
+rmtHost 60 0.0.0.0
+rmtHost 61 0.0.0.0
+rmtHost 62 0.0.0.0
+rmtHost 63 0.0.0.0
+client 0 192.168.0.104
+client 1 192.168.0.107
+client 2 0.0.0.0
+client 3 0.0.0.0
+client 4 0.0.0.0
+client 5 0.0.0.0
+client 6 0.0.0.0
+client 7 0.0.0.0
+client 8 0.0.0.0
+client 9 0.0.0.0
+client 10 0.0.0.0
+client 11 0.0.0.0
+client 12 0.0.0.0
+client 13 0.0.0.0
+client 14 0.0.0.0
+client 15 0.0.0.0
+client 16 0.0.0.0
+client 17 0.0.0.0
+client 18 0.0.0.0
+client 19 0.0.0.0
+client 20 0.0.0.0
+client 21 0.0.0.0
+client 22 0.0.0.0
+client 23 0.0.0.0
+client 24 0.0.0.0
+client 25 0.0.0.0
+client 26 0.0.0.0
+client 27 0.0.0.0
+client 28 0.0.0.0
+client 29 0.0.0.0
+client 30 0.0.0.0
+client 31 0.0.0.0
+client 32 0.0.0.0
+client 33 0.0.0.0
+client 34 0.0.0.0
+client 35 0.0.0.0
+client 36 0.0.0.0
+client 37 0.0.0.0
+client 38 0.0.0.0
+client 39 0.0.0.0
+client 40 0.0.0.0
+client 41 0.0.0.0
+client 42 0.0.0.0
+client 43 0.0.0.0
+client 44 0.0.0.0
+client 45 0.0.0.0
+client 46 0.0.0.0
+client 47 0.0.0.0
+client 48 0.0.0.0
+client 49 0.0.0.0
+client 50 0.0.0.0
+client 51 0.0.0.0
+client 52 0.0.0.0
+client 53 0.0.0.0
+client 54 0.0.0.0
+client 55 0.0.0.0
+client 56 0.0.0.0
+client 57 0.0.0.0
+client 58 0.0.0.0
+client 59 0.0.0.0
+client 60 0.0.0.0
+client 61 0.0.0.0
+client 62 0.0.0.0
+client 63 0.0.0.0
+desc 0 UPnp%20test%20service%201
+desc 1 UPnp%20test%20service%202
+desc 2
+desc 3
+desc 4
+desc 5
+desc 6
+desc 7
+desc 8
+desc 9
+desc 10
+desc 11
+desc 12
+desc 13
+desc 14
+desc 15
+desc 16
+desc 17
+desc 18
+desc 19
+desc 20
+desc 21
+desc 22
+desc 23
+desc 24
+desc 25
+desc 26
+desc 27
+desc 28
+desc 29
+desc 30
+desc 31
+desc 32
+desc 33
+desc 34
+desc 35
+desc 36
+desc 37
+desc 38
+desc 39
+desc 40
+desc 41
+desc 42
+desc 43
+desc 44
+desc 45
+desc 46
+desc 47
+desc 48
+desc 49
+desc 50
+desc 51
+desc 52
+desc 53
+desc 54
+desc 55
+desc 56
+desc 57
+desc 58
+desc 59
+desc 60
+desc 61
+desc 62
+desc 63
+id 21|1,0,0
+vsEntryEnable 0 1
+vsEntryEnable 1 0
+vsEntryEnable 2 0
+vsEntryEnable 3 0
+vsEntryEnable 4 0
+vsEntryEnable 5 0
+vsEntryEnable 6 0
+vsEntryEnable 7 0
+vsEntryEnable 8 0
+vsEntryEnable 9 0
+vsEntryEnable 10 0
+vsEntryEnable 11 0
+vsEntryEnable 12 0
+vsEntryEnable 13 0
+vsEntryEnable 14 0
+vsEntryEnable 15 0
+vsLclIp 0 192.168.0.3
+vsLclIp 1 0.0.0.0
+vsLclIp 2 0.0.0.0
+vsLclIp 3 0.0.0.0
+vsLclIp 4 0.0.0.0
+vsLclIp 5 0.0.0.0
+vsLclIp 6 0.0.0.0
+vsLclIp 7 0.0.0.0
+vsLclIp 8 0.0.0.0
+vsLclIp 9 0.0.0.0
+vsLclIp 10 0.0.0.0
+vsLclIp 11 0.0.0.0
+vsLclIp 12 0.0.0.0
+vsLclIp 13 0.0.0.0
+vsLclIp 14 0.0.0.0
+vsLclIp 15 0.0.0.0
+vsRmtIp 0 0.0.0.0
+vsRmtIp 1 0.0.0.0
+vsRmtIp 2 0.0.0.0
+vsRmtIp 3 0.0.0.0
+vsRmtIp 4 0.0.0.0
+vsRmtIp 5 0.0.0.0
+vsRmtIp 6 0.0.0.0
+vsRmtIp 7 0.0.0.0
+vsRmtIp 8 0.0.0.0
+vsRmtIp 9 0.0.0.0
+vsRmtIp 10 0.0.0.0
+vsRmtIp 11 0.0.0.0
+vsRmtIp 12 0.0.0.0
+vsRmtIp 13 0.0.0.0
+vsRmtIp 14 0.0.0.0
+vsRmtIp 15 0.0.0.0
+vsLclPort 0 53
+vsLclPort 1 0
+vsLclPort 2 0
+vsLclPort 3 0
+vsLclPort 4 0
+vsLclPort 5 0
+vsLclPort 6 0
+vsLclPort 7 0
+vsLclPort 8 0
+vsLclPort 9 0
+vsLclPort 10 0
+vsLclPort 11 0
+vsLclPort 12 0
+vsLclPort 13 0
+vsLclPort 14 0
+vsLclPort 15 0
+vsRmtPort 0 0
+vsRmtPort 1 0
+vsRmtPort 2 0
+vsRmtPort 3 0
+vsRmtPort 4 0
+vsRmtPort 5 0
+vsRmtPort 6 0
+vsRmtPort 7 0
+vsRmtPort 8 0
+vsRmtPort 9 0
+vsRmtPort 10 0
+vsRmtPort 11 0
+vsRmtPort 12 0
+vsRmtPort 13 0
+vsRmtPort 14 0
+vsRmtPort 15 0
+vsOpenPortS 0 53
+vsOpenPortS 1 0
+vsOpenPortS 2 0
+vsOpenPortS 3 0
+vsOpenPortS 4 0
+vsOpenPortS 5 0
+vsOpenPortS 6 0
+vsOpenPortS 7 0
+vsOpenPortS 8 0
+vsOpenPortS 9 0
+vsOpenPortS 10 0
+vsOpenPortS 11 0
+vsOpenPortS 12 0
+vsOpenPortS 13 0
+vsOpenPortS 14 0
+vsOpenPortS 15 0
+vsOpenPortE 0 53
+vsOpenPortE 1 0
+vsOpenPortE 2 0
+vsOpenPortE 3 0
+vsOpenPortE 4 0
+vsOpenPortE 5 0
+vsOpenPortE 6 0
+vsOpenPortE 7 0
+vsOpenPortE 8 0
+vsOpenPortE 9 0
+vsOpenPortE 10 0
+vsOpenPortE 11 0
+vsOpenPortE 12 0
+vsOpenPortE 13 0
+vsOpenPortE 14 0
+vsOpenPortE 15 0
+vsPtc 0 0
+vsPtc 1 0
+vsPtc 2 0
+vsPtc 3 0
+vsPtc 4 0
+vsPtc 5 0
+vsPtc 6 0
+vsPtc 7 0
+vsPtc 8 0
+vsPtc 9 0
+vsPtc 10 0
+vsPtc 11 0
+vsPtc 12 0
+vsPtc 13 0
+vsPtc 14 0
+vsPtc 15 0
+vsServerName 0 DNS
+vsServerName 1
+vsServerName 2
+vsServerName 3
+vsServerName 4
+vsServerName 5
+vsServerName 6
+vsServerName 7
+vsServerName 8
+vsServerName 9
+vsServerName 10
+vsServerName 11
+vsServerName 12
+vsServerName 13
+vsServerName 14
+vsServerName 15
+id 22|1,0,0
+enable 1
+wirelessWanNoUsed 0
+linkMode 1
+linkType 1
+id 23|1,0,0
+ip 0.0.0.0
+mask 0.0.0.0
+gateway 0.0.0.0
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+status 1
+code 0
+upTime 0
+inPkts 976
+inOctets 114655
+outPkts 230
+outOctets 135170
+inRates 0
+outRates 0
+dualMode 0
+dualIp 0.0.0.0
+dualMask 0.0.0.0
+dualGateway 0.0.0.0
+dualDns 0 0.0.0.0
+dualDns 1 0.0.0.0
+dualCode 0
+dualStatus 2
+internetDnsDetect 1
+id 24|1,0,0
+ip 0.0.0.0
+mask 0.0.0.0
+gateway 0.0.0.0
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+mtu 1500
+id 25|1,0,0
+name Archer_C54
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+mtu 1500
+ucast 0
+manualDns 0
+lastIp 192.168.0.102
+id 26|1,0,0
+svName
+acName
+name
+paswd
+fixipEnb 0
+fixip 0.0.0.0
+manualDns 0
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+lcpMru 1480
+linkType 1
+dialMode 0
+maxIdleTime 15
+sndConnType 0
+staticSndIp 0.0.0.0
+staticSndMask 0.0.0.0
+start_hour 0
+start_minute 0
+end_hour 0
+end_minute 0
+detectOnlineTime 10
+id 27|1,0,0
+acMac 00-00-00-00-00-00
+reserved 0
+sessionid 0
+dialMode 0
+ncTimes 0
+id 28|1,0,0
+timeZone -480
+timeZoneIndex 0
+timeType 0
+timedisplay 0
+ntpaddr1 time.nist.gov
+ntpaddr2 time-nw.nist.gov
+timeDST 0
+startMonth 3
+startNumWeek 2
+startWeekDay 7
+startHour 2
+endMonth 11
+endNumWeek 1
+endWeekDay 7
+endHour 2
+rangeDST 0
+id 29|1,0,0
+year 2019
+month 11
+day 19
+hour 19
+minute 44
+second 20
+sntpcSuccess 0
+id 32|1,0,0
+uBand 0
+bEnabled 1
+uApMode 0
+uRegionIndex 0
+currentCountryName GT
+uChannel 0
+uBgnMode 5
+uChannelWidth 0
+uRTSThreshold 2346
+uFragThreashold 2346
+uBeaconInterval 100
+uPower 1
+uDTIMInterval 1
+bWMEEnabled 1
+bIsolationEnabled 0
+bShortPrmbleDisabled 0
+bShortGI 1
+bBridgeEnabled 0
+cBridgedSsid
+cBridgedBssid 00-00-00-00-00-00
+uWepIndex 1
+uSecurityType 1
+cPassWD
+uDetect 0
+bLockToAp 0
+bLanAccess 0
+bGuestIsolated 1
+uDuration 0
+bSetOpenTime 0
+uMaxUploadSpeed 0
+uMaxDownloadSpeed 0
+uAllowTimeMode 0
+uTimeTable 0
+bTurboOn 0
+bMumimo 0
+bAtf 0
+id 32|2,0,0
+uBand 1
+bEnabled 1
+uApMode 0
+uRegionIndex 0
+currentCountryName GT
+uChannel 0
+uBgnMode 104
+uChannelWidth 0
+uRTSThreshold 2346
+uFragThreashold 2346
+uBeaconInterval 100
+uPower 1
+uDTIMInterval 1
+bWMEEnabled 1
+bIsolationEnabled 0
+bShortPrmbleDisabled 0
+bShortGI 1
+bBridgeEnabled 0
+cBridgedSsid
+cBridgedBssid 00-00-00-00-00-00
+uWepIndex 1
+uSecurityType 1
+cPassWD
+uDetect 0
+bLockToAp 0
+bLanAccess 0
+bGuestIsolated 1
+uDuration 0
+bSetOpenTime 0
+uMaxUploadSpeed 0
+uMaxDownloadSpeed 0
+uAllowTimeMode 0
+uTimeTable 0
+bTurboOn 0
+bMumimo 1
+bAtf 0
+id 33|1,1,0
+uUnit 0
+cSsidPrefix
+uRadiusIp 23.0.0.0
+uRadiusGKUpdateIntvl 0
+uPskGKUpdateIntvl 0
+uKeyLength 0 5
+uKeyLength 1 5
+uKeyLength 2 5
+uKeyLength 3 5
+cKeyVal 0 1234567890
+cKeyVal 1 1234567890
+cKeyVal 2 1234567890
+cKeyVal 3 1234567890
+uRadiusPort 1812
+uKeyType 0
+uDefaultKey 1
+bEnable 1
+bBcastSsid 1
+cSsid TP-Link_8B07
+bSecurityEnable 1
+uAuthType 3
+uWEPSecOpt 3
+uRadiusSecOpt 3
+uPSKSecOpt 3
+uRadiusEncryptType 1
+uPSKEncryptType 3
+cRadiusSecret tplinkpassword
+cPskSecret tplinkpassword
+bSecCheck 0
+bEnabled 1
+cUsrPIN 12345670
+bConfigured 1
+bIsLocked 0
+bEnRtPIN 1
+bWifiBtnRecEnable 1
+id 33|1,2,0
+uUnit 1
+cSsidPrefix Guest
+uRadiusIp 0.0.0.0
+uRadiusGKUpdateIntvl 0
+uPskGKUpdateIntvl 0
+uKeyLength 0 0
+uKeyLength 1 0
+uKeyLength 2 0
+uKeyLength 3 0
+cKeyVal 0
+cKeyVal 1
+cKeyVal 2
+cKeyVal 3
+uRadiusPort 1812
+uKeyType 0
+uDefaultKey 1
+bEnable 1
+bBcastSsid 1
+cSsid TP-Link_Guest_8B07
+bSecurityEnable 1
+uAuthType 3
+uWEPSecOpt 3
+uRadiusSecOpt 3
+uPSKSecOpt 3
+uRadiusEncryptType 1
+uPSKEncryptType 3
+cRadiusSecret
+cPskSecret tplinkpassword
+bSecCheck 0
+bEnabled 1
+cUsrPIN 12345670
+bConfigured 0
+bIsLocked 0
+bEnRtPIN 0
+bWifiBtnRecEnable 1
+id 33|2,1,0
+uUnit 0
+cSsidPrefix 
+uRadiusIp 0.0.0.0
+uRadiusGKUpdateIntvl 0
+uPskGKUpdateIntvl 0
+uKeyLength 0 5
+uKeyLength 1 5
+uKeyLength 2 5
+uKeyLength 3 5
+cKeyVal 0 1234567890
+cKeyVal 1 1234567890
+cKeyVal 2 1234567890
+cKeyVal 3 1234567890
+uRadiusPort 1812
+uKeyType 0
+uDefaultKey 1
+bEnable 1
+bBcastSsid 1
+cSsid TP-Link_8B07_5G
+bSecurityEnable 1
+uAuthType 3
+uWEPSecOpt 3
+uRadiusSecOpt 3
+uPSKSecOpt 3
+uRadiusEncryptType 1
+uPSKEncryptType 3
+cRadiusSecret tplinkpassword
+cPskSecret tplinkpassword
+bSecCheck 0
+bEnabled 1
+cUsrPIN 12345670
+bConfigured 1
+bIsLocked 0
+bEnRtPIN 1
+bWifiBtnRecEnable 1
+id 33|2,2,0
+uUnit 1
+cSsidPrefix Guest
+uRadiusIp 0.0.0.0
+uRadiusGKUpdateIntvl 0
+uPskGKUpdateIntvl 0
+uKeyLength 0 0
+uKeyLength 1 0
+uKeyLength 2 0
+uKeyLength 3 0
+cKeyVal 0 
+cKeyVal 1 
+cKeyVal 2 
+cKeyVal 3 
+uRadiusPort 1812
+uKeyType 0
+uDefaultKey 1
+bEnable 0
+bBcastSsid 1
+cSsid TP-Link_Guest_8B07_5G
+bSecurityEnable 0
+uAuthType 3
+uWEPSecOpt 3
+uRadiusSecOpt 3
+uPSKSecOpt 3
+uRadiusEncryptType 1
+uPSKEncryptType 3
+cRadiusSecret 
+cPskSecret tplinkpassword
+bSecCheck 0
+bEnabled 1
+cUsrPIN 12345670
+bConfigured 0
+bIsLocked 0
+bEnRtPIN 0
+bWifiBtnRecEnable 1
+id 34
+cBssid 0 00-0a-eb-13-16-ff
+cBssid 1 00-00-00-00-00-00
+cBssid 2 00-00-00-00-00-00
+cBssid 3 00-00-00-00-00-00
+cBssid 4 00-00-00-00-00-00
+cBssid 5 00-00-00-00-00-00
+cBssid 6 00-00-00-00-00-00
+cBssid 7 00-00-00-00-00-00
+cBssid 8 00-00-00-00-00-00
+cBssid 9 00-00-00-00-00-00
+cBssid 10 00-00-00-00-00-00
+cBssid 11 00-00-00-00-00-00
+cBssid 12 00-00-00-00-00-00
+cBssid 13 00-00-00-00-00-00
+cBssid 14 00-00-00-00-00-00
+cBssid 15 00-00-00-00-00-00
+cBssid 16 00-00-00-00-00-00
+cBssid 17 00-00-00-00-00-00
+cBssid 18 00-00-00-00-00-00
+cBssid 19 00-00-00-00-00-00
+cBssid 20 00-00-00-00-00-00
+cBssid 21 00-00-00-00-00-00
+cBssid 22 00-00-00-00-00-00
+cBssid 23 00-00-00-00-00-00
+cBssid 24 00-00-00-00-00-00
+cBssid 25 00-00-00-00-00-00
+cBssid 26 00-00-00-00-00-00
+cBssid 27 00-00-00-00-00-00
+cBssid 28 00-00-00-00-00-00
+cBssid 29 00-00-00-00-00-00
+cBssid 30 00-00-00-00-00-00
+cBssid 31 00-00-00-00-00-00
+cBssid 32 00-00-00-00-00-00
+cBssid 33 00-00-00-00-00-00
+cBssid 34 00-00-00-00-00-00
+cBssid 35 00-00-00-00-00-00
+cBssid 36 00-00-00-00-00-00
+cBssid 37 00-00-00-00-00-00
+cBssid 38 00-00-00-00-00-00
+cBssid 39 00-00-00-00-00-00
+cBssid 40 00-00-00-00-00-00
+cBssid 41 00-00-00-00-00-00
+cBssid 42 00-00-00-00-00-00
+cBssid 43 00-00-00-00-00-00
+cBssid 44 00-00-00-00-00-00
+cBssid 45 00-00-00-00-00-00
+cBssid 46 00-00-00-00-00-00
+cBssid 47 00-00-00-00-00-00
+cBssid 48 00-00-00-00-00-00
+cBssid 49 00-00-00-00-00-00
+cBssid 50 00-00-00-00-00-00
+cBssid 51 00-00-00-00-00-00
+cBssid 52 00-00-00-00-00-00
+cBssid 53 00-00-00-00-00-00
+cBssid 54 00-00-00-00-00-00
+cBssid 55 00-00-00-00-00-00
+cBssid 56 00-00-00-00-00-00
+cBssid 57 00-00-00-00-00-00
+cBssid 58 00-00-00-00-00-00
+cBssid 59 00-00-00-00-00-00
+cBssid 60 00-00-00-00-00-00
+cBssid 61 00-00-00-00-00-00
+cBssid 62 00-00-00-00-00-00
+cBssid 63 00-00-00-00-00-00
+cSsid 0 TP-Link_Guest_A175
+cSsid 1
+cSsid 2
+cSsid 3
+cSsid 4
+cSsid 5
+cSsid 6
+cSsid 7
+cSsid 8
+cSsid 9
+cSsid 10
+cSsid 11
+cSsid 12
+cSsid 13
+cSsid 14
+cSsid 15
+cSsid 16
+cSsid 17
+cSsid 18
+cSsid 19
+cSsid 20
+cSsid 21
+cSsid 22
+cSsid 23
+cSsid 24
+cSsid 25
+cSsid 26
+cSsid 27
+cSsid 28
+cSsid 29
+cSsid 30
+cSsid 31
+cSsid 32
+cSsid 33
+cSsid 34
+cSsid 35
+cSsid 36
+cSsid 37
+cSsid 38
+cSsid 39
+cSsid 40
+cSsid 41
+cSsid 42
+cSsid 43
+cSsid 44
+cSsid 45
+cSsid 46
+cSsid 47
+cSsid 48
+cSsid 49
+cSsid 50
+cSsid 51
+cSsid 52
+cSsid 53
+cSsid 54
+cSsid 55
+cSsid 56
+cSsid 57
+cSsid 58
+cSsid 59
+cSsid 60
+cSsid 61
+cSsid 62
+cSsid 63
+uRssi 0 40
+uRssi 1 0
+uRssi 2 0
+uRssi 3 0
+uRssi 4 0
+uRssi 5 0
+uRssi 6 0
+uRssi 7 0
+uRssi 8 0
+uRssi 9 0
+uRssi 10 0
+uRssi 11 0
+uRssi 12 0
+uRssi 13 0
+uRssi 14 0
+uRssi 15 0
+uRssi 16 0
+uRssi 17 0
+uRssi 18 0
+uRssi 19 0
+uRssi 20 0
+uRssi 21 0
+uRssi 22 0
+uRssi 23 0
+uRssi 24 0
+uRssi 25 0
+uRssi 26 0
+uRssi 27 0
+uRssi 28 0
+uRssi 29 0
+uRssi 30 0
+uRssi 31 0
+uRssi 32 0
+uRssi 33 0
+uRssi 34 0
+uRssi 35 0
+uRssi 36 0
+uRssi 37 0
+uRssi 38 0
+uRssi 39 0
+uRssi 40 0
+uRssi 41 0
+uRssi 42 0
+uRssi 43 0
+uRssi 44 0
+uRssi 45 0
+uRssi 46 0
+uRssi 47 0
+uRssi 48 0
+uRssi 49 0
+uRssi 50 0
+uRssi 51 0
+uRssi 52 0
+uRssi 53 0
+uRssi 54 0
+uRssi 55 0
+uRssi 56 0
+uRssi 57 0
+uRssi 58 0
+uRssi 59 0
+uRssi 60 0
+uRssi 61 0
+uRssi 62 0
+uRssi 63 0
+uChannel 0 7
+uChannel 1 0
+uChannel 2 0
+uChannel 3 0
+uChannel 4 0
+uChannel 5 0
+uChannel 6 0
+uChannel 7 0
+uChannel 8 0
+uChannel 9 0
+uChannel 10 0
+uChannel 11 0
+uChannel 12 0
+uChannel 13 0
+uChannel 14 0
+uChannel 15 0
+uChannel 16 0
+uChannel 17 0
+uChannel 18 0
+uChannel 19 0
+uChannel 20 0
+uChannel 21 0
+uChannel 22 0
+uChannel 23 0
+uChannel 24 0
+uChannel 25 0
+uChannel 26 0
+uChannel 27 0
+uChannel 28 0
+uChannel 29 0
+uChannel 30 0
+uChannel 31 0
+uChannel 32 0
+uChannel 33 0
+uChannel 34 0
+uChannel 35 0
+uChannel 36 0
+uChannel 37 0
+uChannel 38 0
+uChannel 39 0
+uChannel 40 0
+uChannel 41 0
+uChannel 42 0
+uChannel 43 0
+uChannel 44 0
+uChannel 45 0
+uChannel 46 0
+uChannel 47 0
+uChannel 48 0
+uChannel 49 0
+uChannel 50 0
+uChannel 51 0
+uChannel 52 0
+uChannel 53 0
+uChannel 54 0
+uChannel 55 0
+uChannel 56 0
+uChannel 57 0
+uChannel 58 0
+uChannel 59 0
+uChannel 60 0
+uChannel 61 0
+uChannel 62 0
+uChannel 63 0
+uAuthMode 0 1
+uAuthMode 1 0
+uAuthMode 2 0
+uAuthMode 3 0
+uAuthMode 4 0
+uAuthMode 5 0
+uAuthMode 6 0
+uAuthMode 7 0
+uAuthMode 8 0
+uAuthMode 9 0
+uAuthMode 10 0
+uAuthMode 11 0
+uAuthMode 12 0
+uAuthMode 13 0
+uAuthMode 14 0
+uAuthMode 15 0
+uAuthMode 16 0
+uAuthMode 17 0
+uAuthMode 18 0
+uAuthMode 19 0
+uAuthMode 20 0
+uAuthMode 21 0
+uAuthMode 22 0
+uAuthMode 23 0
+uAuthMode 24 0
+uAuthMode 25 0
+uAuthMode 26 0
+uAuthMode 27 0
+uAuthMode 28 0
+uAuthMode 29 0
+uAuthMode 30 0
+uAuthMode 31 0
+uAuthMode 32 0
+uAuthMode 33 0
+uAuthMode 34 0
+uAuthMode 35 0
+uAuthMode 36 0
+uAuthMode 37 0
+uAuthMode 38 0
+uAuthMode 39 0
+uAuthMode 40 0
+uAuthMode 41 0
+uAuthMode 42 0
+uAuthMode 43 0
+uAuthMode 44 0
+uAuthMode 45 0
+uAuthMode 46 0
+uAuthMode 47 0
+uAuthMode 48 0
+uAuthMode 49 0
+uAuthMode 50 0
+uAuthMode 51 0
+uAuthMode 52 0
+uAuthMode 53 0
+uAuthMode 54 0
+uAuthMode 55 0
+uAuthMode 56 0
+uAuthMode 57 0
+uAuthMode 58 0
+uAuthMode 59 0
+uAuthMode 60 0
+uAuthMode 61 0
+uAuthMode 62 0
+uAuthMode 63 0
+uBgnMode 0 3
+uBgnMode 1 0
+uBgnMode 2 0
+uBgnMode 3 0
+uBgnMode 4 0
+uBgnMode 5 0
+uBgnMode 6 0
+uBgnMode 7 0
+uBgnMode 8 0
+uBgnMode 9 0
+uBgnMode 10 0
+uBgnMode 11 0
+uBgnMode 12 0
+uBgnMode 13 0
+uBgnMode 14 0
+uBgnMode 15 0
+uBgnMode 16 0
+uBgnMode 17 0
+uBgnMode 18 0
+uBgnMode 19 0
+uBgnMode 20 0
+uBgnMode 21 0
+uBgnMode 22 0
+uBgnMode 23 0
+uBgnMode 24 0
+uBgnMode 25 0
+uBgnMode 26 0
+uBgnMode 27 0
+uBgnMode 28 0
+uBgnMode 29 0
+uBgnMode 30 0
+uBgnMode 31 0
+uBgnMode 32 0
+uBgnMode 33 0
+uBgnMode 34 0
+uBgnMode 35 0
+uBgnMode 36 0
+uBgnMode 37 0
+uBgnMode 38 0
+uBgnMode 39 0
+uBgnMode 40 0
+uBgnMode 41 0
+uBgnMode 42 0
+uBgnMode 43 0
+uBgnMode 44 0
+uBgnMode 45 0
+uBgnMode 46 0
+uBgnMode 47 0
+uBgnMode 48 0
+uBgnMode 49 0
+uBgnMode 50 0
+uBgnMode 51 0
+uBgnMode 52 0
+uBgnMode 53 0
+uBgnMode 54 0
+uBgnMode 55 0
+uBgnMode 56 0
+uBgnMode 57 0
+uBgnMode 58 0
+uBgnMode 59 0
+uBgnMode 60 0
+uBgnMode 61 0
+uBgnMode 62 0
+uBgnMode 63 0
+uChanWidth 0 0
+uChanWidth 1 0
+uChanWidth 2 0
+uChanWidth 3 0
+uChanWidth 4 0
+uChanWidth 5 0
+uChanWidth 6 0
+uChanWidth 7 0
+uChanWidth 8 0
+uChanWidth 9 0
+uChanWidth 10 0
+uChanWidth 11 0
+uChanWidth 12 0
+uChanWidth 13 0
+uChanWidth 14 0
+uChanWidth 15 0
+uChanWidth 16 0
+uChanWidth 17 0
+uChanWidth 18 0
+uChanWidth 19 0
+uChanWidth 20 0
+uChanWidth 21 0
+uChanWidth 22 0
+uChanWidth 23 0
+uChanWidth 24 0
+uChanWidth 25 0
+uChanWidth 26 0
+uChanWidth 27 0
+uChanWidth 28 0
+uChanWidth 29 0
+uChanWidth 30 0
+uChanWidth 31 0
+uChanWidth 32 0
+uChanWidth 33 0
+uChanWidth 34 0
+uChanWidth 35 0
+uChanWidth 36 0
+uChanWidth 37 0
+uChanWidth 38 0
+uChanWidth 39 0
+uChanWidth 40 0
+uChanWidth 41 0
+uChanWidth 42 0
+uChanWidth 43 0
+uChanWidth 44 0
+uChanWidth 45 0
+uChanWidth 46 0
+uChanWidth 47 0
+uChanWidth 48 0
+uChanWidth 49 0
+uChanWidth 50 0
+uChanWidth 51 0
+uChanWidth 52 0
+uChanWidth 53 0
+uChanWidth 54 0
+uChanWidth 55 0
+uChanWidth 56 0
+uChanWidth 57 0
+uChanWidth 58 0
+uChanWidth 59 0
+uChanWidth 60 0
+uChanWidth 61 0
+uChanWidth 62 0
+uChanWidth 63 0
+uApCnt 1
+reserved
+id 35|1,0,0
+uMode 0
+uBridgePorts 4
+uVid 0 0
+uVid 1 0
+uVid 2 0
+uVid 3 0
+uVlanPriority 0 0
+uVlanPriority 1 0
+uVlanPriority 2 0
+uVlanPriority 3 0
+uMemberPorts 0 3
+uMemberPorts 1 0
+uMemberPorts 2 0
+uMemberPorts 3 0
+bTagEnable 0 0
+bTagEnable 1 1
+bTagEnable 2 1
+bTagEnable 3 0
+uServiceType 0 0
+uServiceType 1 1
+uServiceType 2 2
+uServiceType 3 3
+id 36|1,0,0
+userName user
+passwd password
+domainIp test.vpn.com
+bDhcp 1
+ip 0.0.0.0
+mask 0.0.0.0
+gateway 0.0.0.0
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+mtu 1420
+linkType 1
+maxIdleTime 15
+id 37
+userName user
+passwd password
+domainIp test.vpnServer.com
+bDhcp 1
+ip 0.0.0.0
+mask 0.0.0.0
+gateway 0.0.0.0
+dns 0 0.0.0.0
+dns 1 0.0.0.0
+mtu 1460
+linkType 1
+maxIdleTime 15
+id 38|1,0,0
+enable on
+mode 1
+provider noip
+enable 0 0
+enable 1 1
+username 0 username1
+username 1 username2
+password 0 4563456346
+password 1 4563456345
+domainName 0 www.baidu.com
+domainName 1 www.test.com
+ip 0 3.3.3.3
+ip 1 5.5.5.5
+status 0 1
+status 1 1
+wanIpBind 0 1
+wanIpBind 1 0
+id 39|1,0,0
+status 0 0
+status 1 1
+id 40
+mode 1
+id 41
+interfaceType 1
+ipGetMethod 3
+id 42
+wanIp 2001:DB8:0:23:8:800:200C:417A
+wanPrefixLen 2
+gateway 2001:DB8:0:23:8:800:200C:417B
+id 43
+dnsGetMethod 3
+dns 0 2001:DB8:0:23:8:800:200C:417D
+dns 1 2001:DB8:0:23:8:800:200C:417C
+id 44
+shareSession 0
+username user
+password password
+id 45
+status 1
+errorCode 0
+interfaceType 1
+ipGetMethod 3
+raReceived 1
+getIpWithDhcp 2001:DB8:0:23:8:800:200C:417B
+getDnsWithDhcp 2001:DB8:0:23:8:800:200C:417B
+globalIp 2001:DB8:0:23:8:800:200C:417A
+prefixAddr 2001:DB8:0:23:8:800:200C:417D
+prefixLen 64
+gateway 2001:DB8:0:23:8:800:200C:417B
+dns 0 2001:DB8:0:23:8:800:200C:417D
+dns 1 2001:DB8:0:23:8:800:200C:417C
+linkLocalIp: 2001:DB8:0:23:8:800:200C:417A
+id 46
+enable 1
+id 47
+prefixAddr 1134
+prefixLen 3
+id 48
+linkLocalIp FE80::10:18FF:FE01:11/64
+prefixAddr 1134
+prefixLen 3
+id 49
+mode 0
+id 50|1,0,0
+currentLanguage en_US
+languageList en_US,,es_MX,,pt_BR,ru_RU,uk_UA,vi_VN
+setByUser 0
+id 51|1,0,0
+enable 1
+hour 0
+minute 0
+repeat 1
+date 1
+id 52|1,0,0
+night_enable 1
+start_hour 22
+start_minute 0
+end_hour 6
+end_minute 0
+id 53|1,0,0
+enable 0
+start 0 1
+start 1 6
+start 2 0
+start 3 0
+start 4 0
+start 5 0
+start 6 0
+start 7 0
+start 8 0
+start 9 0
+start 10 0
+start 11 0
+start 12 0
+start 13 0
+start 14 0
+start 15 0
+end 0 4
+end 1 22
+end 2 0
+end 3 0
+end 4 0
+end 5 0
+end 6 0
+end 7 0
+end 8 0
+end 9 0
+end 10 0
+end 11 0
+end 12 0
+end 13 0
+end 14 0
+end 15 0
+day 0 4
+day 1 48
+day 2 0
+day 3 0
+day 4 0
+day 5 0
+day 6 0
+day 7 0
+day 8 0
+day 9 0
+day 10 0
+day 11 0
+day 12 0
+day 13 0
+day 14 0
+day 15 0
+id 54|1,0,0
+enable 0
+id 55|1,0,0
+rName 0 test%20parental%20contrl%202
+rName 1
+rName 2
+rName 3
+ruleId 0 2
+ruleId 1 0
+ruleId 2 0
+ruleId 3 0
+block 0 1
+block 1 0
+block 2 0
+block 3 0
+enableWorkdayTimeLimit 0 0
+enableWorkdayTimeLimit 1 0
+enableWorkdayTimeLimit 2 0
+enableWorkdayTimeLimit 3 0
+enableWeekendTimeLimit 0 1
+enableWeekendTimeLimit 1 0
+enableWeekendTimeLimit 2 0
+enableWeekendTimeLimit 3 0
+enableWorkdayBedTime 0 0
+enableWorkdayBedTime 1 0
+enableWorkdayBedTime 2 0
+enableWorkdayBedTime 3 0
+enableWeekendBedTime 0 1
+enableWeekendBedTime 1 0
+enableWeekendBedTime 2 0
+enableWeekendBedTime 3 0
+workdayDailyTime 0 120
+workdayDailyTime 1 0
+workdayDailyTime 2 0
+workdayDailyTime 3 0
+weekendDailyTime 0 120
+weekendDailyTime 1 0
+weekendDailyTime 2 0
+weekendDailyTime 3 0
+workdayBedTimeBegin 0 1320
+workdayBedTimeBegin 1 0
+workdayBedTimeBegin 2 0
+workdayBedTimeBegin 3 0
+workdayBedTimeEnd 0 420
+workdayBedTimeEnd 1 0
+workdayBedTimeEnd 2 0
+workdayBedTimeEnd 3 0
+weekendBedTimeBegin 0 1320
+weekendBedTimeBegin 1 0
+weekendBedTimeBegin 2 0
+weekendBedTimeBegin 3 0
+weekendBedTimeEnd 0 420
+weekendBedTimeEnd 1 0
+weekendBedTimeEnd 2 0
+weekendBedTimeEnd 3 0
+website 0 www.game.com
+website 1
+website 2
+website 3
+cName 0 TP-Link_Test_Device_8
+cName 1
+cName 2
+cName 3
+cName 4
+cName 5
+cName 6
+cName 7
+cName 8
+cName 9
+cName 10
+cName 11
+cName 12
+cName 13
+cName 14
+cName 15
+cName 16
+cName 17
+cName 18
+cName 19
+cName 20
+cName 21
+cName 22
+cName 23
+cName 24
+cName 25
+cName 26
+cName 27
+cName 28
+cName 29
+cName 30
+cName 31
+reserved_cName 0
+reserved_cName 1
+reserved_cName 2
+reserved_cName 3
+reserved_cName 4
+reserved_cName 5
+reserved_cName 6
+reserved_cName 7
+reserved_cName 8
+reserved_cName 9
+reserved_cName 10
+reserved_cName 11
+reserved_cName 12
+reserved_cName 13
+reserved_cName 14
+reserved_cName 15
+reserved_cName 16
+reserved_cName 17
+reserved_cName 18
+reserved_cName 19
+reserved_cName 20
+reserved_cName 21
+reserved_cName 22
+reserved_cName 23
+reserved_cName 24
+reserved_cName 25
+reserved_cName 26
+reserved_cName 27
+reserved_cName 28
+reserved_cName 29
+reserved_cName 30
+reserved_cName 31
+cOwnerId 0 1
+cOwnerId 1 0
+cOwnerId 2 0
+cOwnerId 3 0
+cOwnerId 4 0
+cOwnerId 5 0
+cOwnerId 6 0
+cOwnerId 7 0
+cOwnerId 8 0
+cOwnerId 9 0
+cOwnerId 10 0
+cOwnerId 11 0
+cOwnerId 12 0
+cOwnerId 13 0
+cOwnerId 14 0
+cOwnerId 15 0
+cOwnerId 16 0
+cOwnerId 17 0
+cOwnerId 18 0
+cOwnerId 19 0
+cOwnerId 20 0
+cOwnerId 21 0
+cOwnerId 22 0
+cOwnerId 23 0
+cOwnerId 24 0
+cOwnerId 25 0
+cOwnerId 26 0
+cOwnerId 27 0
+cOwnerId 28 0
+cOwnerId 29 0
+cOwnerId 30 0
+cOwnerId 31 0
+cMac 0 AC-84-C6-00-92-9D
+cMac 1 00-00-00-00-00-00
+cMac 2 00-00-00-00-00-00
+cMac 3 00-00-00-00-00-00
+cMac 4 00-00-00-00-00-00
+cMac 5 00-00-00-00-00-00
+cMac 6 00-00-00-00-00-00
+cMac 7 00-00-00-00-00-00
+cMac 8 00-00-00-00-00-00
+cMac 9 00-00-00-00-00-00
+cMac 10 00-00-00-00-00-00
+cMac 11 00-00-00-00-00-00
+cMac 12 00-00-00-00-00-00
+cMac 13 00-00-00-00-00-00
+cMac 14 00-00-00-00-00-00
+cMac 15 00-00-00-00-00-00
+cMac 16 00-00-00-00-00-00
+cMac 17 00-00-00-00-00-00
+cMac 18 00-00-00-00-00-00
+cMac 19 00-00-00-00-00-00
+cMac 20 00-00-00-00-00-00
+cMac 21 00-00-00-00-00-00
+cMac 22 00-00-00-00-00-00
+cMac 23 00-00-00-00-00-00
+cMac 24 00-00-00-00-00-00
+cMac 25 00-00-00-00-00-00
+cMac 26 00-00-00-00-00-00
+cMac 27 00-00-00-00-00-00
+cMac 28 00-00-00-00-00-00
+cMac 29 00-00-00-00-00-00
+cMac 30 00-00-00-00-00-00
+cMac 31 00-00-00-00-00-00
+cType 0 0
+cType 1 0
+cType 2 0
+cType 3 0
+cType 4 0
+cType 5 0
+cType 6 0
+cType 7 0
+cType 8 0
+cType 9 0
+cType 10 0
+cType 11 0
+cType 12 0
+cType 13 0
+cType 14 0
+cType 15 0
+cType 16 0
+cType 17 0
+cType 18 0
+cType 19 0
+cType 20 0
+cType 21 0
+cType 22 0
+cType 23 0
+cType 24 0
+cType 25 0
+cType 26 0
+cType 27 0
+cType 28 0
+cType 29 0
+cType 30 0
+cType 31 0
+id 56|1,0,0
+enable 1
+upBand 9523200
+downBand 104857600
+id 57|1,0,0
+enable 0
+id 58|1,0,0
+ctrlEnable 1
+isWhiteList 0
+id 59|1,0,0
+triggerEnable 1
+serviceName 0 Dilpad
+serviceName 1 
+serviceName 2 
+serviceName 3 
+serviceName 4 
+serviceName 5 
+serviceName 6 
+serviceName 7 
+serviceName 8 
+serviceName 9 
+serviceName 10 
+serviceName 11 
+serviceName 12 
+serviceName 13 
+serviceName 14 
+serviceName 15 
+triggerPort 0 7115
+triggerPort 1 0
+triggerPort 2 0
+triggerPort 3 0
+triggerPort 4 0
+triggerPort 5 0
+triggerPort 6 0
+triggerPort 7 0
+triggerPort 8 0
+triggerPort 9 0
+triggerPort 10 0
+triggerPort 11 0
+triggerPort 12 0
+triggerPort 13 0
+triggerPort 14 0
+triggerPort 15 0
+protocol 0 0
+protocol 1 0
+protocol 2 0
+protocol 3 0
+protocol 4 0
+protocol 5 0
+protocol 6 0
+protocol 7 0
+protocol 8 0
+protocol 9 0
+protocol 10 0
+protocol 11 0
+protocol 12 0
+protocol 13 0
+protocol 14 0
+protocol 15 0
+externalPro 0 0
+externalPro 1 0
+externalPro 2 0
+externalPro 3 0
+externalPro 4 0
+externalPro 5 0
+externalPro 6 0
+externalPro 7 0
+externalPro 8 0
+externalPro 9 0
+externalPro 10 0
+externalPro 11 0
+externalPro 12 0
+externalPro 13 0
+externalPro 14 0
+externalPro 15 0
+reserved 0
+reserved 1
+reserved 2
+reserved 3
+reserved 4
+reserved 5
+reserved 6
+reserved 7
+reserved 8
+reserved 9
+reserved 10
+reserved 11
+reserved 12
+reserved 13
+reserved 14
+reserved 15
+openPort 0 51200-51201;51210-51210
+openPort 1 
+openPort 2 
+openPort 3 
+openPort 4 
+openPort 5 
+openPort 6 
+openPort 7 
+openPort 8 
+openPort 9 
+openPort 10 
+openPort 11 
+openPort 12 
+openPort 13 
+openPort 14 
+openPort 15 
+enable 0 1
+enable 1 0
+enable 2 0
+enable 3 0
+enable 4 0
+enable 5 0
+enable 6 0
+enable 7 0
+enable 8 0
+enable 9 0
+enable 10 0
+enable 11 0
+enable 12 0
+enable 13 0
+enable 14 0
+enable 15 0
+hasBeenAdd 0 0
+hasBeenAdd 1 0
+hasBeenAdd 2 0
+hasBeenAdd 3 0
+hasBeenAdd 4 0
+hasBeenAdd 5 0
+hasBeenAdd 6 0
+hasBeenAdd 7 0
+hasBeenAdd 8 0
+hasBeenAdd 9 0
+hasBeenAdd 10 0
+hasBeenAdd 11 0
+hasBeenAdd 12 0
+hasBeenAdd 13 0
+hasBeenAdd 14 0
+hasBeenAdd 15 0
+id 60|1,0,0
+alive 0 0
+alive 1 0
+alive 2 1
+alive 3 0
+alive 4 1
+nameId 0 0
+nameId 1 1
+nameId 2 2
+nameId 3 3
+nameId 4 4
+mode 0 0
+mode 1 0
+mode 2 5
+mode 3 0
+mode 4 4
+id 61|1,0,0
+size 0 32
+size 1 64
+size 2 128
+size 3 256
+size 4 512
+size 5 1024
+size 6 2048
+size 7 4096
+size 8 8192
+size 9 16384
+size 10 32768
+size 11 65536
+size 12 307200
+size 13 3145728
+size 14 0
+number 0 1000
+number 1 1000
+number 2 500
+number 3 200
+number 4 20
+number 5 20
+number 6 10
+number 7 5
+number 8 5
+number 9 2
+number 10 1
+number 11 1
+number 12 1
+number 13 1
+number 14 0
+id 62|1,0,0
+lanDisable 0
+wanDisable 0
+id 63|1,0,0
+spiEnable 1
+id 64|1,0,0
+enable 1
+id 65|1,0,0
+alias Archer%20C80
+legality 0
+illegalType 0
+tcspStatus 0
+id 66|1,0,0
+type 0
+version
+releaseDate
+releaseLog
+url
+start 0
+status 0
+progress 0
+title
+latestFlag 1
+id 67|1,0,0
+email
+passwd
+needUnbind 0
+id 68|1,0,0
+nickname
+role 0
+token
+eWebURL
+status 0
+isBinded 0
+logInCloud 0
+needReconn 0
+id 69|1,0,0
+enable 1
+boundDomain www.tp-link.com
+tmpDomainName tplink_test1
+action bind
+status 2
+domainName 0 ddns1
+domainName 1 ddns2
+domainName 2 ddns3
+domainName 3 
+regDate 0 4
+regDate 1 5
+regDate 2 6
+regDate 3 0
+isBind 0 0
+isBind 1 0
+isBind 2 0
+isBind 3 0
+id 70|1,0,0
+curUserName
+curUserPasswd
+id 158
+wireType wired
+id 71|1,0,0
+cloudSefDomain n-deventry-gw.tplinkcloud.com
+cloudSefPort 443
+cloudSvrDefaultPort 443
+cloudDefaultSvrDomain n-devs-gw.tplinkcloud.com
+cloudDefaultSvrPort 443
+id 72
+devName 0 TP-Link_Test_Device_1
+devName 1 TP-Link_Test_Device_4
+devName 2 TP-Link_Test_Device_5
+devName 3 TP-Link_Test_Device_6
+devName 4 
+devName 5 
+devName 6 
+devName 7 
+devName 8 
+devName 9 
+devName 10 
+devName 11 
+devName 12 
+devName 13 
+devName 13 
+devName 14 
+devName 15 
+devName 16 
+devName 17 
+devName 18 
+devName 19 
+devName 20 
+devName 21 
+devName 22 
+devName 23 
+devName 24 
+devName 25 
+devName 26 
+devName 27 
+devName 28 
+devName 29 
+devName 30 
+devName 31 
+reserved 0
+reserved 1 
+reserved 2 
+reserved 3 
+reserved 4 
+reserved 5 
+reserved 6 
+reserved 7 
+reserved 8 
+reserved 9 
+reserved 10 
+reserved 11 
+reserved 12 
+reserved 13 
+reserved 14 
+reserved 15 
+reserved 16 
+reserved 17 
+reserved 18 
+reserved 19 
+reserved 20 
+reserved 21 
+reserved 22 
+reserved 23 
+reserved 24 
+reserved 25 
+reserved 26 
+reserved 27 
+reserved 28 
+reserved 29 
+reserved 30 
+reserved 31 
+mac 0 90-F6-52-43-3C-B0
+mac 1 40-16-9F-0F-B7-BA
+mac 2 54-A7-03-FE-3D-4A
+mac 3 E4-D3-32-CE-EB-CF
+mac 4 
+mac 5 
+mac 6 
+mac 7 
+mac 8 
+mac 9 
+mac 10 
+mac 11 
+mac 12 
+mac 13 
+mac 14 
+mac 15 
+mac 16 
+mac 17 
+mac 18 
+mac 19 
+mac 20 
+mac 21 
+mac 22 
+mac 23 
+mac 24 
+mac 25 
+mac 26 
+mac 27 
+mac 28 
+mac 29 
+mac 30 
+mac 31 
+devType 0
+devType 1
+devType 2 
+devType 3 
+devType 4 
+devType 5 
+devType 6 
+devType 7 
+devType 8 
+devType 9 
+devType 10 
+devType 11 
+devType 12 
+devType 13 
+devType 14 
+devType 15 
+devType 16 
+devType 17 
+devType 18 
+devType 19 
+devType 20 
+devType 21 
+devType 22 
+devType 23 
+devType 24 
+devType 25 
+devType 26 
+devType 27 
+devType 28 
+devType 29 
+devType 30 
+devType 31 
+id 73|1,0,0
+devName 0 TP-Link_Test_Device_16
+devName 1
+devName 2
+devName 3
+devName 4
+devName 5
+devName 6
+devName 7
+devName 8
+devName 9
+devName 10
+devName 11
+devName 12
+devName 13
+devName 14
+devName 15
+reserved 0
+reserved 1
+reserved 2
+reserved 3
+reserved 4
+reserved 5
+reserved 6
+reserved 7
+reserved 8
+reserved 9
+reserved 10
+reserved 11
+reserved 12
+reserved 13
+reserved 14
+reserved 15
+mac 0 20-DC-E6-96-C7-F3
+mac 1 00-00-00-00-00-00
+mac 2 00-00-00-00-00-00
+mac 3 00-00-00-00-00-00
+mac 4 00-00-00-00-00-00
+mac 5 00-00-00-00-00-00
+mac 6 00-00-00-00-00-00
+mac 7 00-00-00-00-00-00
+mac 8 00-00-00-00-00-00
+mac 9 00-00-00-00-00-00
+mac 10 00-00-00-00-00-00
+mac 11 00-00-00-00-00-00
+mac 12 00-00-00-00-00-00
+mac 13 00-00-00-00-00-00
+mac 14 00-00-00-00-00-00
+mac 15 00-00-00-00-00-00
+devType 0 0
+devType 1 0
+devType 2 0
+devType 3 0
+devType 4 0
+devType 5 0
+devType 6 0
+devType 7 0
+devType 8 0
+devType 9 0
+devType 10 0
+devType 11 0
+devType 12 0
+devType 13 0
+devType 14 0
+devType 15 0 
+id 74|1,0,0
+error 0
+id 75|1,0,0
+status 0
+id 88
+state 1
+type 3
+mac 0 b0-e1-7e-43-d0-e4
+mac 1 ec-17-2f-cd-d0-28
+mac 2 00-00-00-00-00-00
+mode 0 1
+mode 1 3
+mode 2 2
+name 0 sss
+name 1 ddd
+name 2 ccc
+id 85
+mumimoSupported2g 0
+mumimoSupported5g 1
+ru_Preinstall_ISP 0
+yandexDNS 0
+smartDMZ 0
+smartDMZ 0
+WDS 0
+multiCountryCodeSwitch 0
+timeFormatType 1
+mutiLanguageEnable 1
+igmpSnoop 1
+igmpProxy 0
+cwmpSupport 0
+KRfeatureEnable 0
+id 89|1,0,0
+countryName 0 MX
+countryName 1 CO
+countryName 2 PY
+countryName 3 PE
+countryName 4 VE
+countryName 5 EC
+countryName 6 PA
+countryName 7 GT
+countryName 8 CR
+countryName 9 SV
+countryName 10 AR
+countryName 11 CL
+countryName 12 UY
+countryName 13 BO
+countryName 14 
+countryName 15 
+domainRegion 0 0
+domainRegion 1 12
+domainRegion 2 13
+domainRegion 3 13
+domainRegion 4 13
+domainRegion 5 13
+domainRegion 6 12
+domainRegion 7 12
+domainRegion 8 13
+domainRegion 9 13
+domainRegion 10 13
+domainRegion 11 13
+domainRegion 12 13
+domainRegion 13 13
+domainRegion 14 0
+domainRegion 15 0
+channelList2G 0 0,3,4,5
+channelList2G 1 0,1,5,6
+channelList2G 2 0,2,6,7
+channelList2G 3 0,3,5,6
+channelList2G 4 0,4,5,7
+channelList2G 5 0,5,6,7
+channelList2G 6 0,6,7,8
+channelList2G 7 0,7,8,9
+channelList2G 8 0,8,9,10
+channelList2G 9 0,9,10,11
+channelList2G 10 0,10,11,12
+channelList2G 11 0,11,13,14
+channelList2G 12 0,12,14,15
+channelList2G 13 0,13,15,16
+channelList2G 14 
+channelList2G 15 
+channelList5G 0 0,3,4,5
+channelList5G 1 0,1,5,6
+channelList5G 2 0,2,6,7
+channelList5G 3 0,3,5,6
+channelList5G 4 0,4,5,7
+channelList5G 5 0,5,6,7
+channelList5G 6 0,6,7,8
+channelList5G 7 0,7,8,9
+channelList5G 8 0,8,9,10
+channelList5G 9 0,9,10,11
+channelList5G 10 0,10,11,12
+channelList5G 11 0,11,13,14
+channelList5G 12 0,12,14,15
+channelList5G 13 0,13,15,16
+channelList5G 14 
+channelList5G 15 
+id 90
+enable 1
+IgmpProxyEnable 1
+IgmpVersion 1
+id 91
+enable 1
+periodicInformEnable 0
+periodicInformInterval 3
+acsURL http://z.cn
+interfaceType 1
+localAuthType 2
+localPath /
+localPort 2020
+dataModelSpec 2
+sepcName 0 TR098
+sepcName 1 TR181
+isSupport 0 1
+isSupport 1 1
+id 93
+bindStatus 3
+getUserRoleStatus 3
+isBindedStatus 3
+unbindStatus 3
+rmUserStatus 3
