@@ -35,8 +35,8 @@ def fetch_router_info():
             "Subnet Mask": data.get("lan_ipv4_netmask", "N/A"),
             "DHCP": "On" if data.get("lan_ipv4_dhcp_enable") == "On" else "Off"
         }
-        
-        # Wireless 2.4GHz Section (assuming AX1500 supports Wi-Fi 6, may include 5GHz)
+         
+        # Wireless 2.4GHz Section 
         wireless_2g_status = {
             "Network Name (SSID)": data.get("wireless_2g_ssid", "N/A"),
             "Wireless Radio": "On" if data.get("wireless_2g_enable") == "on" else "Off",
@@ -47,7 +47,7 @@ def fetch_router_info():
             "WDS Status": "Disabled" if data.get("wireless_2g_wds_status") == "disable" else "Enabled"
         }
         
-        # Wireless 5GHz Section (AX1500 likely supports 5GHz for Wi-Fi 6)
+        # Wireless 5GHz Section 
         wireless_5g_status = {
             "Network Name (SSID)": data.get("wireless_5g_ssid", "N/A"),
             "Wireless Radio": "On" if data.get("wireless_5g_enable") == "on" else "Off",
@@ -55,7 +55,7 @@ def fetch_router_info():
             "Channel Width": data.get("wireless_5g_htmode", "N/A").capitalize(),
             "Channel": f"{data.get('wireless_5g_channel', 'N/A')} (Current Channel {data.get('wireless_5g_current_channel', 'N/A')})" if data.get("wireless_5g_current_channel") else data.get("wireless_5g_channel", "N/A"),
             "MAC Address": data.get("wireless_5g_macaddr", "N/A"),
-            "WDS Status": "Disabled" if data.get("wireless_5g_wds_status") == "disable" else "Enabled"
+            "WDS Status": "Disabled" if data.get("wireless_5g_wds_status") == "disable" else "Enabled" 
         }
         
         # Guest Network 2.4GHz Section
@@ -80,7 +80,7 @@ def fetch_router_info():
             "Hardware Version": data.get("hardware_version", "TL-WR1502X v1.0")
         }
         
-        # Structure output
+        # Structure output  
         output_data = {
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
             "devices": devices,
