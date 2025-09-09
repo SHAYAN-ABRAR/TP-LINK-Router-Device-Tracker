@@ -7,7 +7,7 @@ import time
 import json
 import os
 
-ROUTER_URL = "http://192.168.100.108"
+ROUTER_URL = "http://192.168.0.1"
 LOGIN_PATH = "/userRpm/LoginRpm.htm"
 USERNAME = "admin"  # Replace with your username
 PASSWORD = "admin"  # Replace with your password
