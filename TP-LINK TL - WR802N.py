@@ -15,7 +15,8 @@ load_dotenv()
 
 def clean_text(text):
     """Clean text by stripping whitespace and replacing special characters."""
-    return text.strip().replace('\n', '').replace('\t', '') if text else 'Not Found'
+    cleaned = text.strip().replace('\n', '').replace('\t', '') if text else 'Not Found'
+    return 'Not Found' if cleaned in ['', '0'] else cleaned  # Treat empty or '0' as Not Found
 
 def scrape_router_info(status_url, dhcp_url):
     """
@@ -68,11 +69,8 @@ def scrape_router_info(status_url, dhcp_url):
             array_name = match[0]
             array_values_str = match[1]
             values = re.split(r',\s*(?=(?:[^"]*"[^"]*")*[^"]*$)', array_values_str)
-            array_values = []
-            for v in values:
-                v_clean = re.sub(r'^["\']|["\']$', '', v.strip())  # Remove surrounding quotes
-                array_values.append(clean_text(v_clean))
-            data_arrays[array_name] = array_values
+            array_values = [re.sub(r'^["\']|["\']$', '', v.strip()) for v in values]
+            data_arrays[array_name] = [clean_text(val) for val in array_values]
         logger.info(f"Extracted arrays from status page: {list(data_arrays.keys())}")
 
         # Initialize dictionary with router model name in Internet section
@@ -107,23 +105,53 @@ def scrape_router_info(status_url, dhcp_url):
 
         # Parse DHCP client list for Connected Devices
         soup_dhcp = BeautifulSoup(html_dhcp, 'html.parser')
-        table = soup_dhcp.find('table')
-        if table:
-            rows = table.find_all('tr')[1:]  # Skip header row
-            for row in rows:
-                cells = row.find_all('td')
-                if len(cells) >= 4:  # Expecting ID, Client Name, MAC, IP, Lease Time
+        tables = soup_dhcp.find_all('table')
+        logger.info(f"Found {len(tables)} tables in DHCP page")
+
+        if tables:
+            for table in tables:
+                rows = table.find_all('tr')
+                logger.info(f"Found {len(rows)} rows in a DHCP table")
+                # Try to detect header to determine column order
+                header_row = rows[0] if rows and rows[0].find_all('th') else None
+                headers = [clean_text(th.text) for th in header_row.find_all('th')] if header_row else []
+                logger.info(f"Detected headers: {headers}")
+
+                for i, row in enumerate(rows[1:], 1):  # Skip header row, start from 1
+                    cells = row.find_all('td')
+                    if len(cells) >= 4:  # Expecting at least Client Name, IP, MAC, Lease Time
+                        # Adjust indexing based on observed pattern: [Client Name, IP, MAC, Lease]
+                        device = {
+                            'Device Name': clean_text(cells[0].text) if len(cells) > 0 else 'Not Found',
+                            'IP Address': clean_text(cells[1].text) if len(cells) > 1 else 'Not Found',
+                            'MAC Address': clean_text(cells[2].text) if len(cells) > 2 else 'Not Found',
+                            'Lease Time': clean_text(cells[3].text) if len(cells) > 3 else 'Not Found'
+                        }
+                        # Filter out devices with all fields as Not Found or invalid
+                        if not all(value in ['Not Found', ''] for value in device.values()):
+                            router_info['Connected Devices'].append(device)
+
+        # Fallback to JS arrays in DHCP page if table parsing fails
+        dhcp_scripts = re.findall(r'var\s+(\w+List|dhcpPara)\s*=\s*new\s+Array\s*\((.*?)\);', html_dhcp, re.DOTALL)
+        if dhcp_scripts and not router_info['Connected Devices']:
+            logger.info(f"Found DHCP JS arrays: {dhcp_scripts[0][0] if dhcp_scripts else 'None'}")
+            for match in dhcp_scripts:
+                array_name = match[0]
+                array_values_str = match[1]
+                values = re.split(r',\s*(?=(?:[^"]*"[^"]*")*[^"]*$)', array_values_str)
+                array_values = [re.sub(r'^["\']|["\']$', '', v.strip()) for v in values]
+                # Assume pattern: Client Name, IP, MAC, Lease
+                for j in range(0, len(array_values), 4):
                     device = {
-                        'IP Address': clean_text(cells[3].text),  # Assigned IP (index 3)
-                        'MAC Address': clean_text(cells[2].text),  # MAC Address (index 2)
-                        'Device Name': clean_text(cells[1].text),  # Client Name (index 1)
-                        'Lease Time': clean_text(cells[4].text) if len(cells) > 4 else 'Not Found'
+                        'Device Name': clean_text(array_values[j]) if j < len(array_values) else 'Not Found',
+                        'IP Address': clean_text(array_values[j + 1]) if j + 1 < len(array_values) else 'Not Found',
+                        'MAC Address': clean_text(array_values[j + 2]) if j + 2 < len(array_values) else 'Not Found',
+                        'Lease Time': clean_text(array_values[j + 3]) if j + 3 < len(array_values) else 'Not Found'
                     }
-                    # Only add if at least one field has data
-                    if any(value != 'Not Found' for value in device.values()):
+                    if not all(value in ['Not Found', ''] for value in device.values()):
                         router_info['Connected Devices'].append(device)
 
-        # Print router information
+        # Print router information with requested format for Connected Devices
         for section, data in router_info.items():
             if isinstance(data, dict):
                 print(f"\n**{section}**")
@@ -132,10 +160,11 @@ def scrape_router_info(status_url, dhcp_url):
             elif isinstance(data, list) and section == 'Connected Devices':
                 print(f"\n**{section}**")
                 if data:
-                    print("| IP Address | MAC Address | Device Name | Lease Time |")
-                    print("|------------|-------------|-------------|------------|")
-                    for device in data:
-                        print(f"| {device['IP Address']} | {device['MAC Address']} | {device['Device Name']} | {device['Lease Time']} |")
+                    for i, device in enumerate(data, 1):
+                        print(f"{i}. Client name: {device.get('Device Name', 'Unknown')}")
+                        print(f"   MAC Address: {device.get('MAC Address', 'Not Found')}")
+                        print(f"   IP Address: {device.get('IP Address', 'Not Found')}")
+                        print(f"   Lease Time: {device.get('Lease Time', 'Not Found')}")
                 else:
                     print("No connected devices found")
 
